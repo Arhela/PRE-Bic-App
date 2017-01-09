@@ -8,15 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController , UITextFieldDelegate , UIImagePickerControllerDelegate , UINavigationControllerDelegate {
+class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     //MARK: Properties
     @IBOutlet weak var NameTextField: UITextField! // text field
     @IBOutlet weak var NameDatabaseLabel: UILabel! // The header
-    @IBOutlet weak var PhotoImageVeiw: UIImageView!
+    @IBOutlet weak var photoImageView: UIImageView!
     
     
-    //MARK: Default Code
+    
+//MARK: Default Code
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -61,7 +62,8 @@ class ViewController: UIViewController , UITextFieldDelegate , UIImagePickerCont
         }
         
         // Set photoImageView to display the selected image.
-        PhotoImageVeiw.image = selectedImage
+        
+        photoImageView.image = selectedImage
         
         // Dismiss the picker.
         dismiss(animated: true, completion: nil)
@@ -74,6 +76,7 @@ class ViewController: UIViewController , UITextFieldDelegate , UIImagePickerCont
     {
         NameDatabaseLabel.text = "New Name Database"
     }
+    
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer)
     {
         //Hide Keyboard
@@ -90,9 +93,6 @@ class ViewController: UIViewController , UITextFieldDelegate , UIImagePickerCont
         
         present(imagePickerController, animated: true, completion: nil)
     }
-    
-    
 
-    
 }
 

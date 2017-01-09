@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,7 +19,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E7X-PK-Ncj">
@@ -68,7 +68,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default Pic" translatesAutoresizingMaskIntoConstraints="NO" id="pXA-eW-LEk">
-                                <rect key="frame" x="9" y="247" width="294" height="213"/>
+                                <rect key="frame" x="9" y="247" width="349" height="400"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="bK0-eE-34L" appends="YES" id="WQ0-DE-AFb"/>
@@ -92,7 +92,7 @@
                     <connections>
                         <outlet property="NameDatabaseLabel" destination="22n-JN-hah" id="vfU-D2-vcZ"/>
                         <outlet property="NameTextField" destination="UcJ-Cq-ADl" id="Uft-or-LVd"/>
-                        <outlet property="PhotoImageVeiw" destination="pXA-eW-LEk" id="SfX-H1-Nl7"/>
+                        <outlet property="photoImageView" destination="pXA-eW-LEk" id="SM5-mD-cMr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
