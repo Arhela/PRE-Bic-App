@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,20 +19,23 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Meal Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="30J-p6-da1">
-                                <rect key="frame" x="16" y="129" width="343" height="30"/>
+                                <rect key="frame" x="16" y="129" width="288" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="sct-Gc-gYh"/>
+                                    <constraint firstAttribute="height" constant="30" id="rZ0-hV-hxL"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jr4-pg-wKn">
-                                <rect key="frame" x="16" y="28" width="265" height="55"/>
+                                <rect key="frame" x="16" y="28" width="210" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="SzZ-fS-Kaw"/>
+                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Meal Name">
                                         <attributes>
@@ -46,8 +49,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mnL-BN-7Oy">
                                 <rect key="frame" x="16" y="91" width="200" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="3Om-dh-GCD"/>
-                                    <constraint firstAttribute="width" constant="200" id="CGw-cN-T7s"/>
+                                    <constraint firstAttribute="height" constant="30" id="hj7-rA-jGa"/>
+                                    <constraint firstAttribute="width" constant="200" id="vFd-Vb-ng7"/>
                                 </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -58,25 +61,51 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gXh-cX-2qV"/>
+                                </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="i64-tp-ML0">
+                                <rect key="frame" x="16" y="208" width="288" height="294"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oIR-hI-Z7m" appends="YES" id="Ayw-wJ-3NZ"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="30J-p6-da1" firstAttribute="top" secondItem="mnL-BN-7Oy" secondAttribute="bottom" constant="8" symbolic="YES" id="1bt-zX-pAn"/>
-                            <constraint firstItem="mnL-BN-7Oy" firstAttribute="top" secondItem="Jr4-pg-wKn" secondAttribute="bottom" constant="8" symbolic="YES" id="3M0-qk-LdL"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Jr4-pg-wKn" secondAttribute="trailing" constant="78" id="8db-oM-YEy"/>
-                            <constraint firstItem="mnL-BN-7Oy" firstAttribute="leading" secondItem="30J-p6-da1" secondAttribute="leading" id="FYC-Mp-KCk"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="30J-p6-da1" secondAttribute="bottom" constant="508" id="Nxo-ah-Xtb"/>
-                            <constraint firstItem="Jr4-pg-wKn" firstAttribute="leading" secondItem="mnL-BN-7Oy" secondAttribute="leading" id="T5v-yI-bof"/>
-                            <constraint firstItem="30J-p6-da1" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Ufq-Ic-37A"/>
-                            <constraint firstItem="Jr4-pg-wKn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="d1a-gx-KUS"/>
-                            <constraint firstItem="Jr4-pg-wKn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="pG0-mC-59Z"/>
+                            <constraint firstItem="mnL-BN-7Oy" firstAttribute="top" secondItem="Jr4-pg-wKn" secondAttribute="bottom" constant="8" symbolic="YES" id="1ZB-c5-dFR"/>
+                            <constraint firstItem="30J-p6-da1" firstAttribute="trailing" secondItem="i64-tp-ML0" secondAttribute="trailing" id="8F4-cF-Mrw"/>
+                            <constraint firstItem="30J-p6-da1" firstAttribute="leading" secondItem="i64-tp-ML0" secondAttribute="leading" id="CUb-KM-RW7"/>
+                            <constraint firstItem="i64-tp-ML0" firstAttribute="top" secondItem="30J-p6-da1" secondAttribute="bottom" constant="49" id="Rfr-4G-HwG"/>
+                            <constraint firstItem="Jr4-pg-wKn" firstAttribute="leading" secondItem="mnL-BN-7Oy" secondAttribute="leading" id="WsW-p9-AvT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Jr4-pg-wKn" secondAttribute="trailing" constant="78" id="Zua-0E-qfL"/>
+                            <constraint firstItem="30J-p6-da1" firstAttribute="top" secondItem="mnL-BN-7Oy" secondAttribute="bottom" constant="8" symbolic="YES" id="cXP-ab-3K9"/>
+                            <constraint firstItem="Jr4-pg-wKn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="eqO-ES-ceR"/>
+                            <constraint firstItem="mnL-BN-7Oy" firstAttribute="leading" secondItem="30J-p6-da1" secondAttribute="leading" id="ihf-16-9gD"/>
+                            <constraint firstItem="Jr4-pg-wKn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="kCF-wD-zG8"/>
+                            <constraint firstItem="30J-p6-da1" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rPc-ae-Lrj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="i64-tp-ML0" secondAttribute="bottom" constant="66" id="wS9-oa-6xm"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mealNameLabel" destination="Jr4-pg-wKn" id="ozX-7Z-L0g"/>
+                        <outlet property="nameTextField" destination="30J-p6-da1" id="FT3-rV-yHw"/>
+                        <outlet property="photoImageView" destination="i64-tp-ML0" id="S8j-ju-Orb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="oIR-hI-Z7m">
+                    <connections>
+                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="dhe-Uh-dnJ"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+            <point key="canvasLocation" x="116.25" y="122.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image" width="540" height="540"/>
+    </resources>
 </document>
