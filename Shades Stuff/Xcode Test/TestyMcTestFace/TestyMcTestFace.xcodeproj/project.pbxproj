@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D55ADB791E24A18300F3D7C0 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55ADB781E24A18300F3D7C0 /* Meal.swift */; };
 		D58527B91E232FA7005880AA /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58527B81E232FA7005880AA /* RatingControl.swift */; };
 		D5A312E61E21E2DC00AA7997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A312E51E21E2DC00AA7997 /* AppDelegate.swift */; };
 		D5A312E81E21E2DC00AA7997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A312E71E21E2DC00AA7997 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D55ADB781E24A18300F3D7C0 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		D58527B81E232FA7005880AA /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		D5A312E21E21E2DC00AA7997 /* TestyMcTestFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestyMcTestFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A312E51E21E2DC00AA7997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				D5A312E71E21E2DC00AA7997 /* ViewController.swift */,
 				D58527B81E232FA7005880AA /* RatingControl.swift */,
 				D5A312E91E21E2DC00AA7997 /* Main.storyboard */,
+				D55ADB781E24A18300F3D7C0 /* Meal.swift */,
 				D5A312EC1E21E2DC00AA7997 /* Assets.xcassets */,
 				D5A312EE1E21E2DC00AA7997 /* LaunchScreen.storyboard */,
 				D5A312F11E21E2DC00AA7997 /* Info.plist */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55ADB791E24A18300F3D7C0 /* Meal.swift in Sources */,
 				D5A312E81E21E2DC00AA7997 /* ViewController.swift in Sources */,
 				D58527B91E232FA7005880AA /* RatingControl.swift in Sources */,
 				D5A312E61E21E2DC00AA7997 /* AppDelegate.swift in Sources */,
