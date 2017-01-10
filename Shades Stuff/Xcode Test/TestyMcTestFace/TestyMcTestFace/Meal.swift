@@ -22,11 +22,21 @@ class Meal
     
     //MARK: Initialization
     
-    init?(name: String,photo: UIImage, rating:Int)
+    init?(name: String,photo: UIImage?, rating:Int)
     {
         
        // error check
-        if name.isEmpty || rating < 0 {
+       // if name.isEmpty || rating < 0 {
+         //   return nil
+        //}
+        
+        guard !name.isEmpty else
+        { // the name must have a value
+            return nil
+        }
+        
+        guard (rating >= 0) && (rating <= 5) else
+        {
             return nil
         }
         
