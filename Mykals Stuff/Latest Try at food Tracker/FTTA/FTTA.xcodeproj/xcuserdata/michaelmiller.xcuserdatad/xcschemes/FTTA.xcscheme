@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7AABD73A1E234CC600EF445D"
-               BuildableName = "FoodTrackerTest.app"
-               BlueprintName = "FoodTrackerTest"
-               ReferencedContainer = "container:FoodTrackerTest.xcodeproj">
+               BlueprintIdentifier = "7A2D542F1E29753500AB659B"
+               BuildableName = "FTTA.app"
+               BlueprintName = "FTTA"
+               ReferencedContainer = "container:FTTA.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7AABD74E1E234CC700EF445D"
-               BuildableName = "FoodTrackerTestTests.xctest"
-               BlueprintName = "FoodTrackerTestTests"
-               ReferencedContainer = "container:FoodTrackerTest.xcodeproj">
+               BlueprintIdentifier = "7A2D54431E29753500AB659B"
+               BuildableName = "FTTATests.xctest"
+               BlueprintName = "FTTATests"
+               ReferencedContainer = "container:FTTA.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7AABD73A1E234CC600EF445D"
-            BuildableName = "FoodTrackerTest.app"
-            BlueprintName = "FoodTrackerTest"
-            ReferencedContainer = "container:FoodTrackerTest.xcodeproj">
+            BlueprintIdentifier = "7A2D542F1E29753500AB659B"
+            BuildableName = "FTTA.app"
+            BlueprintName = "FTTA"
+            ReferencedContainer = "container:FTTA.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7AABD73A1E234CC600EF445D"
-            BuildableName = "FoodTrackerTest.app"
-            BlueprintName = "FoodTrackerTest"
-            ReferencedContainer = "container:FoodTrackerTest.xcodeproj">
+            BlueprintIdentifier = "7A2D542F1E29753500AB659B"
+            BuildableName = "FTTA.app"
+            BlueprintName = "FTTA"
+            ReferencedContainer = "container:FTTA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -84,10 +84,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7AABD73A1E234CC600EF445D"
-            BuildableName = "FoodTrackerTest.app"
-            BlueprintName = "FoodTrackerTest"
-            ReferencedContainer = "container:FoodTrackerTest.xcodeproj">
+            BlueprintIdentifier = "7A2D542F1E29753500AB659B"
+            BuildableName = "FTTA.app"
+            BlueprintName = "FTTA"
+            ReferencedContainer = "container:FTTA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

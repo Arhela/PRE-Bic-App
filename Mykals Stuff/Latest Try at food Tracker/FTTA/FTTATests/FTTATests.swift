@@ -1,15 +1,15 @@
 //
-//  FoodTrackerTestTests.swift
-//  FoodTrackerTestTests
+//  FTTATests.swift
+//  FTTATests
 //
-//  Created by michael miller on 1/8/17.
+//  Created by michael miller on 1/13/17.
 //  Copyright © 2017 TIAS. All rights reserved.
 //
 
 import XCTest
-@testable import FoodTrackerTest
+@testable import FTTA
 
-class FoodTrackerTestTests: XCTestCase {
+class FTTATests: XCTestCase {
     
     override func setUp() {
         super.setUp()

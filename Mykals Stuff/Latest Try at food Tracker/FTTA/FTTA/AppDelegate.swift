@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  FoodTrackerTest
+//  FTTA
 //
-//  Created by michael miller on 1/8/17.
+//  Created by michael miller on 1/13/17.
 //  Copyright © 2017 TIAS. All rights reserved.
 //
 

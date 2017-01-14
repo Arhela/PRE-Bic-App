@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  FoodTrackerTest
+//  FTTA
 //
-//  Created by michael miller on 1/8/17.
+//  Created by michael miller on 1/13/17.
 //  Copyright © 2017 TIAS. All rights reserved.
 //
 
@@ -16,16 +16,20 @@ class ViewController: UIViewController , UITextFieldDelegate , UIImagePickerCont
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var ratingControl: RatingControl!
     
-//MARK: Default Code
+//END SECTION
     
+//MARK: Default code
     override func viewDidLoad()
     {
+        // Do any additional setup after loading the view, typically from a nib.
         super.viewDidLoad()
-        
+
         // Handle the text field’s user input through delegate callbacks.
         nameTextField.delegate = self
     }
+//END SECTION
     
 //MARK: UITextFieldDelegate
     
@@ -36,14 +40,15 @@ class ViewController: UIViewController , UITextFieldDelegate , UIImagePickerCont
         return true
     }
     
-    
-    // The textFieldDidEndEditing(_:) method gives you a chance to read the information entered into the text field and do something with it.
     func textFieldDidEndEditing(_ textField: UITextField)
     {
         mealNameLabel.text = textField.text
     }
+
+//END SECTION
     
 //MARK: UIImagePickerControllerDelegate
+    
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController)
     {
         // Dismiss the picker if the user canceled.
@@ -63,9 +68,9 @@ class ViewController: UIViewController , UITextFieldDelegate , UIImagePickerCont
         
         // Dismiss the picker.
         dismiss(animated: true, completion: nil)
-        
-        
     }
+    
+//END SECTION
     
 //MARK: Actions
     
@@ -83,16 +88,10 @@ class ViewController: UIViewController , UITextFieldDelegate , UIImagePickerCont
         // Make sure ViewController is notified when the user picks an image.
         imagePickerController.delegate = self
         
-        //The method asks ViewController to present the view controller defined by imagePickerController. Passing true to the animated parameter animates the presentation of the image picker controller.
         present(imagePickerController, animated: true, completion: nil)
-        
     }
     
-    @IBAction func setDefaultLabelText(_ sender: UIButton)
-    {
-        mealNameLabel.text = "Default Text"
-    }
     
-
+//END SECITON
 }
 
