@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MealViewController.swift
 //  TestyMcTestFace
 //
 //  Created by Michael Shade on 1/7/17.
@@ -8,12 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     // MARK : Properties
     
     @IBOutlet weak var nameTextField: UITextField! //Text field
-    @IBOutlet weak var mealNameLabel: UILabel! // Label
     
     @IBOutlet weak var photoImageView: UIImageView! // Image view
     
@@ -44,7 +43,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
-    mealNameLabel.text = textField.text  // swaps the name after the user clicks done
+    
     }
     
    //MARK UIImagePickerControlerDelegate 
