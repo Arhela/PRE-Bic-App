@@ -93,7 +93,7 @@
                                 <rect key="frame" x="0.0" y="28" width="414" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4eT-pZ-AWc" id="twK-1f-fDp">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="89"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Default Photo" translatesAutoresizingMaskIntoConstraints="NO" id="W2V-ka-YYW">
@@ -113,6 +113,11 @@
                                         </stackView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="Z2y-q5-wU2" id="sFU-TN-qFN"/>
+                                    <outlet property="photoImageView" destination="W2V-ka-YYW" id="bFB-KS-O8g"/>
+                                    <outlet property="ratingControl" destination="6VJ-4b-wCV" id="fMm-Ru-2gv"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
