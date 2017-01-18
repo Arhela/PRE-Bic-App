@@ -23,8 +23,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z4b-pm-VQg">
-                                <rect key="frame" x="20" y="40" width="374" height="410"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z4b-pm-VQg">
+                                <rect key="frame" x="20" y="40" width="374" height="416"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Meal Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iog-N3-XuN">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
@@ -42,8 +42,8 @@
                                             <outletCollection property="gestureRecognizers" destination="d7P-yI-0y4" appends="YES" id="oIc-Wo-P9d"/>
                                         </connections>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="iAR-iw-vy9" userLabel="RatingStackView" customClass="RatingControl" customModule="TestyMcTestFace" customModuleProvider="target">
-                                        <rect key="frame" x="61" y="366" width="252" height="44"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="iAR-iw-vy9" userLabel="RatingStackView" customClass="RatingControl" customModule="TestyMcTestFace" customModuleProvider="target">
+                                        <rect key="frame" x="61" y="366" width="252" height="50"/>
                                     </stackView>
                                 </subviews>
                                 <constraints>
