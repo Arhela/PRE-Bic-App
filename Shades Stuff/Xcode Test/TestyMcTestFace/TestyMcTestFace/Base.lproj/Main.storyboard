@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Meal View Controller-->
+        <!--New Meal-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MealViewController" customModule="TestyMcTestFace" customModuleProvider="target" sceneMemberID="viewController">
@@ -23,8 +23,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z4b-pm-VQg">
-                                <rect key="frame" x="20" y="40" width="374" height="410"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z4b-pm-VQg">
+                                <rect key="frame" x="20" y="84" width="374" height="410"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Meal Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iog-N3-XuN">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
@@ -58,6 +58,12 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Z4b-pm-VQg" secondAttribute="trailing" id="j2W-Mn-a4W"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="New Meal" id="DtH-CP-7TT">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="JN9-Gc-6Xe"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="NCf-vn-SUp"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="nameTextField" destination="iog-N3-XuN" id="27h-qo-Yoi"/>
                         <outlet property="photoImageView" destination="OXG-WA-Biq" id="6Sl-Ow-ReV"/>
@@ -71,9 +77,9 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+            <point key="canvasLocation" x="3510.144927536232" y="203.80434782608697"/>
         </scene>
-        <!--Meal Table View Controller-->
+        <!--Your Meals-->
         <scene sceneID="aSw-p1-lSG">
             <objects>
                 <tableViewController id="b9H-ex-UH8" customClass="MealTableViewController" customModule="TestyMcTestFace" customModuleProvider="target" sceneMemberID="viewController">
@@ -118,7 +124,15 @@
                             <outlet property="delegate" destination="b9H-ex-UH8" id="1rQ-UR-WEf"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="MaQ-u7-Wii"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Your Meals" id="MaQ-u7-Wii">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="16y-tu-y1m">
+                            <connections>
+                                <segue destination="7sS-EG-CeR" kind="modal" identifier="AddItem" id="EZS-cP-v2f"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UJk-WP-KV2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -141,6 +155,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LTf-H7-S3q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="937.68115942028987" y="203.80434782608697"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="T5F-Ag-EwT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7sS-EG-CeR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5mo-0z-yPa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RQO-qy-Kpe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oji-pS-xPo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2602.898550724638" y="203.80434782608697"/>
         </scene>
     </scenes>
     <resources>
