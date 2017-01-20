@@ -8,6 +8,10 @@
 
 import UIKit
 
+import os.log
+
+
+
 class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     // MARK : Properties
@@ -16,7 +20,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     
     @IBOutlet weak var photoImageView: UIImageView! // Image view
     
-    @IBOutlet weak var ratingControl: RatingControl  // rating ctl
+    @IBOutlet weak var ratingControl: RatingControl!  // rating ctl
     
     @IBOutlet weak var saveButton: UIBarButtonItem!   // save buton 
     
@@ -95,6 +99,31 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     //  @IBAction func setDefaultLabelText(_ sender: UIButton) { // Changes the Label text on tap
    //     mealNameLabel.text = "Default Text"
    // }
+    
+    
+    //MARK: Navigation
+     //This method lets you configure a view controller before it's presented.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        super.prepare(for: segue, sender: sender)
+        
+        guard let button = sender as? UIBarButtonItem, button === saveButton else
+        {
+            os_log("The save button was not pressed, cancelling", log: OSLog.default, type: .debug)
+            return
+        }
+        
+        
+        let name = nameTextField.text ?? ""
+        let photo = photoImageView.image
+        let rating = ratingControl.rating
+        
+        
+        
+        meal = Meal(name: name, photo: photo, rating: rating)
+
+        
+    }
 
 }
 
