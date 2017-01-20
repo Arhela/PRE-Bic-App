@@ -23,7 +23,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z4b-pm-VQg">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z4b-pm-VQg">
                                 <rect key="frame" x="20" y="84" width="374" height="410"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Meal Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iog-N3-XuN">
@@ -68,6 +68,7 @@
                         <outlet property="nameTextField" destination="iog-N3-XuN" id="27h-qo-Yoi"/>
                         <outlet property="photoImageView" destination="OXG-WA-Biq" id="6Sl-Ow-ReV"/>
                         <outlet property="ratingControl" destination="iAR-iw-vy9" id="H5Z-tS-zcU"/>
+                        <outlet property="saveButton" destination="NCf-vn-SUp" id="fS9-aP-5vX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -16,9 +16,12 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     
     @IBOutlet weak var photoImageView: UIImageView! // Image view
     
-    @IBOutlet weak var ratingControl: RatingControl!
+    @IBOutlet weak var ratingControl: RatingControl  // rating ctl
     
-    var meal: Meal?
+    @IBOutlet weak var saveButton: UIBarButtonItem!   // save buton 
+    
+    
+     var meal: Meal?
     
     override func viewDidLoad() {
         super.viewDidLoad()
