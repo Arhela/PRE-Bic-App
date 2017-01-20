@@ -18,6 +18,8 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     
     @IBOutlet weak var ratingControl: RatingControl!
     
+    var meal: Meal?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Handle User imput  though deligate callbacks
