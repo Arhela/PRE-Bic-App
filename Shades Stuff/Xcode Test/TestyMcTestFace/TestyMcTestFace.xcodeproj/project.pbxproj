@@ -85,10 +85,10 @@
 		D5A312E41E21E2DC00AA7997 /* TestyMcTestFace */ = {
 			isa = PBXGroup;
 			children = (
+				D5A312E91E21E2DC00AA7997 /* Main.storyboard */,
 				D5A312E51E21E2DC00AA7997 /* AppDelegate.swift */,
 				D5A312E71E21E2DC00AA7997 /* MealViewController.swift */,
 				D58527B81E232FA7005880AA /* RatingControl.swift */,
-				D5A312E91E21E2DC00AA7997 /* Main.storyboard */,
 				D519CCD61E2F17D4008398C0 /* MealTableViewController.swift */,
 				D5049FB91E2ACB1F009CC90B /* MealTableViewCell.swift */,
 				D55ADB781E24A18300F3D7C0 /* Meal.swift */,

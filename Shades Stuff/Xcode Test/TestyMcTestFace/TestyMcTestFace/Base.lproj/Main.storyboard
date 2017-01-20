@@ -23,7 +23,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z4b-pm-VQg">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z4b-pm-VQg">
                                 <rect key="frame" x="20" y="84" width="374" height="410"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Meal Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iog-N3-XuN">
@@ -60,7 +60,11 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="New Meal" id="DtH-CP-7TT">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="JN9-Gc-6Xe"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="JN9-Gc-6Xe">
+                            <connections>
+                                <action selector="cancel:" destination="BYZ-38-t0r" id="uxQ-4j-88W"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="NCf-vn-SUp">
                             <connections>
                                 <segue destination="X6X-9F-0Ny" kind="unwind" unwindAction="unwindToMealListWithSender:" id="Jaa-gW-Oro"/>
@@ -98,7 +102,7 @@
                                 <rect key="frame" x="0.0" y="28" width="414" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4eT-pZ-AWc" id="twK-1f-fDp">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="89"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Default Photo" translatesAutoresizingMaskIntoConstraints="NO" id="W2V-ka-YYW">

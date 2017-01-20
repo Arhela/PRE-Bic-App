@@ -22,8 +22,9 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     
     @IBOutlet weak var ratingControl: RatingControl!  // rating ctl
     
-    @IBOutlet weak var saveButton: UIBarButtonItem!   // save buton 
+    @IBOutlet weak var saveButton: UIBarButtonItem!   // save buton
     
+   
     
      var meal: Meal?
     
@@ -31,6 +32,9 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         super.viewDidLoad()
         // Handle User imput  though deligate callbacks
         nameTextField.delegate = self
+        
+        // Enable the Save button only if the text field has a valid Meal name.
+        updateSaveButtonState()
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -49,9 +53,15 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         textField.resignFirstResponder()
         return true
         
+        // Disable the Save button while editing.
+        saveButton.isEnabled = false
+        
     }
     
-    func textFieldDidEndEditing(_ textField: UITextField) {
+    func textFieldDidEndEditing(_ textField: UITextField)
+    {
+        updateSaveButtonState()
+        navigationItem.title = textField.text
     
     }
     
@@ -103,6 +113,12 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     
     //MARK: Navigation
      //This method lets you configure a view controller before it's presented.
+   
+    @IBAction func cancel(_ sender: UIBarButtonItem)
+    {
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         super.prepare(for: segue, sender: sender)
@@ -124,6 +140,16 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
 
         
     }
+    //MARK: Private Methods 
+    
+    
+    private func updateSaveButtonState() {
+        // Disable the Save button if the text field is empty.
+        let text = nameTextField.text ?? ""
+        saveButton.isEnabled = !text.isEmpty
+    }
+    
+
 
 }
 
