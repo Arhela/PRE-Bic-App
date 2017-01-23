@@ -23,7 +23,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z4b-pm-VQg">
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z4b-pm-VQg">
                                 <rect key="frame" x="20" y="84" width="374" height="410"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Meal Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iog-N3-XuN">
@@ -126,6 +126,7 @@
                                     <outlet property="nameLabel" destination="Z2y-q5-wU2" id="sFU-TN-qFN"/>
                                     <outlet property="photoImageView" destination="W2V-ka-YYW" id="bFB-KS-O8g"/>
                                     <outlet property="ratingControl" destination="6VJ-4b-wCV" id="fMm-Ru-2gv"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="bfm-yJ-Q6L"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -182,10 +183,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oji-pS-xPo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2602.898550724638" y="203.80434782608697"/>
+            <point key="canvasLocation" x="2658" y="673"/>
         </scene>
     </scenes>
     <resources>
         <image name="Default Photo" width="540" height="540"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="RQO-qy-Kpe"/>
+    </inferredMetricsTieBreakers>
 </document>
