@@ -10,15 +10,25 @@ import UIKit
 
 class MealTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    
+//MARK:Properties
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var ratingControl: RatingControl!
+    
+    
+//MARK: Default code
+    override func awakeFromNib()
+    {
         // Initialization code
+        super.awakeFromNib()
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
+    override func setSelected(_ selected: Bool, animated: Bool)
+    {
         // Configure the view for the selected state
+        super.setSelected(selected, animated: animated)
     }
 
 }
