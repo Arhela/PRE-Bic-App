@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bCF-93-kAa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bCF-93-kAa">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -45,7 +45,7 @@
                                                 </constraints>
                                                 <state key="normal" title="My Schedule"/>
                                                 <connections>
-                                                    <segue destination="IqR-JV-pCh" kind="presentation" id="0X2-ox-Sgr"/>
+                                                    <segue destination="EGb-rQ-7kb" kind="show" id="tAb-gv-fSx"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NpP-YV-wLD">
@@ -81,10 +81,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="61" id="Td4-Be-Sfo"/>
                                                 </constraints>
-                                                <state key="normal" title="Map Storyboard "/>
-                                                <connections>
-                                                    <segue destination="IYa-oF-bQo" kind="presentation" id="RZn-BJ-9ti"/>
-                                                </connections>
+                                                <state key="normal" title="Placeholder"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BC2-nU-OSO">
                                                 <rect key="frame" x="20" y="503" width="343" height="61"/>
@@ -203,22 +200,6 @@
             </objects>
             <point key="canvasLocation" x="965" y="482"/>
         </scene>
-        <!--MapStoryboard-->
-        <scene sceneID="0n7-rs-Oi6">
-            <objects>
-                <viewControllerPlaceholder storyboardName="MapStoryboard" id="IYa-oF-bQo" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="90C-nT-sGq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2038" y="506"/>
-        </scene>
-        <!--Schedule_Storyboard-->
-        <scene sceneID="Ozc-nl-Iq0">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Schedule_Storyboard" id="IqR-JV-pCh" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fm2-IH-wzd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1984" y="444"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="e6U-T8-aIX">
             <objects>
@@ -247,22 +228,22 @@
             <point key="canvasLocation" x="1829" y="-883"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="4Wn-6X-mSH">
+        <scene sceneID="sU8-uM-8T8">
             <objects>
-                <viewController id="34I-5P-qGf" sceneMemberID="viewController">
+                <viewController id="EGb-rQ-7kb" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="7zg-1C-9FZ"/>
-                        <viewControllerLayoutGuide type="bottom" id="Qsb-69-WjW"/>
+                        <viewControllerLayoutGuide type="top" id="aLd-R2-UNF"/>
+                        <viewControllerLayoutGuide type="bottom" id="kfe-F0-fq0"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="pTt-68-0hg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <view key="view" contentMode="scaleToFill" id="cZo-yH-Vbq">
+                        <rect key="frame" x="0.0" y="64" width="375" height="936"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tRO-Xd-VDN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AEZ-Xi-wbW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2640" y="-837"/>
+            <point key="canvasLocation" x="2692" y="-813"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mkg-6m-hbg">
