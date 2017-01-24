@@ -13,6 +13,10 @@
 		7A2D54971E2F1F8200AB659B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D54961E2F1F8200AB659B /* Assets.xcassets */; };
 		7A2D549A1E2F1F8200AB659B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D54981E2F1F8200AB659B /* LaunchScreen.storyboard */; };
 		7A2D54A51E2F1F8200AB659B /* PREBIC_InformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D54A41E2F1F8200AB659B /* PREBIC_InformationTests.swift */; };
+		D52D4EA41E37E1C300FC162D /* MapStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52D4EA31E37E1C300FC162D /* MapStoryboard.storyboard */; };
+		D52D4EA61E37E32400FC162D /* MapEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D4EA51E37E32400FC162D /* MapEntryViewController.swift */; };
+		D52D4EA81E37E66700FC162D /* Schedule_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52D4EA71E37E66700FC162D /* Schedule_Storyboard.storyboard */; };
+		D52D4EAA1E37E74D00FC162D /* ScheduleEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D4EA91E37E74D00FC162D /* ScheduleEntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		7A2D54A01E2F1F8200AB659B /* PREBIC-InformationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PREBIC-InformationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2D54A41E2F1F8200AB659B /* PREBIC_InformationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PREBIC_InformationTests.swift; sourceTree = "<group>"; };
 		7A2D54A61E2F1F8200AB659B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52D4EA31E37E1C300FC162D /* MapStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MapStoryboard.storyboard; sourceTree = "<group>"; };
+		D52D4EA51E37E32400FC162D /* MapEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapEntryViewController.swift; sourceTree = "<group>"; };
+		D52D4EA71E37E66700FC162D /* Schedule_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Schedule_Storyboard.storyboard; sourceTree = "<group>"; };
+		D52D4EA91E37E74D00FC162D /* ScheduleEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleEntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +87,11 @@
 			children = (
 				7A2D548F1E2F1F8200AB659B /* AppDelegate.swift */,
 				7A2D54911E2F1F8200AB659B /* MainMenuController.swift */,
+				D52D4EA51E37E32400FC162D /* MapEntryViewController.swift */,
+				D52D4EA91E37E74D00FC162D /* ScheduleEntryViewController.swift */,
 				7A2D54931E2F1F8200AB659B /* Main.storyboard */,
+				D52D4EA31E37E1C300FC162D /* MapStoryboard.storyboard */,
+				D52D4EA71E37E66700FC162D /* Schedule_Storyboard.storyboard */,
 				7A2D54961E2F1F8200AB659B /* Assets.xcassets */,
 				7A2D54981E2F1F8200AB659B /* LaunchScreen.storyboard */,
 				7A2D549B1E2F1F8200AB659B /* Info.plist */,
@@ -182,7 +194,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A2D549A1E2F1F8200AB659B /* LaunchScreen.storyboard in Resources */,
+				D52D4EA81E37E66700FC162D /* Schedule_Storyboard.storyboard in Resources */,
 				7A2D54971E2F1F8200AB659B /* Assets.xcassets in Resources */,
+				D52D4EA41E37E1C300FC162D /* MapStoryboard.storyboard in Resources */,
 				7A2D54951E2F1F8200AB659B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,7 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52D4EA61E37E32400FC162D /* MapEntryViewController.swift in Sources */,
 				7A2D54921E2F1F8200AB659B /* MainMenuController.swift in Sources */,
+				D52D4EAA1E37E74D00FC162D /* ScheduleEntryViewController.swift in Sources */,
 				7A2D54901E2F1F8200AB659B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
