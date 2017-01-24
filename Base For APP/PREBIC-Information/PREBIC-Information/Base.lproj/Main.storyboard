@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bCF-93-kAa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bCF-93-kAa">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -45,7 +45,7 @@
                                                 </constraints>
                                                 <state key="normal" title="My Schedule"/>
                                                 <connections>
-                                                    <segue destination="34I-5P-qGf" kind="show" id="faE-7c-ZPr"/>
+                                                    <segue destination="IqR-JV-pCh" kind="presentation" id="0X2-ox-Sgr"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NpP-YV-wLD">
@@ -81,7 +81,10 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="61" id="Td4-Be-Sfo"/>
                                                 </constraints>
-                                                <state key="normal" title="Placeholder"/>
+                                                <state key="normal" title="Map Storyboard "/>
+                                                <connections>
+                                                    <segue destination="IYa-oF-bQo" kind="presentation" id="RZn-BJ-9ti"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BC2-nU-OSO">
                                                 <rect key="frame" x="20" y="503" width="343" height="61"/>
@@ -200,6 +203,22 @@
             </objects>
             <point key="canvasLocation" x="965" y="482"/>
         </scene>
+        <!--MapStoryboard-->
+        <scene sceneID="0n7-rs-Oi6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MapStoryboard" id="IYa-oF-bQo" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="90C-nT-sGq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2038" y="506"/>
+        </scene>
+        <!--Schedule_Storyboard-->
+        <scene sceneID="Ozc-nl-Iq0">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Schedule_Storyboard" id="IqR-JV-pCh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fm2-IH-wzd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1984" y="444"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="e6U-T8-aIX">
             <objects>
@@ -236,7 +255,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Qsb-69-WjW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="pTt-68-0hg">
-                        <rect key="frame" x="0.0" y="64" width="375" height="936"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
