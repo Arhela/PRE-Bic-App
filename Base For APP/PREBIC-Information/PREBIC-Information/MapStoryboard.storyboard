@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Map Placeholder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ed4-z2-QvT">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Venu Placeholder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ed4-z2-QvT">
                                 <rect key="frame" x="116" y="323" width="143" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="143" id="AiS-Jh-PYS"/>
@@ -37,7 +37,7 @@
                             <constraint firstItem="Ed4-z2-QvT" firstAttribute="centerX" secondItem="92z-UH-qZK" secondAttribute="centerX" id="J7P-eY-ctn"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Map Placeholder" id="hAd-r7-OZU">
+                    <navigationItem key="navigationItem" title="Venu Info" id="hAd-r7-OZU">
                         <barButtonItem key="rightBarButtonItem" title="Back to Main Storyboard" id="Fce-H2-i0l">
                             <connections>
                                 <action selector="returnAction:" destination="uzo-Z5-WAn" id="KCG-TP-t4b"/>
