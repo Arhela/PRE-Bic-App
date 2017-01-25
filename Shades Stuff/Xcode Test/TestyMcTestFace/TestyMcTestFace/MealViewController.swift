@@ -36,21 +36,6 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         // Enable the Save button only if the text field has a valid Meal name.
         updateSaveButtonState()
         
-        
-        
-        // Set up views if editing an existing Meal.
-        if let meal = meal {
-            navigationItem.title = meal.name
-            nameTextField.text   = meal.name
-            photoImageView.image = meal.photo
-            ratingControl.rating = meal.rating
-        }
-        
-
-        
-        
-        
-        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Nh2-4a-Hjt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Nh2-4a-Hjt">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -126,7 +126,7 @@
                                     <outlet property="nameLabel" destination="Z2y-q5-wU2" id="sFU-TN-qFN"/>
                                     <outlet property="photoImageView" destination="W2V-ka-YYW" id="bFB-KS-O8g"/>
                                     <outlet property="ratingControl" destination="6VJ-4b-wCV" id="fMm-Ru-2gv"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="bfm-yJ-Q6L"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="bfm-yJ-Q6L"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -190,6 +190,6 @@
         <image name="Default Photo" width="540" height="540"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bfm-yJ-Q6L"/>
+        <segue reference="RQO-qy-Kpe"/>
     </inferredMetricsTieBreakers>
 </document>
