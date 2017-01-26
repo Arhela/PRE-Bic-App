@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main Menu Controller-->
+        <!--Home-->
         <scene sceneID="dEE-Os-YsY">
             <objects>
                 <viewController id="QHg-WH-k9I" customClass="MainMenuController" customModule="PREBIC_Information" customModuleProvider="target" sceneMemberID="viewController">
@@ -34,9 +34,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q0j-Cp-RcL">
                                                 <rect key="frame" x="8" y="8" width="371" height="69"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="69" id="yth-gj-vzl"/>
+                                                    <constraint firstAttribute="height" constant="69" id="Aec-HG-zP1"/>
                                                 </constraints>
-                                                <state key="normal" image="ProgramInfoButton"/>
+                                                <state key="normal" image="Default Fancy Button"/>
                                                 <connections>
                                                     <segue destination="hsg-cr-xNk" kind="presentation" id="Z92-xd-1U2"/>
                                                 </connections>
@@ -44,7 +44,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inz-v8-E08">
                                                 <rect key="frame" x="8" y="80" width="371" height="69"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="69" id="vak-WS-pUZ"/>
+                                                    <constraint firstAttribute="height" constant="69" id="pdT-2y-yFd"/>
                                                 </constraints>
                                                 <state key="normal" image="MyScheduleButton"/>
                                                 <connections>
@@ -54,7 +54,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NpP-YV-wLD">
                                                 <rect key="frame" x="8" y="152" width="371" height="69"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="69" id="Cml-zA-HJB"/>
+                                                    <constraint firstAttribute="height" constant="69" id="2Jd-XT-LQM"/>
                                                 </constraints>
                                                 <state key="normal" image="TravelInfoButton"/>
                                                 <connections>
@@ -64,28 +64,28 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YH9-Rg-lUo">
                                                 <rect key="frame" x="8" y="224" width="371" height="69"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="69" id="npn-mk-4yF"/>
+                                                    <constraint firstAttribute="height" constant="69" id="wOg-60-QyX"/>
                                                 </constraints>
                                                 <state key="normal" image="HotelInfoButton"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4I-jw-DC4">
                                                 <rect key="frame" x="8" y="295" width="371" height="69"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="69" id="fXL-YH-uHl"/>
+                                                    <constraint firstAttribute="height" constant="69" id="ihS-Ht-Wk4"/>
                                                 </constraints>
                                                 <state key="normal" image="GalvestonInfoButton"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfg-oM-7LZ">
                                                 <rect key="frame" x="8" y="366" width="371" height="69"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="69" id="JzA-pm-x6j"/>
+                                                    <constraint firstAttribute="height" constant="69" id="yxC-az-rea"/>
                                                 </constraints>
                                                 <state key="normal" image="PREBICInfoButton"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIK-Ck-R4U">
                                                 <rect key="frame" x="8" y="437" width="371" height="69"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="69" id="hBl-rb-aeg"/>
+                                                    <constraint firstAttribute="height" constant="69" id="fR2-yz-h6H"/>
                                                 </constraints>
                                                 <state key="normal" image="VenueInfoButton"/>
                                                 <connections>
@@ -95,38 +95,38 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BC2-nU-OSO">
                                                 <rect key="frame" x="8" y="508" width="371" height="69"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="69" id="uIg-jt-X5C"/>
+                                                    <constraint firstAttribute="height" constant="69" id="Abp-nE-SEP"/>
                                                 </constraints>
                                                 <state key="normal" image="LinksInfoButton"/>
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="YH9-Rg-lUo" firstAttribute="leading" secondItem="y4I-jw-DC4" secondAttribute="leading" id="3LE-Pb-3R4"/>
-                                            <constraint firstItem="xfg-oM-7LZ" firstAttribute="trailing" secondItem="aIK-Ck-R4U" secondAttribute="trailing" id="5pl-Pf-oIW"/>
-                                            <constraint firstItem="NpP-YV-wLD" firstAttribute="top" secondItem="inz-v8-E08" secondAttribute="bottom" constant="3" id="6ZA-Si-52p"/>
-                                            <constraint firstItem="y4I-jw-DC4" firstAttribute="trailing" secondItem="xfg-oM-7LZ" secondAttribute="trailing" id="7uu-1Y-rEG"/>
-                                            <constraint firstItem="aIK-Ck-R4U" firstAttribute="top" secondItem="xfg-oM-7LZ" secondAttribute="bottom" constant="2" id="9bK-dZ-8dw"/>
-                                            <constraint firstItem="BC2-nU-OSO" firstAttribute="top" secondItem="aIK-Ck-R4U" secondAttribute="bottom" constant="2" id="ABD-N0-PhK"/>
-                                            <constraint firstItem="xfg-oM-7LZ" firstAttribute="leading" secondItem="aIK-Ck-R4U" secondAttribute="leading" id="Alr-oh-3jz"/>
-                                            <constraint firstItem="q0j-Cp-RcL" firstAttribute="leading" secondItem="MmC-Yz-ZCf" secondAttribute="leading" constant="8" id="CYz-pC-Lpb"/>
-                                            <constraint firstItem="NpP-YV-wLD" firstAttribute="trailing" secondItem="YH9-Rg-lUo" secondAttribute="trailing" id="Eo1-gL-pU0"/>
-                                            <constraint firstItem="y4I-jw-DC4" firstAttribute="leading" secondItem="xfg-oM-7LZ" secondAttribute="leading" id="HwP-Qt-wrB"/>
-                                            <constraint firstItem="YH9-Rg-lUo" firstAttribute="trailing" secondItem="y4I-jw-DC4" secondAttribute="trailing" id="JDq-MN-Qca"/>
-                                            <constraint firstItem="inz-v8-E08" firstAttribute="trailing" secondItem="NpP-YV-wLD" secondAttribute="trailing" id="LaD-Ww-fQc"/>
-                                            <constraint firstItem="aIK-Ck-R4U" firstAttribute="leading" secondItem="BC2-nU-OSO" secondAttribute="leading" id="RgG-qY-sdQ"/>
-                                            <constraint firstItem="q0j-Cp-RcL" firstAttribute="centerX" secondItem="MmC-Yz-ZCf" secondAttribute="centerX" id="Zuk-8M-afE"/>
-                                            <constraint firstItem="inz-v8-E08" firstAttribute="leading" secondItem="NpP-YV-wLD" secondAttribute="leading" id="aNE-FU-fym"/>
-                                            <constraint firstItem="NpP-YV-wLD" firstAttribute="leading" secondItem="YH9-Rg-lUo" secondAttribute="leading" id="aeL-8g-AJs"/>
-                                            <constraint firstItem="YH9-Rg-lUo" firstAttribute="top" secondItem="NpP-YV-wLD" secondAttribute="bottom" constant="3" id="fxQ-Hg-DUp"/>
-                                            <constraint firstItem="xfg-oM-7LZ" firstAttribute="top" secondItem="y4I-jw-DC4" secondAttribute="bottom" constant="2" id="m6O-fD-EKL"/>
-                                            <constraint firstItem="q0j-Cp-RcL" firstAttribute="trailing" secondItem="inz-v8-E08" secondAttribute="trailing" id="mkv-UC-gja"/>
-                                            <constraint firstItem="y4I-jw-DC4" firstAttribute="top" secondItem="YH9-Rg-lUo" secondAttribute="bottom" constant="2" id="ms3-30-YNS"/>
-                                            <constraint firstItem="aIK-Ck-R4U" firstAttribute="trailing" secondItem="BC2-nU-OSO" secondAttribute="trailing" id="nLf-Ie-mxl"/>
-                                            <constraint firstAttribute="trailing" secondItem="q0j-Cp-RcL" secondAttribute="trailing" constant="8" id="nbB-9q-0XB"/>
-                                            <constraint firstItem="q0j-Cp-RcL" firstAttribute="leading" secondItem="inz-v8-E08" secondAttribute="leading" id="pEs-68-Lzs"/>
-                                            <constraint firstItem="inz-v8-E08" firstAttribute="top" secondItem="q0j-Cp-RcL" secondAttribute="bottom" constant="3" id="uUP-cb-wO5"/>
-                                            <constraint firstAttribute="bottom" secondItem="BC2-nU-OSO" secondAttribute="bottom" constant="268" id="vcZ-bI-aqj"/>
-                                            <constraint firstItem="q0j-Cp-RcL" firstAttribute="top" secondItem="MmC-Yz-ZCf" secondAttribute="top" constant="8" id="xAD-fZ-rNm"/>
+                                            <constraint firstItem="NpP-YV-wLD" firstAttribute="trailing" secondItem="YH9-Rg-lUo" secondAttribute="trailing" id="1vq-SM-AcL"/>
+                                            <constraint firstItem="y4I-jw-DC4" firstAttribute="leading" secondItem="xfg-oM-7LZ" secondAttribute="leading" id="6Ji-t7-vc5"/>
+                                            <constraint firstItem="NpP-YV-wLD" firstAttribute="top" secondItem="inz-v8-E08" secondAttribute="bottom" constant="3" id="7vs-5n-wNW"/>
+                                            <constraint firstItem="xfg-oM-7LZ" firstAttribute="top" secondItem="y4I-jw-DC4" secondAttribute="bottom" constant="2" id="Id0-l9-Dzb"/>
+                                            <constraint firstItem="q0j-Cp-RcL" firstAttribute="trailing" secondItem="inz-v8-E08" secondAttribute="trailing" id="JJL-Ln-aHf"/>
+                                            <constraint firstItem="y4I-jw-DC4" firstAttribute="top" secondItem="YH9-Rg-lUo" secondAttribute="bottom" constant="2" id="JkH-dH-pWk"/>
+                                            <constraint firstItem="q0j-Cp-RcL" firstAttribute="centerX" secondItem="MmC-Yz-ZCf" secondAttribute="centerX" id="JqZ-fg-2s1"/>
+                                            <constraint firstItem="xfg-oM-7LZ" firstAttribute="trailing" secondItem="aIK-Ck-R4U" secondAttribute="trailing" id="K5P-J7-XSZ"/>
+                                            <constraint firstItem="xfg-oM-7LZ" firstAttribute="leading" secondItem="aIK-Ck-R4U" secondAttribute="leading" id="Kdy-Z5-3D5"/>
+                                            <constraint firstItem="inz-v8-E08" firstAttribute="leading" secondItem="NpP-YV-wLD" secondAttribute="leading" id="MS1-3L-HKp"/>
+                                            <constraint firstItem="YH9-Rg-lUo" firstAttribute="leading" secondItem="y4I-jw-DC4" secondAttribute="leading" id="Nwz-0i-asb"/>
+                                            <constraint firstItem="aIK-Ck-R4U" firstAttribute="trailing" secondItem="BC2-nU-OSO" secondAttribute="trailing" id="Oko-Sr-dPx"/>
+                                            <constraint firstItem="NpP-YV-wLD" firstAttribute="leading" secondItem="YH9-Rg-lUo" secondAttribute="leading" id="P2s-IO-4kz"/>
+                                            <constraint firstItem="YH9-Rg-lUo" firstAttribute="trailing" secondItem="y4I-jw-DC4" secondAttribute="trailing" id="Rr1-yh-gL4"/>
+                                            <constraint firstItem="q0j-Cp-RcL" firstAttribute="leading" secondItem="inz-v8-E08" secondAttribute="leading" id="WHD-gB-VTo"/>
+                                            <constraint firstItem="YH9-Rg-lUo" firstAttribute="top" secondItem="NpP-YV-wLD" secondAttribute="bottom" constant="3" id="bLh-5a-09I"/>
+                                            <constraint firstItem="inz-v8-E08" firstAttribute="top" secondItem="q0j-Cp-RcL" secondAttribute="bottom" constant="3" id="e6P-Mk-Wmh"/>
+                                            <constraint firstItem="q0j-Cp-RcL" firstAttribute="top" secondItem="MmC-Yz-ZCf" secondAttribute="topMargin" id="fsr-tM-o0c"/>
+                                            <constraint firstItem="q0j-Cp-RcL" firstAttribute="leading" secondItem="MmC-Yz-ZCf" secondAttribute="leadingMargin" id="h5E-pK-6SU"/>
+                                            <constraint firstAttribute="bottom" secondItem="BC2-nU-OSO" secondAttribute="bottom" constant="73" id="jzA-zD-8lw"/>
+                                            <constraint firstItem="BC2-nU-OSO" firstAttribute="top" secondItem="aIK-Ck-R4U" secondAttribute="bottom" constant="2" id="qAQ-Ym-UBp"/>
+                                            <constraint firstItem="aIK-Ck-R4U" firstAttribute="top" secondItem="xfg-oM-7LZ" secondAttribute="bottom" constant="2" id="sav-4o-hz4"/>
+                                            <constraint firstItem="q0j-Cp-RcL" firstAttribute="trailing" secondItem="MmC-Yz-ZCf" secondAttribute="trailingMargin" id="uDI-N8-AHc"/>
+                                            <constraint firstItem="aIK-Ck-R4U" firstAttribute="leading" secondItem="BC2-nU-OSO" secondAttribute="leading" id="v8j-QK-wth"/>
+                                            <constraint firstItem="inz-v8-E08" firstAttribute="trailing" secondItem="NpP-YV-wLD" secondAttribute="trailing" id="vfJ-Ld-kEW"/>
+                                            <constraint firstItem="y4I-jw-DC4" firstAttribute="trailing" secondItem="xfg-oM-7LZ" secondAttribute="trailing" id="xJP-fr-veH"/>
                                         </constraints>
                                     </scrollView>
                                 </subviews>
@@ -134,44 +134,28 @@
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="plY-D1-Rdm" userLabel="Location Bar Stack View">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UkE-6K-PXL">
-                                        <rect key="frame" x="0.0" y="0.0" width="310" height="84"/>
-                                        <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
-                                        <attributedString key="attributedText">
-                                            <fragment content="              Location bar">
-                                                <attributes>
-                                                    <font key="NSFont" size="18" name="Arial-Black"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Prebic Icon" translatesAutoresizingMaskIntoConstraints="NO" id="id2-mr-tyD" userLabel="PREBIC ICON">
-                                        <rect key="frame" x="310" y="0.0" width="65" height="84"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="65" id="sa8-ag-Dby"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="plY-D1-Rdm" firstAttribute="centerX" secondItem="ha8-WZ-S2R" secondAttribute="centerX" id="383-Ju-3Yf"/>
-                            <constraint firstItem="plY-D1-Rdm" firstAttribute="top" secondItem="9Of-P0-1rr" secondAttribute="bottom" id="7Df-rS-DDU"/>
-                            <constraint firstItem="t43-ZR-Th9" firstAttribute="top" secondItem="ha8-WZ-S2R" secondAttribute="bottom" constant="9" id="Na5-my-hJo"/>
-                            <constraint firstItem="O04-4G-8gi" firstAttribute="top" secondItem="IdH-k0-TBJ" secondAttribute="top" constant="82" id="Vq7-15-s8J"/>
-                            <constraint firstItem="plY-D1-Rdm" firstAttribute="leading" secondItem="IdH-k0-TBJ" secondAttribute="leading" id="XA1-hu-Shc"/>
-                            <constraint firstItem="ha8-WZ-S2R" firstAttribute="top" secondItem="9Of-P0-1rr" secondAttribute="bottom" constant="82" id="ZOi-s8-F7U"/>
-                            <constraint firstItem="O04-4G-8gi" firstAttribute="leading" secondItem="plY-D1-Rdm" secondAttribute="leading" id="ch5-VE-GKo"/>
-                            <constraint firstAttribute="bottom" secondItem="O04-4G-8gi" secondAttribute="bottom" constant="248" id="did-rL-ehG"/>
-                            <constraint firstItem="ha8-WZ-S2R" firstAttribute="leading" secondItem="IdH-k0-TBJ" secondAttribute="leadingMargin" constant="-22" id="dvm-4x-DLI"/>
-                            <constraint firstItem="O04-4G-8gi" firstAttribute="trailing" secondItem="plY-D1-Rdm" secondAttribute="trailing" id="kUD-Ae-JbI"/>
-                            <constraint firstAttribute="trailing" secondItem="plY-D1-Rdm" secondAttribute="trailing" id="n0q-by-vyr"/>
+                            <constraint firstItem="O04-4G-8gi" firstAttribute="centerX" secondItem="ha8-WZ-S2R" secondAttribute="centerX" id="567-sj-uOQ"/>
+                            <constraint firstItem="plY-D1-Rdm" firstAttribute="leading" secondItem="IdH-k0-TBJ" secondAttribute="leading" id="6n1-kK-dzz"/>
+                            <constraint firstAttribute="trailing" secondItem="plY-D1-Rdm" secondAttribute="trailing" id="GDf-DA-aUH"/>
+                            <constraint firstItem="ha8-WZ-S2R" firstAttribute="leading" secondItem="IdH-k0-TBJ" secondAttribute="leadingMargin" constant="-22" id="Leb-xe-V7s"/>
+                            <constraint firstItem="t43-ZR-Th9" firstAttribute="top" secondItem="ha8-WZ-S2R" secondAttribute="bottom" constant="9" id="OOm-IM-neW"/>
+                            <constraint firstItem="t43-ZR-Th9" firstAttribute="top" secondItem="O04-4G-8gi" secondAttribute="bottom" constant="248" id="RRD-Ad-BAY"/>
+                            <constraint firstItem="plY-D1-Rdm" firstAttribute="trailing" secondItem="O04-4G-8gi" secondAttribute="trailing" id="dgw-Ma-FX5"/>
+                            <constraint firstItem="ha8-WZ-S2R" firstAttribute="top" secondItem="O04-4G-8gi" secondAttribute="top" id="dtH-aY-WaL"/>
+                            <constraint firstItem="plY-D1-Rdm" firstAttribute="top" secondItem="9Of-P0-1rr" secondAttribute="bottom" id="gzs-Xp-37z"/>
+                            <constraint firstItem="plY-D1-Rdm" firstAttribute="leading" secondItem="O04-4G-8gi" secondAttribute="leading" id="o56-p6-K7W"/>
+                            <constraint firstItem="O04-4G-8gi" firstAttribute="top" secondItem="9Of-P0-1rr" secondAttribute="bottom" constant="82" id="rHE-ht-Qom"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="P97-kC-rc7">
+                    <navigationItem key="navigationItem" title="Home" id="P97-kC-rc7">
                         <barButtonItem key="leftBarButtonItem" title="BACK" id="ZBu-8D-j5X">
                             <color key="tintColor" red="0.12859067630000001" green="0.034522882419999998" blue="0.18462597150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </barButtonItem>
@@ -282,13 +266,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Default Fancy Button" width="340" height="60"/>
         <image name="GalvestonInfoButton" width="340" height="60"/>
         <image name="HotelInfoButton" width="340" height="60"/>
         <image name="LinksInfoButton" width="340" height="60"/>
         <image name="MyScheduleButton" width="340" height="60"/>
         <image name="PREBICInfoButton" width="340" height="60"/>
         <image name="Prebic Icon" width="65" height="84"/>
-        <image name="ProgramInfoButton" width="340" height="60"/>
         <image name="TravelInfoButton" width="340" height="60"/>
         <image name="VenueInfoButton" width="340" height="60"/>
         <image name="background" width="360" height="900"/>
