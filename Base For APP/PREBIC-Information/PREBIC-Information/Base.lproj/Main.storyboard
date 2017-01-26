@@ -134,7 +134,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="plY-D1-Rdm" userLabel="Location Bar Stack View">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Prebic Icon" translatesAutoresizingMaskIntoConstraints="NO" id="id2-mr-tyD" userLabel="PREBIC ICON">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="New Header" translatesAutoresizingMaskIntoConstraints="NO" id="id2-mr-tyD" userLabel="PREBIC ICON">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
                                     </imageView>
                                 </subviews>
@@ -155,12 +155,7 @@
                             <constraint firstItem="O04-4G-8gi" firstAttribute="top" secondItem="9Of-P0-1rr" secondAttribute="bottom" constant="82" id="rHE-ht-Qom"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="P97-kC-rc7">
-                        <barButtonItem key="leftBarButtonItem" title="BACK" id="ZBu-8D-j5X">
-                            <color key="tintColor" red="0.12859067630000001" green="0.034522882419999998" blue="0.18462597150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="HOME" id="bmF-Kb-4M9"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Home" id="P97-kC-rc7"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="805"/>
                 </viewController>
@@ -271,8 +266,8 @@
         <image name="HotelInfoButton" width="340" height="60"/>
         <image name="LinksInfoButton" width="340" height="60"/>
         <image name="MyScheduleButton" width="340" height="60"/>
+        <image name="New Header" width="375" height="84"/>
         <image name="PREBICInfoButton" width="340" height="60"/>
-        <image name="Prebic Icon" width="65" height="84"/>
         <image name="TravelInfoButton" width="340" height="60"/>
         <image name="VenueInfoButton" width="340" height="60"/>
         <image name="background" width="360" height="900"/>
