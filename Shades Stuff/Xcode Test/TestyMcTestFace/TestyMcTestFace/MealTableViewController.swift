@@ -8,6 +8,8 @@
 
 import UIKit
 
+import os.log
+
 class MealTableViewController: UITableViewController {
 
     
@@ -79,7 +81,7 @@ class MealTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
@@ -89,7 +91,7 @@ class MealTableViewController: UITableViewController {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
+ 
 
     /*
     // Override to support rearranging the table view.
@@ -106,15 +108,43 @@ class MealTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        // call to the base class
+        super.prepare(for: segue, sender: sender)
+        
+        // switch case to figure out which segue is being called
+        switch (segue.identifier ?? "")
+        {
+        case "AddItem":
+            os_log("Adding a new meal.", log: OSLog.default, type: .debug)
+        
+        case "ShowDetail":
+            guard let mealDetailViewController = segue.destination as? MealViewController else {
+                fatalError("Unexpected destination: \(segue.destination)")
+            }
+            
+            guard let selectedMealCell = sender as? MealTableViewCell else {
+                fatalError("Unexpected sender: \(sender)")
+            }
+                
+            
+            guard let indexPath = tableView.indexPath(for: selectedMealCell)  else {
+                fatalError("The selected cell is not being displayed by the table")
+            }
+            
+            let selectedMeal = meals[indexPath.row]
+            mealDetailViewController.meal = selectedMeal
+            
+        default:
+            fatalError("Unexpected Segue Identifier; \(segue.identifier)")
+        }
     }
-    */
+    
     
     //MARK: Actions
     
@@ -125,10 +155,23 @@ class MealTableViewController: UITableViewController {
         
         if let sourceViewController = sender.source as? MealViewController,  let meal = sourceViewController.meal
         {
+            
+            
+            if let selectedIndexPath = tableView.indexPathForSelectedRow
+            {
+                // Update existing meal 
+                meals[selectedIndexPath.row] = meal
+                tableView.reloadRows(at: [selectedIndexPath], with: .none)
+            }
+            else{
+            
+
+            
             let newIndexPath = IndexPath(row: meals.count, section: 0)
             
             meals.append(meal)
             tableView.insertRows(at: [newIndexPath], with: .automatic)
+            }
         }
         
 

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HKn-6e-Mhm">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First Schedule Interface-->
+        <scene sceneID="krp-rC-FYw">
+            <objects>
+                <viewController id="qzP-re-bHS" userLabel="First Schedule Interface" customClass="ScheduleEntryViewController" customModule="PREBIC_Information" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gp8-Jk-Ta0"/>
+                        <viewControllerLayoutGuide type="bottom" id="o3B-6A-R6M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="duq-j8-FJW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Schedule Placeholder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juz-k3-wJa">
+                                <rect key="frame" x="96" y="323" width="182" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="juz-k3-wJa" firstAttribute="centerX" secondItem="duq-j8-FJW" secondAttribute="centerX" id="FCX-LA-VbB"/>
+                            <constraint firstItem="juz-k3-wJa" firstAttribute="leading" secondItem="duq-j8-FJW" secondAttribute="leadingMargin" constant="80" id="GgX-bJ-Nqo"/>
+                            <constraint firstItem="juz-k3-wJa" firstAttribute="centerY" secondItem="duq-j8-FJW" secondAttribute="centerY" id="rBp-CN-ERD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Schedule " id="qA9-RL-6EL">
+                        <barButtonItem key="rightBarButtonItem" title="Dismiss to main" id="VTK-jn-ceJ">
+                            <connections>
+                                <action selector="Dismisstomain:" destination="qzP-re-bHS" id="L3V-FD-AAR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YbT-jO-iKu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052" y="151.57421289355324"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TnE-LF-cac">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HKn-6e-Mhm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rhi-Ts-hkb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qzP-re-bHS" kind="relationship" relationship="rootViewController" id="HlR-1a-Gfo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qwA-JY-Co0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.8" y="151.57421289355324"/>
+        </scene>
+    </scenes>
+</document>
