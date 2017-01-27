@@ -12,7 +12,7 @@ class PrebicSiteWebViewController: UIViewController {
 
    //MARK OUtlets
     
-    // WebView 
+    // WebView
     @IBOutlet weak var webView: UIWebView!
     
     
@@ -20,6 +20,12 @@ class PrebicSiteWebViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        // URL to pass in
+        let prebicUrl = URL(string: "http://www.prrebic.org")
+        // create request obj
+        let prebicUrlRequest = URLRequest(url: prebicUrl!)
+        
+        webView.loadRequest(prebicUrlRequest)
     }
 
     override func didReceiveMemoryWarning() {
