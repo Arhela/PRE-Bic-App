@@ -24,7 +24,7 @@ class PrebicSiteWebViewController: UIViewController {
         let prebicUrl = URL(string: "http://www.prrebic.org")
         // create request obj
         let prebicUrlRequest = URLRequest(url: prebicUrl!)
-        
+        // Load view
         webView.loadRequest(prebicUrlRequest)
     }
 
