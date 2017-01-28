@@ -21,7 +21,7 @@ class PrebicSiteWebViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         // URL to pass in
-        let prebicUrl = URL(string: "http://www.prrebic.org")
+        let prebicUrl = URL(string: "http://www.prebic.org")
         // create request obj
         let prebicUrlRequest = URLRequest(url: prebicUrl!)
         // Load view
@@ -43,5 +43,19 @@ class PrebicSiteWebViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    //Mark Actions
+    
+    // Go forward in the browser
+    @IBAction func goBack(_ sender: Any)
+    {
+        webView.goBack()
+    }
+    
+    
+    @IBAction func goForward(_ sender: Any)
+    {
+        webView.goForward()
+    }
 
 }
