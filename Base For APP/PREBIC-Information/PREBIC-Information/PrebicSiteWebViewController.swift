@@ -21,7 +21,7 @@ class PrebicSiteWebViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         // URL to pass in
-        let prebicUrl = URL(string: "http://www.prrebic.org")
+        let prebicUrl = URL(string: "http://www.prebic.org")
         // create request obj
         let prebicUrlRequest = URLRequest(url: prebicUrl!)
         // Load view
