@@ -1,31 +1,19 @@
 //
-//  PrebicSiteWebViewController.swift
+//  LinksViewController.swift
 //  PREBIC-Information
 //
-//  Created by Michael Shade on 1/27/17.
+//  Created by Michael Shade on 1/28/17.
 //  Copyright © 2017 Unfazed Creations. All rights reserved.
 //
 
 import UIKit
 
-class PrebicSiteWebViewController: UIViewController {
+class LinksViewController: UIViewController {
 
-   //MARK OUtlets
-    
-    // WebView
-    @IBOutlet weak var webView: UIWebView!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        // URL to pass in
-        let prebicUrl = URL(string: "https://www.prebicglobal.org")
-        // create request obj
-        let prebicUrlRequest = URLRequest(url: prebicUrl!)
-        // Load view
-        webView.loadRequest(prebicUrlRequest)
     }
 
     override func didReceiveMemoryWarning() {
@@ -44,18 +32,31 @@ class PrebicSiteWebViewController: UIViewController {
     }
     */
     
-    //Mark Actions
+    // MARK ACTIONS
     
-    // Go forward in the browser
-    @IBAction func goBack(_ sender: Any)
+    @IBAction func PreBic(_ sender: Any)
     {
-        webView.goBack()
+        if let prebicUrl = URL(string: "https://www.prebicglobal.org/") {
+            UIApplication.shared.open(prebicUrl, options: [:])
+        }
+        
     }
     
     
-    @IBAction func goForward(_ sender: Any)
+    @IBAction func MoveToGalvez(_ sender: Any)
     {
-        webView.goForward()
+        if let Galvezurl = URL(string: "http://www.hotelgalvez.com/") {
+            UIApplication.shared.open(Galvezurl, options: [:])
+        }
     }
+    
+    @IBAction func UTMBLink(_ sender: Any)
+    {
+        if let utmbUrl = URL(string: "https://www.utmb.edu") {
+            UIApplication.shared.open(utmbUrl, options: [:])
+        }
+        
+    }
+    
 
 }
