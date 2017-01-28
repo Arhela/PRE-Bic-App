@@ -43,5 +43,19 @@ class PrebicSiteWebViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    //Mark Actions
+    
+    // Go forward in the browser
+    @IBAction func goBack(_ sender: Any)
+    {
+        webView.goBack()
+    }
+    
+    
+    @IBAction func goForward(_ sender: Any)
+    {
+        webView.goForward()
+    }
 
 }

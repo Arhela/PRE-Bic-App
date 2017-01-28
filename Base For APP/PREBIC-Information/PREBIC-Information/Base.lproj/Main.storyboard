@@ -198,6 +198,9 @@
                                 <state key="normal" title="Forward">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="goForward:" destination="0Uu-I6-SsR" eventType="touchUpInside" id="23G-o4-vap"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yz0-eB-6mf">
                                 <rect key="frame" x="16" y="83" width="46" height="30"/>
@@ -207,6 +210,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="goBack:" destination="0Uu-I6-SsR" eventType="touchUpInside" id="e8k-6c-LBi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
