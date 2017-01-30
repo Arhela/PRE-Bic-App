@@ -23,7 +23,11 @@ class MealTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // add an edit buton 
+        navigationItem.leftBarButtonItem = editButtonItem
 
+        // sample meal load
        loadSampleMeals()
 
         
