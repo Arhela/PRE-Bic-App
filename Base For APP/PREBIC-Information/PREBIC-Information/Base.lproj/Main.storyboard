@@ -278,7 +278,7 @@
                                 <rect key="frame" x="63" y="94" width="185" height="30"/>
                                 <state key="normal" title="Prebic website"/>
                                 <connections>
-                                    <action selector="PreBic:" destination="BJq-Wx-NK9" eventType="touchUpInside" id="z3o-0l-5D8"/>
+                                    <action selector="PrebicSite:" destination="BJq-Wx-NK9" eventType="touchUpInside" id="pkY-Pv-Kgu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oky-w6-IS3">
@@ -292,7 +292,7 @@
                                 <rect key="frame" x="63" y="317" width="185" height="30"/>
                                 <state key="normal" title="UTMB Website"/>
                                 <connections>
-                                    <action selector="UTMBLink:" destination="BJq-Wx-NK9" eventType="touchUpInside" id="pRP-Vx-ioO"/>
+                                    <action selector="ImbdLink:" destination="BJq-Wx-NK9" eventType="touchUpInside" id="N0h-bv-aif"/>
                                 </connections>
                             </button>
                         </subviews>

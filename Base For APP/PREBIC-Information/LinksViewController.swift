@@ -33,15 +33,13 @@ class LinksViewController: UIViewController {
     */
     
     // MARK ACTIONS
-    
-    @IBAction func PreBic(_ sender: Any)
+   
+    @IBAction func PrebicSite(_ sender: Any)
     {
         if let prebicUrl = URL(string: "https://www.prebicglobal.org/") {
             UIApplication.shared.open(prebicUrl, options: [:])
         }
-        
     }
-    
     
     @IBAction func MoveToGalvez(_ sender: Any)
     {
@@ -50,13 +48,12 @@ class LinksViewController: UIViewController {
         }
     }
     
-    @IBAction func UTMBLink(_ sender: Any)
+    @IBAction func ImbdLink(_ sender: Any)
     {
-        if let utmbUrl = URL(string: "https://www.utmb.edu") {
-            UIApplication.shared.open(utmbUrl, options: [:])
+        if let imbdUrl = URL(string: "https://www.utmb.edu") {
+            UIApplication.shared.open(imbdUrl, options: [:])
         }
         
     }
-    
 
 }
