@@ -10,7 +10,7 @@
 
 import UIKit
 
-class Meal
+class Meal : NSObject
 {
     
     
