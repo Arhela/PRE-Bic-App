@@ -10,7 +10,12 @@
 
 import UIKit
 
-class Meal : NSObject
+
+import os.log
+
+
+
+class Meal : NSObject, NSCoding
 {
     
     
@@ -60,6 +65,18 @@ class Meal : NSObject
         
 
     }
+    
+    //MARK: NSCoding
+    
+    
+    func encode(with aCoder: NSCoder)
+    {
+        aCoder.encode(name, forKey: PropertyKey.name)
+        aCoder.encode(photo, forKey: PropertyKey.photo)
+        aCoder.encode(rating, forKey: PropertyKey.rating)
+    }
+    
+
     
 }
 
