@@ -209,5 +209,21 @@ class MealTableViewController: UITableViewController {
         // add meals
          meals += [meal1, meal2, meal3]
     }
+    
+    private func saveMeals()
+    {
+        // Trys to save meals to the file path designtaed by the static var in Meal.swift
+        let isSuccessfulSave = NSKeyedArchiver.archiveRootObject(meals, toFile: Meal.ArchiveURL.path)
+        
+        
+        
+        if isSuccessfulSave {
+            os_log("Meals successfully saved.", log: OSLog.default, type: .debug)
+        } else {
+            os_log("Failed to save meals...", log: OSLog.default, type: .error)
+        }
+        
+
+    }
 
 }
