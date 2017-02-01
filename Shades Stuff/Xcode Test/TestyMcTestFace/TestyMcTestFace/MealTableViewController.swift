@@ -26,10 +26,23 @@ class MealTableViewController: UITableViewController {
         
         // add an edit buton 
         navigationItem.leftBarButtonItem = editButtonItem
+        
+        
+        // Load any saved meals, otherwise load sample data.
+        if let savedMeals = loadMeals() {
+            meals += savedMeals
+        }
+        
+            
+            
+        else {
+            // Load the sample data.
+            loadSampleMeals()
+        }
+        
 
-        // sample meal load
-       loadSampleMeals()
-
+        
+        
         
     }
 
@@ -91,6 +104,7 @@ class MealTableViewController: UITableViewController {
         if editingStyle == .delete {
             // Delete the row from the data source
             meals.remove(at: indexPath.row)
+            saveMeals()
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
@@ -177,6 +191,9 @@ class MealTableViewController: UITableViewController {
             meals.append(meal)
             tableView.insertRows(at: [newIndexPath], with: .automatic)
             }
+            
+            //save the meals
+            saveMeals()
         }
         
 
@@ -208,6 +225,27 @@ class MealTableViewController: UITableViewController {
         
         // add meals
          meals += [meal1, meal2, meal3]
+    }
+    
+    private func saveMeals()
+    {
+        // Trys to save meals to the file path designtaed by the static var in Meal.swift
+        let isSuccessfulSave = NSKeyedArchiver.archiveRootObject(meals, toFile: Meal.ArchiveURL.path)
+        
+        
+        
+        if isSuccessfulSave {
+            os_log("Meals successfully saved.", log: OSLog.default, type: .debug)
+        } else {
+            os_log("Failed to save meals...", log: OSLog.default, type: .error)
+        }
+        
+
+    }
+    
+    private func loadMeals() -> [Meal]?
+    {
+        return NSKeyedUnarchiver.unarchiveObject(withFile: Meal.ArchiveURL.path) as? [Meal]
     }
 
 }
