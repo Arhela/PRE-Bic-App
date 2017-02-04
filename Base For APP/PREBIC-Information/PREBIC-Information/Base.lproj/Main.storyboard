@@ -74,6 +74,9 @@
                                                     <constraint firstAttribute="height" constant="69" id="ihS-Ht-Wk4"/>
                                                 </constraints>
                                                 <state key="normal" image="Galveston"/>
+                                                <connections>
+                                                    <segue destination="34I-5P-qGf" kind="show" id="Y4T-uO-fnT"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfg-oM-7LZ">
                                                 <rect key="frame" x="8" y="366" width="371" height="69"/>
@@ -89,7 +92,7 @@
                                                 </constraints>
                                                 <state key="normal" image="PREBIc"/>
                                                 <connections>
-                                                    <segue destination="IYa-oF-bQo" kind="presentation" id="RZn-BJ-9ti"/>
+                                                    <segue destination="UYs-Ad-Vkg" kind="show" id="Mnz-Is-qn2"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BC2-nU-OSO">
@@ -135,7 +138,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="plY-D1-Rdm" userLabel="Location Bar Stack View">
-                                <rect key="frame" x="0.0" y="20" width="375" height="84"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Header" translatesAutoresizingMaskIntoConstraints="NO" id="id2-mr-tyD" userLabel="PREBIC ICON">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
@@ -153,7 +156,7 @@
                             <constraint firstItem="t43-ZR-Th9" firstAttribute="top" secondItem="O04-4G-8gi" secondAttribute="bottom" constant="78" id="RRD-Ad-BAY"/>
                             <constraint firstItem="plY-D1-Rdm" firstAttribute="trailing" secondItem="O04-4G-8gi" secondAttribute="trailing" id="dgw-Ma-FX5"/>
                             <constraint firstItem="ha8-WZ-S2R" firstAttribute="top" secondItem="O04-4G-8gi" secondAttribute="top" id="dtH-aY-WaL"/>
-                            <constraint firstItem="plY-D1-Rdm" firstAttribute="top" secondItem="9Of-P0-1rr" secondAttribute="bottom" id="gzs-Xp-37z"/>
+                            <constraint firstItem="plY-D1-Rdm" firstAttribute="top" secondItem="9Of-P0-1rr" secondAttribute="bottom" constant="-20" id="gzs-Xp-37z"/>
                             <constraint firstItem="plY-D1-Rdm" firstAttribute="leading" secondItem="O04-4G-8gi" secondAttribute="leading" id="o56-p6-K7W"/>
                             <constraint firstItem="O04-4G-8gi" firstAttribute="top" secondItem="9Of-P0-1rr" secondAttribute="bottom" constant="82" id="rHE-ht-Qom"/>
                         </constraints>
@@ -164,7 +167,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zof-Wo-WXH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="964.6875" y="481.16197183098592"/>
+            <point key="canvasLocation" x="964" y="480.80959520239884"/>
         </scene>
         <!--MapStoryboard-->
         <scene sceneID="0n7-rs-Oi6">
@@ -198,37 +201,52 @@
             </objects>
             <point key="canvasLocation" x="2003" y="482"/>
         </scene>
-        <!--View Controller-->
+        <!--PREBIC info-->
         <scene sceneID="e6U-T8-aIX">
             <objects>
-                <viewController id="UYs-Ad-Vkg" sceneMemberID="viewController">
+                <viewController id="UYs-Ad-Vkg" userLabel="PREBIC info" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="D1f-ov-gIv"/>
                         <viewControllerLayoutGuide type="bottom" id="OHM-a3-hLy"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="uip-6G-gHE">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="805"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YOu Here now" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o18-SA-bcY">
-                                <rect key="frame" x="99" y="132" width="110" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LkD-fg-86V" userLabel="Header Image">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXc-AO-FEw" userLabel="Leadership">
+                                <rect key="frame" x="0.0" y="92" width="375" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhB-dz-N1n" userLabel="Organizing committee">
+                                <rect key="frame" x="0.0" y="169" width="375" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pao-go-vMx" userLabel="Board Member Blogs">
+                                <rect key="frame" x="0.0" y="246" width="375" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rk1-gz-oNQ" userLabel="PREBIC Mission statement">
+                                <rect key="frame" x="0.0" y="323" width="375" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="805"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IiE-XX-rXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1829" y="-883"/>
+            <point key="canvasLocation" x="1969" y="-114"/>
         </scene>
-        <!--View Controller-->
+        <!--Galveston Info-->
         <scene sceneID="4Wn-6X-mSH">
             <objects>
-                <viewController id="34I-5P-qGf" sceneMemberID="viewController">
+                <viewController id="34I-5P-qGf" userLabel="Galveston Info" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7zg-1C-9FZ"/>
                         <viewControllerLayoutGuide type="bottom" id="Qsb-69-WjW"/>
@@ -236,12 +254,30 @@
                     <view key="view" contentMode="scaleToFill" id="pTt-68-0hg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0RC-Cr-oTd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qh3-aH-0lF" userLabel="Weather">
+                                <rect key="frame" x="0.0" y="92" width="375" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSA-xH-zrI" userLabel="Restraunt informaiton">
+                                <rect key="frame" x="0.0" y="169" width="375" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2IU-vg-MQb" userLabel="Map with POIs">
+                                <rect key="frame" x="0.0" y="246" width="375" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tRO-Xd-VDN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2640" y="-837"/>
+            <point key="canvasLocation" x="2594" y="555"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mkg-6m-hbg">
