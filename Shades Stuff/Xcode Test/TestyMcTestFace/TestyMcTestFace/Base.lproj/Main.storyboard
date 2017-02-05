@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Nh2-4a-Hjt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Nh2-4a-Hjt">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -23,7 +23,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z4b-pm-VQg">
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z4b-pm-VQg">
                                 <rect key="frame" x="20" y="84" width="374" height="410"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Meal Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iog-N3-XuN">
@@ -51,7 +51,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Z4b-pm-VQg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OPQ-ak-dw6"/>
                             <constraint firstItem="Z4b-pm-VQg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="QfP-6n-BBT"/>
@@ -126,6 +126,7 @@
                                     <outlet property="nameLabel" destination="Z2y-q5-wU2" id="sFU-TN-qFN"/>
                                     <outlet property="photoImageView" destination="W2V-ka-YYW" id="bFB-KS-O8g"/>
                                     <outlet property="ratingControl" destination="6VJ-4b-wCV" id="fMm-Ru-2gv"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="bfm-yJ-Q6L"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -182,10 +183,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oji-pS-xPo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2602.898550724638" y="203.80434782608697"/>
+            <point key="canvasLocation" x="2658" y="673"/>
         </scene>
     </scenes>
     <resources>
         <image name="Default Photo" width="540" height="540"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="bfm-yJ-Q6L"/>
+    </inferredMetricsTieBreakers>
 </document>
