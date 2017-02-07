@@ -66,12 +66,17 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="69" id="TAc-YN-ctz"/>
                                                 </constraints>
+                                                <state key="normal" title="Hotel"/>
+                                                <connections>
+                                                    <segue destination="FKe-1A-Pb5" kind="presentation" id="Vwz-Cy-JnU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KwF-gz-7go" userLabel="Travel">
                                                 <rect key="frame" x="0.0" y="308" width="376" height="69"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="69" id="X8m-gx-7jo"/>
                                                 </constraints>
+                                                <state key="normal" title="Travel"/>
                                                 <connections>
                                                     <segue destination="9YU-6B-7nX" kind="presentation" id="qsY-8B-68X"/>
                                                 </connections>
@@ -315,7 +320,7 @@
         <!--Travel-->
         <scene sceneID="6Sx-yV-lhs">
             <objects>
-                <viewController id="aOV-tj-QEE" userLabel="Travel" sceneMemberID="viewController">
+                <viewController id="aOV-tj-QEE" userLabel="Travel" customClass="Main_Travel_ViewController" customModule="PREBIC_Information" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KpE-wJ-oVZ"/>
                         <viewControllerLayoutGuide type="bottom" id="YV2-fE-v96"/>
@@ -353,6 +358,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2uy-C8-Uvn">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="DirFromIAHToGalvez:" destination="aOV-tj-QEE" eventType="touchUpInside" id="wRc-oc-gMF"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -370,6 +378,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4s-um-NF8">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="DirToHobbyToGalvez:" destination="aOV-tj-QEE" eventType="touchUpInside" id="GcD-aa-IiI"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -387,6 +398,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiV-kj-Mp4">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="SuperShuttleLink:" destination="aOV-tj-QEE" eventType="touchUpInside" id="xJ4-bG-rdb"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -404,6 +418,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6Y-3P-Cuc">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="UberLink:" destination="aOV-tj-QEE" eventType="touchUpInside" id="oQi-WQ-Y1i"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -421,6 +438,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNU-AB-Uy9">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="GalvezLimoLink:" destination="aOV-tj-QEE" eventType="touchUpInside" id="yV0-LT-BdR"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -438,6 +458,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAW-Cv-zkn">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="TaxiLink:" destination="aOV-tj-QEE" eventType="touchUpInside" id="aeI-BJ-HdC"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -505,7 +528,13 @@
                             <constraint firstItem="VPX-92-zWj" firstAttribute="top" secondItem="KpE-wJ-oVZ" secondAttribute="bottom" id="uM8-X7-JPX"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Travel" id="FQ8-Nk-lxJ"/>
+                    <navigationItem key="navigationItem" title="Travel" id="FQ8-Nk-lxJ">
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="8vf-N6-7yV">
+                            <connections>
+                                <segue destination="bCF-93-kAa" kind="show" id="czI-LB-R6A"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SQB-sJ-09h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -514,7 +543,7 @@
         <!--Hotel-->
         <scene sceneID="OKd-bd-POJ">
             <objects>
-                <viewController id="MS2-pb-aIx" userLabel="Hotel" sceneMemberID="viewController">
+                <viewController id="MS2-pb-aIx" userLabel="Hotel" customClass="HotelMainViewController" customModule="PREBIC_Information" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LOX-bL-10n"/>
                         <viewControllerLayoutGuide type="bottom" id="KxC-eP-oeh"/>
@@ -552,6 +581,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JaU-LO-hbO">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="GoToGalvezLink:" destination="MS2-pb-aIx" eventType="touchUpInside" id="sZJ-sf-hQg"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -568,6 +600,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ew-FR-dgq">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="GoToFoodLink:" destination="MS2-pb-aIx" eventType="touchUpInside" id="48e-TF-Jqf"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -584,6 +619,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7rt-yp-9U4">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="GoToShuttleinfoLink:" destination="MS2-pb-aIx" eventType="touchUpInside" id="Ve3-JR-jgt"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -621,11 +659,17 @@
                             <constraint firstItem="s7M-Z3-TOb" firstAttribute="trailing" secondItem="u7v-Ix-Yl1" secondAttribute="trailing" id="yuf-RV-pZe"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Hotel" id="0In-lB-FKl"/>
+                    <navigationItem key="navigationItem" title="Hotel" id="0In-lB-FKl">
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="9Lp-fS-Gcn">
+                            <connections>
+                                <segue destination="bCF-93-kAa" kind="presentation" id="LeC-cn-nXv"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xpq-10-R0D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2165.5999999999999" y="-394.45277361319341"/>
+            <point key="canvasLocation" x="2369" y="-394"/>
         </scene>
         <!--Venue-->
         <scene sceneID="iXd-CW-P9i">
@@ -741,7 +785,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ezy-Nu-BrE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2816.8000000000002" y="-394.45277361319341"/>
+            <point key="canvasLocation" x="3137" y="-394"/>
         </scene>
         <!--Program_D_MainStoryboard-->
         <scene sceneID="Uip-D6-N1P">
@@ -983,7 +1027,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jcC-pg-XRX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2087" y="-1210"/>
+            <point key="canvasLocation" x="2370" y="-1210"/>
         </scene>
         <!--Navigation Controller Venue-->
         <scene sceneID="NxE-6Z-e3n">
@@ -1001,7 +1045,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xA6-qF-8PT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2729" y="-1200"/>
+            <point key="canvasLocation" x="3137" y="-1210"/>
         </scene>
     </scenes>
     <resources>
@@ -1013,4 +1057,7 @@
         <image name="Schedule" width="340" height="60"/>
         <image name="UTMBWebsite" width="340" height="60"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="LeC-cn-nXv"/>
+    </inferredMetricsTieBreakers>
 </document>
