@@ -209,6 +209,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVf-8z-Gc7" userLabel="Prebic Buton">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
                                                         <state key="normal" backgroundImage="PreWebsite"/>
+                                                        <connections>
+                                                            <action selector="GoToPrebicLink:" destination="Reh-nk-BP7" eventType="touchUpInside" id="jFk-ue-xb5"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -225,6 +228,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0v-IS-BWo" userLabel="Galvez Buton">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
                                                         <state key="normal" backgroundImage="GalvezWebsite"/>
+                                                        <connections>
+                                                            <action selector="GoToGalvezLink:" destination="Reh-nk-BP7" eventType="touchUpInside" id="qNM-1k-9La"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -241,6 +247,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpB-Vh-Set">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
                                                         <state key="normal" backgroundImage="UTMBWebsite"/>
+                                                        <connections>
+                                                            <action selector="GoToUTMBLink:" destination="Reh-nk-BP7" eventType="touchUpInside" id="ZxV-hR-acV"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
