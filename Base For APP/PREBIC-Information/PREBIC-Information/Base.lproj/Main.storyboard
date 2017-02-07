@@ -59,7 +59,10 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="69" id="stu-ql-xea"/>
                                                 </constraints>
-                                                <state key="normal" title="UI Test"/>
+                                                <state key="normal" title="Venue info"/>
+                                                <connections>
+                                                    <segue destination="FdU-k2-rq2" kind="presentation" id="Qx5-ee-dhH"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nX-bY-qHY" userLabel="Hotel">
                                                 <rect key="frame" x="0.0" y="231" width="376" height="69"/>
@@ -781,7 +784,13 @@
                             <constraint firstAttribute="trailing" secondItem="u0r-8o-Fjg" secondAttribute="trailing" id="qQH-c8-maF"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="DqZ-zT-qra"/>
+                    <navigationItem key="navigationItem" title="Venue Info" id="DqZ-zT-qra">
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="AkV-ll-ktK">
+                            <connections>
+                                <segue destination="bCF-93-kAa" kind="presentation" id="1U9-sI-zFz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ezy-Nu-BrE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1058,6 +1067,6 @@
         <image name="UTMBWebsite" width="340" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="LeC-cn-nXv"/>
+        <segue reference="1U9-sI-zFz"/>
     </inferredMetricsTieBreakers>
 </document>
