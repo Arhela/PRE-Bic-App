@@ -89,6 +89,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="69" id="2c9-OO-tAl"/>
                                                 </constraints>
+                                                <state key="normal" title="Galveston"/>
                                                 <connections>
                                                     <segue destination="Ofw-SN-vUW" kind="show" id="2cV-IB-uId"/>
                                                 </connections>
@@ -832,7 +833,7 @@
         <!--Galveston Info-->
         <scene sceneID="4Wn-6X-mSH">
             <objects>
-                <viewController id="34I-5P-qGf" userLabel="Galveston Info" sceneMemberID="viewController">
+                <viewController id="34I-5P-qGf" userLabel="Galveston Info" customClass="GalvestonMainViewController" customModule="PREBIC_Information" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7zg-1C-9FZ"/>
                         <viewControllerLayoutGuide type="bottom" id="Qsb-69-WjW"/>
@@ -870,6 +871,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCR-xH-DA4">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="GoToWeatherLink:" destination="34I-5P-qGf" eventType="touchUpInside" id="iO1-c5-6d0"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -886,6 +890,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qeb-9H-869">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="GoToRestauratntLink:" destination="34I-5P-qGf" eventType="touchUpInside" id="lBP-ul-IMH"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -902,6 +909,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ZA-4D-aph">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="GoToYouAreHeremap:" destination="34I-5P-qGf" eventType="touchUpInside" id="4C9-4b-hqB"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -950,7 +960,13 @@
                             <constraint firstItem="dC8-cz-zXr" firstAttribute="top" secondItem="pTt-68-0hg" secondAttribute="top" constant="157" id="rgJ-Ao-rpd"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Galveston" id="4cn-wr-6n4"/>
+                    <navigationItem key="navigationItem" title="Galveston" id="4cn-wr-6n4">
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="lUo-GU-v5p">
+                            <connections>
+                                <segue destination="bCF-93-kAa" kind="presentation" id="vZq-ZL-XdH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tRO-Xd-VDN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1076,6 +1092,6 @@
         <image name="UTMBWebsite" width="340" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1U9-sI-zFz"/>
+        <segue reference="vZq-ZL-XdH"/>
     </inferredMetricsTieBreakers>
 </document>
