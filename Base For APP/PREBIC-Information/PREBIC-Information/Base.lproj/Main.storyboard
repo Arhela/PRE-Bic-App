@@ -677,7 +677,7 @@
         <!--Venue-->
         <scene sceneID="iXd-CW-P9i">
             <objects>
-                <viewController id="yYI-mM-1Wb" userLabel="Venue" sceneMemberID="viewController">
+                <viewController id="yYI-mM-1Wb" userLabel="Venue" customClass="VenueMainViewController" customModule="PREBIC_Information" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YVM-dA-zaB"/>
                         <viewControllerLayoutGuide type="bottom" id="AR9-QW-v24"/>
@@ -715,6 +715,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWr-wb-faW">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="GoToVenueDirections:" destination="yYI-mM-1Wb" eventType="touchUpInside" id="bW2-JQ-jbh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -731,6 +734,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aze-Fp-3Jx">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="PresentVenuLayout:" destination="yYI-mM-1Wb" eventType="touchUpInside" id="hRs-B9-tiL"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -747,6 +753,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ue-7G-mFW">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="VenuInfo:" destination="yYI-mM-1Wb" eventType="touchUpInside" id="ybS-9e-9hP"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
