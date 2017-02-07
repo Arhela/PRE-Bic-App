@@ -15,6 +15,7 @@
 		7A2D54A51E2F1F8200AB659B /* PREBIC_InformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D54A41E2F1F8200AB659B /* PREBIC_InformationTests.swift */; };
 		D50B5C6B1E496B7600AA0371 /* PrebicInfoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50B5C6A1E496B7600AA0371 /* PrebicInfoStoryboard.storyboard */; };
 		D50B5C6D1E496CE200AA0371 /* PrebicInfoMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B5C6C1E496CE200AA0371 /* PrebicInfoMainViewController.swift */; };
+		D51739E11E4975440094EFD9 /* TravelMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51739E01E4975440094EFD9 /* TravelMainViewController.swift */; };
 		D52D4EA81E37E66700FC162D /* Schedule_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52D4EA71E37E66700FC162D /* Schedule_Storyboard.storyboard */; };
 		D52D4EAA1E37E74D00FC162D /* ScheduleEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D4EA91E37E74D00FC162D /* ScheduleEntryViewController.swift */; };
 		D59595111E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59595101E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift */; };
@@ -47,6 +48,7 @@
 		7A2D54A61E2F1F8200AB659B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D50B5C6A1E496B7600AA0371 /* PrebicInfoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PrebicInfoStoryboard.storyboard; path = ../PrebicInfoStoryboard.storyboard; sourceTree = "<group>"; };
 		D50B5C6C1E496CE200AA0371 /* PrebicInfoMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrebicInfoMainViewController.swift; sourceTree = "<group>"; };
+		D51739E01E4975440094EFD9 /* TravelMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelMainViewController.swift; sourceTree = "<group>"; };
 		D52D4EA71E37E66700FC162D /* Schedule_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Schedule_Storyboard.storyboard; sourceTree = "<group>"; };
 		D52D4EA91E37E74D00FC162D /* ScheduleEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleEntryViewController.swift; sourceTree = "<group>"; };
 		D59595101E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrebicSiteWebViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				D5CBE0B41E38544000ECD007 /* Program_DMainViewController.swift */,
 				D5CBE0B81E3858B900ECD007 /* Main_Travel_ViewController.swift */,
 				D50B5C6C1E496CE200AA0371 /* PrebicInfoMainViewController.swift */,
+				D51739E01E4975440094EFD9 /* TravelMainViewController.swift */,
 				D59E0CDE1E3D540700825698 /* LinksViewController.swift */,
 				D59595101E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift */,
 				7A2D54931E2F1F8200AB659B /* Main.storyboard */,
@@ -234,6 +237,7 @@
 				7A2D54921E2F1F8200AB659B /* MainMenuController.swift in Sources */,
 				D5CBE0B91E3858B900ECD007 /* Main_Travel_ViewController.swift in Sources */,
 				D50B5C6D1E496CE200AA0371 /* PrebicInfoMainViewController.swift in Sources */,
+				D51739E11E4975440094EFD9 /* TravelMainViewController.swift in Sources */,
 				D52D4EAA1E37E74D00FC162D /* ScheduleEntryViewController.swift in Sources */,
 				D59E0CDF1E3D540700825698 /* LinksViewController.swift in Sources */,
 				7A2D54901E2F1F8200AB659B /* AppDelegate.swift in Sources */,

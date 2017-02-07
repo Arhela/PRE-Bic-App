@@ -315,7 +315,7 @@
         <!--Travel-->
         <scene sceneID="6Sx-yV-lhs">
             <objects>
-                <viewController id="aOV-tj-QEE" userLabel="Travel" sceneMemberID="viewController">
+                <viewController id="aOV-tj-QEE" userLabel="Travel" customClass="Main_Travel_ViewController" customModule="PREBIC_Information" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KpE-wJ-oVZ"/>
                         <viewControllerLayoutGuide type="bottom" id="YV2-fE-v96"/>
@@ -353,6 +353,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2uy-C8-Uvn">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="DirFromIAHToGalvez:" destination="aOV-tj-QEE" eventType="touchUpInside" id="wRc-oc-gMF"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -370,6 +373,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4s-um-NF8">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="DirToHobbyToGalvez:" destination="aOV-tj-QEE" eventType="touchUpInside" id="GcD-aa-IiI"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -387,6 +393,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiV-kj-Mp4">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="SuperShuttleLink:" destination="aOV-tj-QEE" eventType="touchUpInside" id="xJ4-bG-rdb"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -404,6 +413,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6Y-3P-Cuc">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="UberLink:" destination="aOV-tj-QEE" eventType="touchUpInside" id="oQi-WQ-Y1i"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -421,6 +433,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNU-AB-Uy9">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="GalvezLimoLink:" destination="aOV-tj-QEE" eventType="touchUpInside" id="yV0-LT-BdR"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -438,6 +453,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAW-Cv-zkn">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="TaxiLink:" destination="aOV-tj-QEE" eventType="touchUpInside" id="aeI-BJ-HdC"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
