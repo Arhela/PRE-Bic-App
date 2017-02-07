@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Boz-Hf-m7P">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PrebicInfoMain-->
+        <scene sceneID="mIL-W7-eaY">
+            <objects>
+                <viewController id="o7g-NP-twF" userLabel="PrebicInfoMain" customClass="PrebicInfoMainViewController" customModule="PREBIC_Information" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="21p-nf-73Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="NGn-DC-FDs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zqq-PI-Hpf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PREBIC Info" id="WC4-D4-ZYf">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="xhV-9b-1TI">
+                            <connections>
+                                <action selector="BackToMainMenu:" destination="o7g-NP-twF" id="rY2-o8-kOs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PmB-Gi-cRA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1060" y="116.49175412293854"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="R6d-Ky-E4G">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Boz-Hf-m7P" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NcD-6X-T3N">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="o7g-NP-twF" kind="relationship" relationship="rootViewController" id="Vdx-nS-zbq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gZ8-tR-ryM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="120.8" y="116.49175412293854"/>
+        </scene>
+    </scenes>
+</document>

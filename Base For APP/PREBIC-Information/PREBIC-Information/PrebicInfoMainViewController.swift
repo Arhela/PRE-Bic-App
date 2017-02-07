@@ -1,14 +1,14 @@
 //
-//  MapEntryViewController.swift
+//  PrebicInfoMainViewController.swift
 //  PREBIC-Information
 //
-//  Created by Michael Shade on 1/24/17.
+//  Created by Michael Shade on 2/6/17.
 //  Copyright © 2017 Unfazed Creations. All rights reserved.
 //
 
 import UIKit
 
-class MapEntryViewController: UIViewController {
+class PrebicInfoMainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,12 +32,11 @@ class MapEntryViewController: UIViewController {
     }
     */
     
+    //MARK ACTIONS
     
-    // MARK ACTIONS
-    
-   // dismissses the view to the main storyboard
-    @IBAction func returnAction(_ sender: Any)
+    @IBAction func BackToMainMenu(_ sender: Any)
     {
+        // dismisses back to the previous controler
         self.dismiss(animated: true, completion: nil)
     }
 
