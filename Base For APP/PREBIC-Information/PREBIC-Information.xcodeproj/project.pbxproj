@@ -24,6 +24,8 @@
 		D5CBE0B31E38541700ECD007 /* Program_D_MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CBE0B21E38541700ECD007 /* Program_D_MainStoryboard.storyboard */; };
 		D5CBE0B51E38544000ECD007 /* Program_DMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBE0B41E38544000ECD007 /* Program_DMainViewController.swift */; };
 		D5CBE0B91E3858B900ECD007 /* Main_Travel_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBE0B81E3858B900ECD007 /* Main_Travel_ViewController.swift */; };
+		D5DD88661E4985C400AC220E /* VenueMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD88651E4985C400AC220E /* VenueMainViewController.swift */; };
+		D5DD88681E49896800AC220E /* GalvestonMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD88671E49896800AC220E /* GalvestonMainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		D5CBE0B21E38541700ECD007 /* Program_D_MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Program_D_MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D5CBE0B41E38544000ECD007 /* Program_DMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Program_DMainViewController.swift; sourceTree = "<group>"; };
 		D5CBE0B81E3858B900ECD007 /* Main_Travel_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main_Travel_ViewController.swift; sourceTree = "<group>"; };
+		D5DD88651E4985C400AC220E /* VenueMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueMainViewController.swift; sourceTree = "<group>"; };
+		D5DD88671E49896800AC220E /* GalvestonMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalvestonMainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				D59E0CDE1E3D540700825698 /* LinksViewController.swift */,
 				D59595101E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift */,
 				D51739E21E497FDF0094EFD9 /* HotelMainViewController.swift */,
+				D5DD88651E4985C400AC220E /* VenueMainViewController.swift */,
+				D5DD88671E49896800AC220E /* GalvestonMainViewController.swift */,
 				7A2D54931E2F1F8200AB659B /* Main.storyboard */,
 				D5CBE0B21E38541700ECD007 /* Program_D_MainStoryboard.storyboard */,
 				D50B5C6A1E496B7600AA0371 /* PrebicInfoStoryboard.storyboard */,
@@ -239,8 +245,10 @@
 			files = (
 				7A2D54921E2F1F8200AB659B /* MainMenuController.swift in Sources */,
 				D5CBE0B91E3858B900ECD007 /* Main_Travel_ViewController.swift in Sources */,
+				D5DD88661E4985C400AC220E /* VenueMainViewController.swift in Sources */,
 				D50B5C6D1E496CE200AA0371 /* PrebicInfoMainViewController.swift in Sources */,
 				D51739E11E4975440094EFD9 /* TravelMainViewController.swift in Sources */,
+				D5DD88681E49896800AC220E /* GalvestonMainViewController.swift in Sources */,
 				D51739E31E497FDF0094EFD9 /* HotelMainViewController.swift in Sources */,
 				D52D4EAA1E37E74D00FC162D /* ScheduleEntryViewController.swift in Sources */,
 				D59E0CDF1E3D540700825698 /* LinksViewController.swift in Sources */,
