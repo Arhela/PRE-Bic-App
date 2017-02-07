@@ -66,6 +66,10 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="69" id="TAc-YN-ctz"/>
                                                 </constraints>
+                                                <state key="normal" title="Hotel"/>
+                                                <connections>
+                                                    <segue destination="FKe-1A-Pb5" kind="presentation" id="Vwz-Cy-JnU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KwF-gz-7go" userLabel="Travel">
                                                 <rect key="frame" x="0.0" y="308" width="376" height="69"/>
@@ -539,7 +543,7 @@
         <!--Hotel-->
         <scene sceneID="OKd-bd-POJ">
             <objects>
-                <viewController id="MS2-pb-aIx" userLabel="Hotel" sceneMemberID="viewController">
+                <viewController id="MS2-pb-aIx" userLabel="Hotel" customClass="HotelMainViewController" customModule="PREBIC_Information" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LOX-bL-10n"/>
                         <viewControllerLayoutGuide type="bottom" id="KxC-eP-oeh"/>
@@ -577,6 +581,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JaU-LO-hbO">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="GoToGalvezLink:" destination="MS2-pb-aIx" eventType="touchUpInside" id="sZJ-sf-hQg"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -593,6 +600,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ew-FR-dgq">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="GoToFoodLink:" destination="MS2-pb-aIx" eventType="touchUpInside" id="48e-TF-Jqf"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -609,6 +619,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7rt-yp-9U4">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="GoToShuttleinfoLink:" destination="MS2-pb-aIx" eventType="touchUpInside" id="Ve3-JR-jgt"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -646,11 +659,17 @@
                             <constraint firstItem="s7M-Z3-TOb" firstAttribute="trailing" secondItem="u7v-Ix-Yl1" secondAttribute="trailing" id="yuf-RV-pZe"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Hotel" id="0In-lB-FKl"/>
+                    <navigationItem key="navigationItem" title="Hotel" id="0In-lB-FKl">
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="9Lp-fS-Gcn">
+                            <connections>
+                                <segue destination="bCF-93-kAa" kind="presentation" id="LeC-cn-nXv"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xpq-10-R0D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2165.5999999999999" y="-394.45277361319341"/>
+            <point key="canvasLocation" x="2369" y="-394"/>
         </scene>
         <!--Venue-->
         <scene sceneID="iXd-CW-P9i">
@@ -766,7 +785,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ezy-Nu-BrE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2816.8000000000002" y="-394.45277361319341"/>
+            <point key="canvasLocation" x="3137" y="-394"/>
         </scene>
         <!--Program_D_MainStoryboard-->
         <scene sceneID="Uip-D6-N1P">
@@ -1008,7 +1027,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jcC-pg-XRX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2087" y="-1210"/>
+            <point key="canvasLocation" x="2370" y="-1210"/>
         </scene>
         <!--Navigation Controller Venue-->
         <scene sceneID="NxE-6Z-e3n">
@@ -1026,7 +1045,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xA6-qF-8PT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2729" y="-1200"/>
+            <point key="canvasLocation" x="3137" y="-1210"/>
         </scene>
     </scenes>
     <resources>
@@ -1039,6 +1058,6 @@
         <image name="UTMBWebsite" width="340" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="czI-LB-R6A"/>
+        <segue reference="LeC-cn-nXv"/>
     </inferredMetricsTieBreakers>
 </document>
