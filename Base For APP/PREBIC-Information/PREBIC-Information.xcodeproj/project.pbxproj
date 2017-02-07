@@ -21,7 +21,6 @@
 		D59E0CDF1E3D540700825698 /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E0CDE1E3D540700825698 /* LinksViewController.swift */; };
 		D5CBE0B31E38541700ECD007 /* Program_D_MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CBE0B21E38541700ECD007 /* Program_D_MainStoryboard.storyboard */; };
 		D5CBE0B51E38544000ECD007 /* Program_DMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBE0B41E38544000ECD007 /* Program_DMainViewController.swift */; };
-		D5CBE0B71E38589400ECD007 /* Travel_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CBE0B61E38589400ECD007 /* Travel_Storyboard.storyboard */; };
 		D5CBE0B91E3858B900ECD007 /* Main_Travel_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBE0B81E3858B900ECD007 /* Main_Travel_ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +53,6 @@
 		D59E0CDE1E3D540700825698 /* LinksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinksViewController.swift; path = ../LinksViewController.swift; sourceTree = "<group>"; };
 		D5CBE0B21E38541700ECD007 /* Program_D_MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Program_D_MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D5CBE0B41E38544000ECD007 /* Program_DMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Program_DMainViewController.swift; sourceTree = "<group>"; };
-		D5CBE0B61E38589400ECD007 /* Travel_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Travel_Storyboard.storyboard; sourceTree = "<group>"; };
 		D5CBE0B81E3858B900ECD007 /* Main_Travel_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main_Travel_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,7 +104,6 @@
 				D59E0CDE1E3D540700825698 /* LinksViewController.swift */,
 				D59595101E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift */,
 				7A2D54931E2F1F8200AB659B /* Main.storyboard */,
-				D5CBE0B61E38589400ECD007 /* Travel_Storyboard.storyboard */,
 				D5CBE0B21E38541700ECD007 /* Program_D_MainStoryboard.storyboard */,
 				D52D4EA31E37E1C300FC162D /* MapStoryboard.storyboard */,
 				D52D4EA71E37E66700FC162D /* Schedule_Storyboard.storyboard */,
@@ -213,7 +210,6 @@
 			files = (
 				7A2D549A1E2F1F8200AB659B /* LaunchScreen.storyboard in Resources */,
 				D52D4EA81E37E66700FC162D /* Schedule_Storyboard.storyboard in Resources */,
-				D5CBE0B71E38589400ECD007 /* Travel_Storyboard.storyboard in Resources */,
 				7A2D54971E2F1F8200AB659B /* Assets.xcassets in Resources */,
 				D52D4EA41E37E1C300FC162D /* MapStoryboard.storyboard in Resources */,
 				D5CBE0B31E38541700ECD007 /* Program_D_MainStoryboard.storyboard in Resources */,
