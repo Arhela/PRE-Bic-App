@@ -72,6 +72,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="69" id="X8m-gx-7jo"/>
                                                 </constraints>
+                                                <state key="normal" title="Travel"/>
                                                 <connections>
                                                     <segue destination="9YU-6B-7nX" kind="presentation" id="qsY-8B-68X"/>
                                                 </connections>
@@ -523,7 +524,13 @@
                             <constraint firstItem="VPX-92-zWj" firstAttribute="top" secondItem="KpE-wJ-oVZ" secondAttribute="bottom" id="uM8-X7-JPX"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Travel" id="FQ8-Nk-lxJ"/>
+                    <navigationItem key="navigationItem" title="Travel" id="FQ8-Nk-lxJ">
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="8vf-N6-7yV">
+                            <connections>
+                                <segue destination="bCF-93-kAa" kind="show" id="czI-LB-R6A"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SQB-sJ-09h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1031,4 +1038,7 @@
         <image name="Schedule" width="340" height="60"/>
         <image name="UTMBWebsite" width="340" height="60"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="czI-LB-R6A"/>
+    </inferredMetricsTieBreakers>
 </document>
