@@ -64,7 +64,10 @@ class Main_Travel_ViewController: UIViewController {
     
     @IBAction func SuperShuttleLink(_ sender: Any)
     {
-        //TODO get this info
+        if let shuttleUrl = URL (string: "https://www.supershuttle.com/")
+        {
+            UIApplication.shared.open(shuttleUrl, options: [:])
+        }
     }
     
     @IBAction func UberLink(_ sender: Any)
@@ -83,6 +86,9 @@ class Main_Travel_ViewController: UIViewController {
     
     @IBAction func TaxiLink(_ sender: Any)
     {
-        // To do, Find this out
+        if let taxiUrl = URL (string: "https://www.google.com/?gws_rd=ssl#q=galveston+taxi+services")
+        {
+            UIApplication.shared.open(taxiUrl, options: [:])
+        }
     }
 }
