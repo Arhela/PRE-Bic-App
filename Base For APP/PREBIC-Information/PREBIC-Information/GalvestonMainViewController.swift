@@ -50,9 +50,13 @@ class GalvestonMainViewController: UIViewController {
         }
     }
     
+   // Will link to POI
     @IBAction func GoToYouAreHeremap(_ sender: Any)
     {
-        // todo Find map thing
+        if let PoiUrl = URL (string: "http://www.galveston.com/attractions/")
+        {
+            UIApplication.shared.open(PoiUrl, options: [:]) 
+        }
         
     }
     
