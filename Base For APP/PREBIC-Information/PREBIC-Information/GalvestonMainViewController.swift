@@ -36,12 +36,18 @@ class GalvestonMainViewController: UIViewController {
 
     @IBAction func GoToWeatherLink(_ sender: Any)
     {
-        // TODO Find weather Link
+        if let weatherUrl = URL (string: "https://weather.com/weather/today/l/Galveston+TX+USTX0499:1:US")
+        {
+            UIApplication.shared.open(weatherUrl, options: [:]) 
+        }
     }
     
     @IBAction func GoToRestauratntLink(_ sender: Any)
     {
-        // TODO Go to the usable restaurant link
+        if let restUrl = URL (string: "https://www.google.com/maps/search/best+places+to+eat+in+galveston/@29.2929404,-94.8242935,13z")
+        {
+            UIApplication.shared.open(restUrl, options: [:])
+        }
     }
     
     @IBAction func GoToYouAreHeremap(_ sender: Any)
