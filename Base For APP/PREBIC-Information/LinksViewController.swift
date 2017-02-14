@@ -34,7 +34,7 @@ class LinksViewController: UIViewController {
     
     // MARK ACTIONS
    
-    @IBAction func PrebicSite(_ sender: Any)
+   /* @IBAction func PrebicSite(_ sender: Any)
     {
         if let prebicUrl = URL(string: "https://www.prebicglobal.org/") {
             UIApplication.shared.open(prebicUrl, options: [:])
@@ -55,5 +55,29 @@ class LinksViewController: UIViewController {
         }
         
     }
+ */
+    
+ // Mark New actions
+    
+    @IBAction func GoToPrebicLink(_ sender: Any)
+    {
+        if let prebicUrl = URL(string: "https://www.prebicglobal.org/") {
+            UIApplication.shared.open(prebicUrl, options: [:])
+        }
+    }
 
+    @IBAction func GoToGalvezLink(_ sender: Any)
+    {
+        if let Galvezurl = URL(string: "http://www.hotelgalvez.com/") {
+            UIApplication.shared.open(Galvezurl, options: [:])
+        }
+    }
+    
+    @IBAction func GoToUTMBLink(_ sender: Any)
+    {
+        if let imbdUrl = URL(string: "https://www.utmb.edu") {
+            UIApplication.shared.open(imbdUrl, options: [:])
+        }
+    }
+    
 }
