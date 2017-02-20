@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bCF-93-kAa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bCF-93-kAa">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -7,7 +7,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Unknown constraint types" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -38,6 +37,9 @@
                                                     <constraint firstAttribute="height" constant="63" id="xUb-Sm-u6K"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="ProgDetails ComingSoon"/>
+                                                <connections>
+                                                    <segue destination="hsg-cr-xNk" kind="show" id="aoS-SV-fQQ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Fw-l2-Mee" userLabel="Schedule">
                                                 <rect key="frame" x="0.0" y="65" width="376" height="69"/>
@@ -45,6 +47,9 @@
                                                     <constraint firstAttribute="height" constant="69" id="7BN-cp-36A"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="MySched ComingSoon"/>
+                                                <connections>
+                                                    <segue destination="IqR-JV-pCh" kind="show" id="WO0-yP-vnI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPQ-mg-wlq" userLabel="Venue">
                                                 <rect key="frame" x="0.0" y="136" width="376" height="69"/>
@@ -407,7 +412,14 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FR0-pe-4mV">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+<<<<<<< HEAD
+                                                <state key="normal" backgroundImage="TravelButton-Limo"/>
+                                                <connections>
+                                                    <action selector="GalvezLimoLink:" destination="aOV-tj-QEE" eventType="touchUpInside" id="yV0-LT-BdR"/>
+                                                </connections>
+=======
                                                 <state key="normal" backgroundImage="TravelButton-Taxi"/>
+>>>>>>> Shared
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -425,6 +437,12 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="821-2w-drd">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" backgroundImage="TravelButton-Limo"/>
+<<<<<<< HEAD
+                                                <connections>
+                                                    <action selector="TaxiLink:" destination="aOV-tj-QEE" eventType="touchUpInside" id="aeI-BJ-HdC"/>
+                                                </connections>
+=======
+>>>>>>> Shared
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -546,6 +564,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DarkBackground" translatesAutoresizingMaskIntoConstraints="NO" id="pQ1-om-RYf">
+                                <rect key="frame" x="0.0" y="64" width="375" height="595"/>
+                            </imageView>
+=======
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u7v-Ix-Yl1" userLabel="Spacer">
                                 <rect key="frame" x="0.0" y="391" width="375" height="268"/>
                                 <subviews>
@@ -556,6 +579,7 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+>>>>>>> Shared
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Gld-hA-5t6" userLabel="Stack View header">
                                 <rect key="frame" x="0.0" y="64" width="375" height="85"/>
                                 <subviews>
@@ -642,6 +666,13 @@
                                     <constraint firstItem="o38-qD-o0a" firstAttribute="top" secondItem="s7M-Z3-TOb" secondAttribute="top" constant="78" id="Iin-Cc-WPJ"/>
                                 </constraints>
                             </stackView>
+<<<<<<< HEAD
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u7v-Ix-Yl1" userLabel="Spacer">
+                                <rect key="frame" x="0.0" y="391" width="375" height="268"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+=======
+>>>>>>> Shared
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -651,11 +682,15 @@
                             <constraint firstItem="s7M-Z3-TOb" firstAttribute="top" secondItem="Gld-hA-5t6" secondAttribute="bottom" constant="8" symbolic="YES" id="CRm-An-vtD"/>
                             <constraint firstItem="s7M-Z3-TOb" firstAttribute="leading" secondItem="u7v-Ix-Yl1" secondAttribute="leading" id="Ck0-2S-tVq"/>
                             <constraint firstItem="KxC-eP-oeh" firstAttribute="top" secondItem="u7v-Ix-Yl1" secondAttribute="bottom" constant="8" symbolic="YES" id="Gni-qe-NjB"/>
+                            <constraint firstItem="pQ1-om-RYf" firstAttribute="leading" secondItem="fO7-ep-xGE" secondAttribute="leadingMargin" constant="-16" id="SH0-iB-6lZ"/>
                             <constraint firstItem="u7v-Ix-Yl1" firstAttribute="top" secondItem="s7M-Z3-TOb" secondAttribute="bottom" constant="8" symbolic="YES" id="TWg-3P-2TJ"/>
+                            <constraint firstItem="pQ1-om-RYf" firstAttribute="top" secondItem="LOX-bL-10n" secondAttribute="bottom" id="TsK-PR-knL"/>
                             <constraint firstItem="Gld-hA-5t6" firstAttribute="trailing" secondItem="s7M-Z3-TOb" secondAttribute="trailing" id="UB7-kX-V3a"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pQ1-om-RYf" secondAttribute="trailing" constant="-16" id="eWV-nv-JNj"/>
                             <constraint firstItem="s7M-Z3-TOb" firstAttribute="top" secondItem="fO7-ep-xGE" secondAttribute="top" constant="157" id="hfa-bA-VWs"/>
                             <constraint firstItem="Gld-hA-5t6" firstAttribute="leading" secondItem="fO7-ep-xGE" secondAttribute="leading" id="lIA-Dc-bI7"/>
                             <constraint firstAttribute="trailing" secondItem="Gld-hA-5t6" secondAttribute="trailing" id="paJ-Do-NfJ"/>
+                            <constraint firstItem="KxC-eP-oeh" firstAttribute="top" secondItem="pQ1-om-RYf" secondAttribute="bottom" constant="8" id="srD-Eu-NdQ"/>
                             <constraint firstItem="s7M-Z3-TOb" firstAttribute="trailing" secondItem="u7v-Ix-Yl1" secondAttribute="trailing" id="yuf-RV-pZe"/>
                         </constraints>
                     </view>
@@ -683,11 +718,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DarkBackground" translatesAutoresizingMaskIntoConstraints="NO" id="GgN-ex-uni">
+=======
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CRH-2k-WvB" userLabel="spacer">
                                 <rect key="frame" x="0.0" y="391" width="375" height="268"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DarkBackground" translatesAutoresizingMaskIntoConstraints="NO" id="haI-Ob-fdR">
+>>>>>>> Shared
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="u0r-8o-Fjg" userLabel="Stack View header">
@@ -755,7 +794,11 @@
                                         <rect key="frame" x="0.0" y="150" width="375" height="76"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ue-7G-mFW">
+<<<<<<< HEAD
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+=======
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
+>>>>>>> Shared
                                                 <state key="normal" backgroundImage="VenueButton-History"/>
                                                 <connections>
                                                     <action selector="VenuInfo:" destination="yYI-mM-1Wb" eventType="touchUpInside" id="ybS-9e-9hP"/>
@@ -776,6 +819,13 @@
                                     <constraint firstItem="4Qq-ek-nNw" firstAttribute="centerY" secondItem="dCG-xd-uff" secondAttribute="centerY" id="jEw-hB-urZ"/>
                                 </constraints>
                             </stackView>
+<<<<<<< HEAD
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CRH-2k-WvB" userLabel="spacer">
+                                <rect key="frame" x="0.0" y="391" width="375" height="268"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+=======
+>>>>>>> Shared
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -784,17 +834,25 @@
                             <constraint firstItem="dCG-xd-uff" firstAttribute="trailing" secondItem="CRH-2k-WvB" secondAttribute="trailing" id="FbE-Sz-zmN"/>
                             <constraint firstItem="u0r-8o-Fjg" firstAttribute="leading" secondItem="fPH-lW-JX2" secondAttribute="leading" id="Gep-q4-tIS"/>
                             <constraint firstItem="dCG-xd-uff" firstAttribute="leading" secondItem="CRH-2k-WvB" secondAttribute="leading" id="KKL-1k-Caa"/>
+<<<<<<< HEAD
+                            <constraint firstItem="GgN-ex-uni" firstAttribute="leading" secondItem="fPH-lW-JX2" secondAttribute="leadingMargin" constant="-16" id="WcQ-aA-NdK"/>
+                            <constraint firstItem="AR9-QW-v24" firstAttribute="top" secondItem="CRH-2k-WvB" secondAttribute="bottom" constant="8" symbolic="YES" id="Yxs-SZ-4Co"/>
+                            <constraint firstItem="GgN-ex-uni" firstAttribute="top" secondItem="YVM-dA-zaB" secondAttribute="bottom" id="cSD-tV-8vd"/>
+=======
                             <constraint firstAttribute="trailing" secondItem="haI-Ob-fdR" secondAttribute="trailing" id="Kam-Kv-fRU"/>
                             <constraint firstItem="AR9-QW-v24" firstAttribute="top" secondItem="CRH-2k-WvB" secondAttribute="bottom" constant="8" symbolic="YES" id="Yxs-SZ-4Co"/>
                             <constraint firstItem="haI-Ob-fdR" firstAttribute="top" secondItem="YVM-dA-zaB" secondAttribute="bottom" id="Z7u-Yw-xKq"/>
                             <constraint firstItem="haI-Ob-fdR" firstAttribute="leading" secondItem="fPH-lW-JX2" secondAttribute="leading" id="cPn-5k-aHN"/>
+>>>>>>> Shared
                             <constraint firstItem="u0r-8o-Fjg" firstAttribute="top" secondItem="YVM-dA-zaB" secondAttribute="bottom" id="cmA-1U-ftq"/>
                             <constraint firstItem="AR9-QW-v24" firstAttribute="top" secondItem="haI-Ob-fdR" secondAttribute="bottom" id="fTX-24-FdR"/>
                             <constraint firstItem="CRH-2k-WvB" firstAttribute="top" secondItem="dCG-xd-uff" secondAttribute="bottom" constant="8" symbolic="YES" id="hOi-Xp-dY0"/>
                             <constraint firstItem="CRH-2k-WvB" firstAttribute="top" secondItem="fPH-lW-JX2" secondAttribute="top" constant="391" id="lBe-so-itg"/>
                             <constraint firstItem="dCG-xd-uff" firstAttribute="top" secondItem="u0r-8o-Fjg" secondAttribute="bottom" constant="8" symbolic="YES" id="nor-Nt-CUm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GgN-ex-uni" secondAttribute="trailing" constant="-16" id="oRI-CG-A3N"/>
                             <constraint firstItem="dCG-xd-uff" firstAttribute="top" secondItem="fPH-lW-JX2" secondAttribute="top" constant="157" id="pdP-Vz-JjP"/>
                             <constraint firstAttribute="trailing" secondItem="u0r-8o-Fjg" secondAttribute="trailing" id="qQH-c8-maF"/>
+                            <constraint firstItem="AR9-QW-v24" firstAttribute="top" secondItem="GgN-ex-uni" secondAttribute="bottom" id="y0y-Gj-xBg"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Venue Info" id="DqZ-zT-qra">
@@ -845,6 +903,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="805"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DarkBackground" translatesAutoresizingMaskIntoConstraints="NO" id="ndm-w3-0xh">
+                                <rect key="frame" x="0.0" y="64" width="375" height="733"/>
+=======
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4SB-T1-OMx" userLabel="Filler">
                                 <rect key="frame" x="0.0" y="217" width="375" height="371"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -853,6 +915,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DarkBackground" translatesAutoresizingMaskIntoConstraints="NO" id="FLc-Qy-X91">
                                 <rect key="frame" x="0.0" y="64" width="375" height="741"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+>>>>>>> Shared
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gK4-U8-oke" userLabel="header Stack">
                                 <rect key="frame" x="0.0" y="64" width="375" height="85"/>
@@ -942,12 +1005,28 @@
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="W3m-xx-eam" userLabel="Filler Stack">
                                 <rect key="frame" x="0.0" y="414" width="375" height="371"/>
+<<<<<<< HEAD
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4SB-T1-OMx" userLabel="Filler">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="371"/>
+                                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="4SB-T1-OMx" secondAttribute="bottom" id="PxG-fj-h0O"/>
+                                    <constraint firstItem="4SB-T1-OMx" firstAttribute="leading" secondItem="W3m-xx-eam" secondAttribute="leading" id="Xiv-0F-niO"/>
+                                    <constraint firstItem="4SB-T1-OMx" firstAttribute="top" secondItem="W3m-xx-eam" secondAttribute="top" id="hfU-W2-38p"/>
+                                    <constraint firstAttribute="trailing" secondItem="4SB-T1-OMx" secondAttribute="trailing" id="yzn-Vf-5aB"/>
+                                </constraints>
+=======
+>>>>>>> Shared
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="gK4-U8-oke" firstAttribute="leading" secondItem="dC8-cz-zXr" secondAttribute="leading" id="3XE-xK-zgj"/>
-                            <constraint firstAttribute="top" secondItem="7zg-1C-9FZ" secondAttribute="bottom" id="Knr-vr-udb"/>
+                            <constraint firstItem="ndm-w3-0xh" firstAttribute="top" secondItem="7zg-1C-9FZ" secondAttribute="bottom" id="Knr-vr-udb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ndm-w3-0xh" secondAttribute="trailing" constant="-16" id="OQ3-au-ff4"/>
                             <constraint firstItem="W3m-xx-eam" firstAttribute="top" secondItem="dC8-cz-zXr" secondAttribute="bottom" constant="31" id="PLJ-kE-zRW"/>
                             <constraint firstItem="W3m-xx-eam" firstAttribute="top" secondItem="pTt-68-0hg" secondAttribute="top" constant="414" id="R3V-Vf-JNU"/>
                             <constraint firstItem="gK4-U8-oke" firstAttribute="top" secondItem="7zg-1C-9FZ" secondAttribute="bottom" id="RRp-x4-EeA"/>
@@ -959,7 +1038,8 @@
                             <constraint firstAttribute="bottom" secondItem="W3m-xx-eam" secondAttribute="bottom" constant="20" symbolic="YES" id="kOK-m5-ODf"/>
                             <constraint firstAttribute="trailing" secondItem="gK4-U8-oke" secondAttribute="trailing" id="qUW-Ls-bDs"/>
                             <constraint firstItem="dC8-cz-zXr" firstAttribute="top" secondItem="pTt-68-0hg" secondAttribute="top" constant="157" id="rgJ-Ao-rpd"/>
-                            <constraint firstAttribute="leading" secondItem="pTt-68-0hg" secondAttribute="leadingMargin" constant="-16" id="y40-F7-d11"/>
+                            <constraint firstItem="ndm-w3-0xh" firstAttribute="leading" secondItem="pTt-68-0hg" secondAttribute="leadingMargin" constant="-16" id="y40-F7-d11"/>
+                            <constraint firstItem="Qsb-69-WjW" firstAttribute="top" secondItem="ndm-w3-0xh" secondAttribute="bottom" constant="8" id="zTo-wy-VmV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Galveston" id="4cn-wr-6n4">
@@ -1115,6 +1195,6 @@
         <image name="VenueComingSoon" width="340" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="czI-LB-R6A"/>
+        <segue reference="1U9-sI-zFz"/>
     </inferredMetricsTieBreakers>
 </document>
