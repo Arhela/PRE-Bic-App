@@ -52,9 +52,6 @@
                                                     <constraint firstAttribute="height" constant="69" id="stu-ql-xea"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="VenueComingSoon"/>
-                                                <connections>
-                                                    <segue destination="FdU-k2-rq2" kind="presentation" id="Qx5-ee-dhH"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nX-bY-qHY" userLabel="Hotel">
                                                 <rect key="frame" x="0.0" y="207" width="376" height="69"/>
@@ -92,9 +89,6 @@
                                                     <constraint firstAttribute="height" constant="69" id="kLy-Ky-yyR"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="MButton-PREBIC"/>
-                                                <connections>
-                                                    <segue destination="cuW-Lk-yxP" kind="presentation" id="5P6-be-sZK"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJT-Im-qD9" userLabel="Links">
                                                 <rect key="frame" x="-1" y="491" width="376" height="69"/>
