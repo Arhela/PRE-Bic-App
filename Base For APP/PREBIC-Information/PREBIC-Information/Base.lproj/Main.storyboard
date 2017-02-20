@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bCF-93-kAa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bCF-93-kAa">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -7,6 +7,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Unknown constraint types" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -37,9 +38,6 @@
                                                     <constraint firstAttribute="height" constant="63" id="xUb-Sm-u6K"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="ProgDetails ComingSoon"/>
-                                                <connections>
-                                                    <segue destination="hsg-cr-xNk" kind="show" id="aoS-SV-fQQ"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Fw-l2-Mee" userLabel="Schedule">
                                                 <rect key="frame" x="0.0" y="65" width="376" height="69"/>
@@ -47,9 +45,6 @@
                                                     <constraint firstAttribute="height" constant="69" id="7BN-cp-36A"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="MySched ComingSoon"/>
-                                                <connections>
-                                                    <segue destination="IqR-JV-pCh" kind="show" id="WO0-yP-vnI"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPQ-mg-wlq" userLabel="Venue">
                                                 <rect key="frame" x="0.0" y="136" width="376" height="69"/>
@@ -952,8 +947,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="gK4-U8-oke" firstAttribute="leading" secondItem="dC8-cz-zXr" secondAttribute="leading" id="3XE-xK-zgj"/>
-                            <constraint firstItem="ndm-w3-0xh" firstAttribute="top" secondItem="7zg-1C-9FZ" secondAttribute="bottom" id="Knr-vr-udb"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ndm-w3-0xh" secondAttribute="trailing" constant="-16" id="OQ3-au-ff4"/>
+                            <constraint firstAttribute="top" secondItem="7zg-1C-9FZ" secondAttribute="bottom" id="Knr-vr-udb"/>
                             <constraint firstItem="W3m-xx-eam" firstAttribute="top" secondItem="dC8-cz-zXr" secondAttribute="bottom" constant="31" id="PLJ-kE-zRW"/>
                             <constraint firstItem="W3m-xx-eam" firstAttribute="top" secondItem="pTt-68-0hg" secondAttribute="top" constant="414" id="R3V-Vf-JNU"/>
                             <constraint firstItem="gK4-U8-oke" firstAttribute="top" secondItem="7zg-1C-9FZ" secondAttribute="bottom" id="RRp-x4-EeA"/>
@@ -965,8 +959,7 @@
                             <constraint firstAttribute="bottom" secondItem="W3m-xx-eam" secondAttribute="bottom" constant="20" symbolic="YES" id="kOK-m5-ODf"/>
                             <constraint firstAttribute="trailing" secondItem="gK4-U8-oke" secondAttribute="trailing" id="qUW-Ls-bDs"/>
                             <constraint firstItem="dC8-cz-zXr" firstAttribute="top" secondItem="pTt-68-0hg" secondAttribute="top" constant="157" id="rgJ-Ao-rpd"/>
-                            <constraint firstItem="ndm-w3-0xh" firstAttribute="leading" secondItem="pTt-68-0hg" secondAttribute="leadingMargin" constant="-16" id="y40-F7-d11"/>
-                            <constraint firstItem="Qsb-69-WjW" firstAttribute="top" secondItem="ndm-w3-0xh" secondAttribute="bottom" constant="8" id="zTo-wy-VmV"/>
+                            <constraint firstAttribute="leading" secondItem="pTt-68-0hg" secondAttribute="leadingMargin" constant="-16" id="y40-F7-d11"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Galveston" id="4cn-wr-6n4">
@@ -1122,6 +1115,6 @@
         <image name="VenueComingSoon" width="340" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1U9-sI-zFz"/>
+        <segue reference="czI-LB-R6A"/>
     </inferredMetricsTieBreakers>
 </document>
