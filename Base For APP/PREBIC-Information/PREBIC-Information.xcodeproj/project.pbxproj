@@ -17,11 +17,9 @@
 		D50B5C6D1E496CE200AA0371 /* PrebicInfoMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B5C6C1E496CE200AA0371 /* PrebicInfoMainViewController.swift */; };
 		D51739E11E4975440094EFD9 /* TravelMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51739E01E4975440094EFD9 /* TravelMainViewController.swift */; };
 		D51739E31E497FDF0094EFD9 /* HotelMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51739E21E497FDF0094EFD9 /* HotelMainViewController.swift */; };
-		D52D4EA81E37E66700FC162D /* Schedule_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52D4EA71E37E66700FC162D /* Schedule_Storyboard.storyboard */; };
 		D52D4EAA1E37E74D00FC162D /* ScheduleEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D4EA91E37E74D00FC162D /* ScheduleEntryViewController.swift */; };
 		D59595111E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59595101E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift */; };
 		D59E0CDF1E3D540700825698 /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E0CDE1E3D540700825698 /* LinksViewController.swift */; };
-		D5CBE0B31E38541700ECD007 /* Program_D_MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CBE0B21E38541700ECD007 /* Program_D_MainStoryboard.storyboard */; };
 		D5CBE0B51E38544000ECD007 /* Program_DMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBE0B41E38544000ECD007 /* Program_DMainViewController.swift */; };
 		D5CBE0B91E3858B900ECD007 /* Main_Travel_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBE0B81E3858B900ECD007 /* Main_Travel_ViewController.swift */; };
 		D5DD88661E4985C400AC220E /* VenueMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD88651E4985C400AC220E /* VenueMainViewController.swift */; };
@@ -53,11 +51,9 @@
 		D50B5C6C1E496CE200AA0371 /* PrebicInfoMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrebicInfoMainViewController.swift; sourceTree = "<group>"; };
 		D51739E01E4975440094EFD9 /* TravelMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelMainViewController.swift; sourceTree = "<group>"; };
 		D51739E21E497FDF0094EFD9 /* HotelMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelMainViewController.swift; sourceTree = "<group>"; };
-		D52D4EA71E37E66700FC162D /* Schedule_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Schedule_Storyboard.storyboard; sourceTree = "<group>"; };
 		D52D4EA91E37E74D00FC162D /* ScheduleEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleEntryViewController.swift; sourceTree = "<group>"; };
 		D59595101E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrebicSiteWebViewController.swift; sourceTree = "<group>"; };
 		D59E0CDE1E3D540700825698 /* LinksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinksViewController.swift; path = ../LinksViewController.swift; sourceTree = "<group>"; };
-		D5CBE0B21E38541700ECD007 /* Program_D_MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Program_D_MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D5CBE0B41E38544000ECD007 /* Program_DMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Program_DMainViewController.swift; sourceTree = "<group>"; };
 		D5CBE0B81E3858B900ECD007 /* Main_Travel_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main_Travel_ViewController.swift; sourceTree = "<group>"; };
 		D5DD88651E4985C400AC220E /* VenueMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueMainViewController.swift; sourceTree = "<group>"; };
@@ -116,9 +112,7 @@
 				D5DD88651E4985C400AC220E /* VenueMainViewController.swift */,
 				D5DD88671E49896800AC220E /* GalvestonMainViewController.swift */,
 				7A2D54931E2F1F8200AB659B /* Main.storyboard */,
-				D5CBE0B21E38541700ECD007 /* Program_D_MainStoryboard.storyboard */,
 				D50B5C6A1E496B7600AA0371 /* PrebicInfoStoryboard.storyboard */,
-				D52D4EA71E37E66700FC162D /* Schedule_Storyboard.storyboard */,
 				7A2D54961E2F1F8200AB659B /* Assets.xcassets */,
 				7A2D54981E2F1F8200AB659B /* LaunchScreen.storyboard */,
 				7A2D549B1E2F1F8200AB659B /* Info.plist */,
@@ -185,7 +179,7 @@
 				TargetAttributes = {
 					7A2D548B1E2F1F8200AB659B = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = KMMB77Q4Q3;
+						DevelopmentTeam = B5T82PL592;
 						ProvisioningStyle = Automatic;
 					};
 					7A2D549F1E2F1F8200AB659B = {
@@ -221,9 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A2D549A1E2F1F8200AB659B /* LaunchScreen.storyboard in Resources */,
-				D52D4EA81E37E66700FC162D /* Schedule_Storyboard.storyboard in Resources */,
 				7A2D54971E2F1F8200AB659B /* Assets.xcassets in Resources */,
-				D5CBE0B31E38541700ECD007 /* Program_D_MainStoryboard.storyboard in Resources */,
 				D50B5C6B1E496B7600AA0371 /* PrebicInfoStoryboard.storyboard in Resources */,
 				7A2D54951E2F1F8200AB659B /* Main.storyboard in Resources */,
 			);
@@ -393,10 +385,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KMMB77Q4Q3;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B5T82PL592;
 				INFOPLIST_FILE = "PREBIC-Information/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "UnfazedCreations.PREBIC-Information";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unfazed.PREBIC-Information";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -406,10 +400,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KMMB77Q4Q3;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B5T82PL592;
 				INFOPLIST_FILE = "PREBIC-Information/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "UnfazedCreations.PREBIC-Information";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unfazed.PREBIC-Information";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
