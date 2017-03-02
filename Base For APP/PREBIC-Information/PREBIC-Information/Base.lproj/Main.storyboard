@@ -63,7 +63,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="69" id="2c9-OO-tAl"/>
                                                 </constraints>
-                                                <state key="normal" backgroundImage="MButton-Galveston"/>
+                                                <state key="normal" backgroundImage="New Gaveston image"/>
                                                 <connections>
                                                     <segue destination="Ofw-SN-vUW" kind="show" id="2cV-IB-uId"/>
                                                 </connections>
@@ -1079,12 +1079,12 @@
         <image name="LinksButton-Galvez" width="340" height="60"/>
         <image name="LinksButton-PREBIC" width="340" height="60"/>
         <image name="LinksButton-UTMB" width="340" height="60"/>
-        <image name="MButton-Galveston" width="340" height="60"/>
         <image name="MButton-Hotel" width="340" height="60"/>
         <image name="MButton-Links" width="340" height="60"/>
         <image name="MButton-PREBIC" width="340" height="60"/>
         <image name="MButton-Travel" width="340" height="60"/>
         <image name="MySched ComingSoon" width="340" height="60"/>
+        <image name="New Gaveston image" width="340" height="60"/>
         <image name="TravelButton-IAH" width="340" height="60"/>
         <image name="TravelButton-Limo" width="340" height="60"/>
         <image name="TravelButton-SuperShuttle" width="340" height="60"/>
