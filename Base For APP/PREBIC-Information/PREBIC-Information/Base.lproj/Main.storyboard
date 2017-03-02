@@ -675,6 +675,46 @@
             </objects>
             <point key="canvasLocation" x="2368.8000000000002" y="-394.45277361319341"/>
         </scene>
+        <!--Schedule-->
+        <scene sceneID="egb-hn-mYN">
+            <objects>
+                <viewController id="IxS-Q4-Myl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ECM-zQ-gIt"/>
+                        <viewControllerLayoutGuide type="bottom" id="fBt-eU-uct"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gHf-ry-uGU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Header" translatesAutoresizingMaskIntoConstraints="NO" id="Q7U-dK-GIn">
+                                <rect key="frame" x="0.0" y="64" width="320" height="84"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6Zs-TH-VKH">
+                                <rect key="frame" x="0.0" y="154" width="320" height="414"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <accessibility key="accessibilityConfiguration" label="Schedule view"/>
+                        <constraints>
+                            <constraint firstItem="6Zs-TH-VKH" firstAttribute="leading" secondItem="gHf-ry-uGU" secondAttribute="leadingMargin" constant="-16" id="3br-Sy-AXp"/>
+                            <constraint firstItem="Q7U-dK-GIn" firstAttribute="leading" secondItem="gHf-ry-uGU" secondAttribute="leading" id="69V-f5-gvR"/>
+                            <constraint firstItem="6Zs-TH-VKH" firstAttribute="top" secondItem="Q7U-dK-GIn" secondAttribute="bottom" constant="6" id="7iW-up-k03"/>
+                            <constraint firstItem="fBt-eU-uct" firstAttribute="top" secondItem="6Zs-TH-VKH" secondAttribute="bottom" id="Fqt-MU-2Rl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6Zs-TH-VKH" secondAttribute="trailing" constant="-16" id="d7P-t0-hlu"/>
+                            <constraint firstAttribute="trailing" secondItem="Q7U-dK-GIn" secondAttribute="trailing" id="gs9-Gf-5gE"/>
+                            <constraint firstItem="Q7U-dK-GIn" firstAttribute="top" secondItem="ECM-zQ-gIt" secondAttribute="bottom" id="ur9-HT-iAg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Schedule" id="HHZ-uX-aBp">
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="4xX-gt-ayX"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xwt-Ni-SfG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3405" y="410.91549295774649"/>
+        </scene>
         <!--Venue-->
         <scene sceneID="iXd-CW-P9i">
             <objects>
@@ -1066,6 +1106,24 @@
             </objects>
             <point key="canvasLocation" x="3137" y="-1210"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DUi-ne-fNy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bvC-kM-dF5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="niK-Wr-j01">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IxS-Q4-Myl" kind="relationship" relationship="rootViewController" id="4so-wY-BcC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="duG-bk-1Vx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2407.5" y="410.91549295774649"/>
+        </scene>
     </scenes>
     <resources>
         <image name="DarkBackground" width="360" height="900"/>
@@ -1097,6 +1155,6 @@
         <image name="VenueComingSoon" width="340" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vZq-ZL-XdH"/>
+        <segue reference="LeC-cn-nXv"/>
     </inferredMetricsTieBreakers>
 </document>
