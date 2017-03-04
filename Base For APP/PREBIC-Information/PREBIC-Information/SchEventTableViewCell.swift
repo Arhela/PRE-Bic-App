@@ -12,12 +12,11 @@ class SchEventTableViewCell: UITableViewCell
 {
     
     //Properties
-    
-    // Event name label
+    // event label
     @IBOutlet weak var eventLabel: UILabel!
     
-    // Location name Label
-    @IBOutlet weak var locationName: UILabel!
+    // location label
+    @IBOutlet weak var locLabel: UILabel!
     
     // time label
     @IBOutlet weak var timeLabel: UILabel!
