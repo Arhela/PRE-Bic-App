@@ -37,24 +37,32 @@ class SchEventTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        // This controlls how many section the table view has we just need one
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        // this controlls how many rows since we only need the number of rows == the total number in the array
+        return events.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+       // Table view cells are reused and should be dequeued using a cell identifier.
+        let cellIdentifier = "SchEventTableViewCell"
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? SchEventTableViewCell else {fatalError("The dequeued cell is not an instance of SchEventTableViewCell")}
+        
+        // feches the correct SchEvent for the cell
+        let event = events[indexPath.row]
 
-        // Configure the cell...
+        cell.eventLabel.text = event.eventName
+        cell.locLabel.text = event.eventLocation
+        cell.timeLabel.text = event.eventTime
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
