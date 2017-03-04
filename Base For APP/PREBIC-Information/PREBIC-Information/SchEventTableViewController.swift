@@ -10,8 +10,17 @@ import UIKit
 
 class SchEventTableViewController: UITableViewController {
 
+    // Properties 
+    
+    // array of Events 
+    
+    var events = [SchEvent]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // load the list
+        LoadEventList()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -91,5 +100,20 @@ class SchEventTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    // Private methods
+    private func LoadEventList ()
+    {
+        // load two tests 
+        
+        let test1 = SchEvent(name: "First test", discription: "This is to test the first event", location: "Shade's MBP", time: "Sat Mar 01  8:00PM", speaker: "Michael Shade")
+        
+        let test2 = SchEvent(name: "Second test", discription: "This is to test the Second event", location: "Shade's MBP", time: "Sat Mar 01  8:30PM", speaker: "Michael Shade")
+        
+        let test3 = SchEvent(name: "Third test", discription: "This is to test the Third event", location: "Shade's MBP", time: "Sat Mar 01  9:00PM", speaker: "Michael Shade")
+        
+        // Add events to the array
+        events += [test1, test2, test3]
+    }
 
 }
