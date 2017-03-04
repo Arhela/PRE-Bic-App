@@ -8,7 +8,19 @@
 
 import UIKit
 
-class SchEventTableViewCell: UITableViewCell {
+class SchEventTableViewCell: UITableViewCell
+{
+    
+    //Properties
+    
+    // Event name label
+    @IBOutlet weak var eventLabel: UILabel!
+    
+    // Location name Label
+    @IBOutlet weak var locationName: UILabel!
+    
+    // time label
+    @IBOutlet weak var timeLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
