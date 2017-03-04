@@ -26,6 +26,7 @@
 		D5DD88681E49896800AC220E /* GalvestonMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD88671E49896800AC220E /* GalvestonMainViewController.swift */; };
 		D5E628071E68BA810082D6A1 /* SchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E628061E68BA810082D6A1 /* SchEvent.swift */; };
 		D5E883821E6A3FC600816549 /* SchEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E883811E6A3FC600816549 /* SchEventTableViewCell.swift */; };
+		D5E883841E6A4CD400816549 /* SchEventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E883831E6A4CD400816549 /* SchEventTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		D5DD88671E49896800AC220E /* GalvestonMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalvestonMainViewController.swift; sourceTree = "<group>"; };
 		D5E628061E68BA810082D6A1 /* SchEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchEvent.swift; sourceTree = "<group>"; };
 		D5E883811E6A3FC600816549 /* SchEventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchEventTableViewCell.swift; sourceTree = "<group>"; };
+		D5E883831E6A4CD400816549 /* SchEventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchEventTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				D5DD88651E4985C400AC220E /* VenueMainViewController.swift */,
 				D5DD88671E49896800AC220E /* GalvestonMainViewController.swift */,
 				7A2D54931E2F1F8200AB659B /* Main.storyboard */,
+				D5E883831E6A4CD400816549 /* SchEventTableViewController.swift */,
 				D5E628061E68BA810082D6A1 /* SchEvent.swift */,
 				D5E883811E6A3FC600816549 /* SchEventTableViewCell.swift */,
 				D50B5C6A1E496B7600AA0371 /* PrebicInfoStoryboard.storyboard */,
@@ -254,6 +257,7 @@
 				D5E628071E68BA810082D6A1 /* SchEvent.swift in Sources */,
 				D5E883821E6A3FC600816549 /* SchEventTableViewCell.swift in Sources */,
 				D59595111E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift in Sources */,
+				D5E883841E6A4CD400816549 /* SchEventTableViewController.swift in Sources */,
 				D5CBE0B51E38544000ECD007 /* Program_DMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
