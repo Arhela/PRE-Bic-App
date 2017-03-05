@@ -38,7 +38,7 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="MySched ComingSoon"/>
                                                 <connections>
-                                                    <segue destination="HZZ-1T-peh" kind="show" id="o1r-ex-HjJ"/>
+                                                    <segue destination="Kn0-3w-nM7" kind="show" id="ERr-Y1-tqO"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nX-bY-qHY" userLabel="Hotel">
@@ -683,7 +683,7 @@
             <objects>
                 <tableViewController title="Test Sched View" id="HZZ-1T-peh" customClass="SchEventTableViewController" customModule="PREBIC_Information" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" id="jN3-xf-JMe">
-                        <rect key="frame" x="0.0" y="64" width="375" height="741"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="805"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Header" id="kmm-iB-oDQ">
@@ -695,7 +695,7 @@
                                 <rect key="frame" x="0.0" y="112" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sB7-C5-Vbq" id="lqI-KS-ou2">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHI-62-5jA">
@@ -738,10 +738,35 @@
                             <outlet property="delegate" destination="HZZ-1T-peh" id="kh9-8L-oLp"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Test Sched" id="KVq-IX-MEh">
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="ADB-iO-dpZ">
+                            <connections>
+                                <segue destination="bCF-93-kAa" kind="presentation" id="rBx-5o-hI3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KaL-a7-vC2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2485.3125" y="557.21830985915494"/>
+            <point key="canvasLocation" x="4019" y="568"/>
+        </scene>
+        <!--Event Details-->
+        <scene sceneID="KEe-Uw-kf1">
+            <objects>
+                <viewController id="aVJ-9M-Yut" userLabel="Event Details" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JW4-Wt-3Za"/>
+                        <viewControllerLayoutGuide type="bottom" id="7lz-Vc-chq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b3d-jJ-S0i">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n5a-1o-JVU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5070" y="480"/>
         </scene>
         <!--Venue-->
         <scene sceneID="iXd-CW-P9i">
@@ -1134,6 +1159,24 @@
             </objects>
             <point key="canvasLocation" x="3137" y="-1210"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9SZ-gG-95k">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kn0-3w-nM7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6gn-1J-asR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="HZZ-1T-peh" kind="relationship" relationship="rootViewController" id="QQZ-o9-UN6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UBo-ay-8EN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2772" y="568"/>
+        </scene>
     </scenes>
     <resources>
         <image name="DarkBackground" width="360" height="900"/>
@@ -1165,6 +1208,6 @@
         <image name="VenueComingSoon" width="340" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="LeC-cn-nXv"/>
+        <segue reference="rBx-5o-hI3"/>
     </inferredMetricsTieBreakers>
 </document>
