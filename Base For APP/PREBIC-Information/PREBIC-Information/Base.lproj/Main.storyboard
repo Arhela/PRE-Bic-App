@@ -1036,7 +1036,66 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F9F-7e-Kqy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5488.8000000000002" y="1615.1424287856073"/>
+            <point key="canvasLocation" x="5094" y="1630"/>
+        </scene>
+        <!--AdaptiveDetailView-->
+        <scene sceneID="2MB-Ka-iJY">
+            <objects>
+                <viewController id="zaz-6X-Vhr" userLabel="AdaptiveDetailView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pLR-Yg-FzG"/>
+                        <viewControllerLayoutGuide type="bottom" id="cjt-gH-sBs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OOM-UJ-RZy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Title" translatesAutoresizingMaskIntoConstraints="NO" id="nWH-fX-IDo">
+                                <rect key="frame" x="19" y="201" width="340" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Location" translatesAutoresizingMaskIntoConstraints="NO" id="R3A-eg-EFb">
+                                <rect key="frame" x="19" y="341" width="340" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Speaker" translatesAutoresizingMaskIntoConstraints="NO" id="osQ-Hh-ODQ">
+                                <rect key="frame" x="18" y="257" width="341" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Header" translatesAutoresizingMaskIntoConstraints="NO" id="cEc-He-eKo">
+                                <rect key="frame" x="0.0" y="64" width="375" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BPJ-mp-4Sm" userLabel="TimeView">
+                                <rect key="frame" x="19" y="144" width="340" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Time" translatesAutoresizingMaskIntoConstraints="NO" id="3o1-EM-Hk3">
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQy-fY-K2F">
+                                        <rect key="frame" x="87" y="8" width="245" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Detail" translatesAutoresizingMaskIntoConstraints="NO" id="Rke-lK-0tC">
+                                <rect key="frame" x="19" y="401" width="340" height="266"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Event Details" id="j8I-0C-hOB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sKf-In-hOH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7074.3999999999996" y="1629.5352323838083"/>
         </scene>
         <!--Venue-->
         <scene sceneID="iXd-CW-P9i">
@@ -1483,9 +1542,28 @@
             </objects>
             <point key="canvasLocation" x="4414" y="1616"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Jap-2M-qXR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ccr-jE-l0U" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="czu-5P-HDJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zaz-6X-Vhr" kind="relationship" relationship="rootViewController" id="kZv-4C-X1A"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q4E-sh-aSQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6135.1999999999998" y="1629.5352323838083"/>
+        </scene>
     </scenes>
     <resources>
         <image name="DarkBackground" width="360" height="900"/>
+        <image name="Detail" width="340" height="266"/>
         <image name="DetailView" width="387" height="745"/>
         <image name="GalvestonButton-Restraunts" width="340" height="60"/>
         <image name="GalvestonButton-Weather" width="340" height="60"/>
@@ -1497,6 +1575,7 @@
         <image name="LinksButton-Galvez" width="340" height="60"/>
         <image name="LinksButton-PREBIC" width="340" height="60"/>
         <image name="LinksButton-UTMB" width="340" height="60"/>
+        <image name="Location" width="340" height="60"/>
         <image name="MButton-Hotel" width="340" height="60"/>
         <image name="MButton-Links" width="340" height="60"/>
         <image name="MButton-PREBIC" width="340" height="60"/>
@@ -1504,6 +1583,9 @@
         <image name="MButton-Travel" width="340" height="60"/>
         <image name="MButton-VenueInfo" width="340" height="60"/>
         <image name="New Gaveston image" width="340" height="60"/>
+        <image name="Speaker" width="341" height="89"/>
+        <image name="Time" width="340" height="60"/>
+        <image name="Title" width="340" height="60"/>
         <image name="TravelButton-IAH" width="340" height="60"/>
         <image name="TravelButton-Limo" width="340" height="60"/>
         <image name="TravelButton-SuperShuttle" width="340" height="60"/>
