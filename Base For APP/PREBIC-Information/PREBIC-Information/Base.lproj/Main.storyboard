@@ -1069,7 +1069,7 @@
                                                     <constraint firstAttribute="width" secondItem="3o1-EM-Hk3" secondAttribute="height" multiplier="17:3" id="0rH-xx-rLb"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQy-fY-K2F">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Test" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQy-fY-K2F">
                                                 <rect key="frame" x="107" y="8" width="225" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="KQy-fY-K2F" secondAttribute="height" multiplier="225:44" id="FT4-4e-LfO"/>
@@ -1155,7 +1155,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="340" height="60"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="location lable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Rb-Yv-DWG">
-                                                <rect key="frame" x="138" y="8" width="194" height="52"/>
+                                                <rect key="frame" x="138" y="2" width="216" height="58"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="8Rb-Yv-DWG" secondAttribute="height" multiplier="97:26" id="dAh-xe-Sbe"/>
                                                 </constraints>
@@ -1171,7 +1171,7 @@
                                             <constraint firstAttribute="bottom" secondItem="8Rb-Yv-DWG" secondAttribute="bottom" id="C1M-6u-BOL"/>
                                             <constraint firstItem="R3A-eg-EFb" firstAttribute="top" secondItem="fzM-DX-6i6" secondAttribute="top" id="JCR-1E-aCg"/>
                                             <constraint firstItem="R3A-eg-EFb" firstAttribute="leading" secondItem="fzM-DX-6i6" secondAttribute="leading" id="SPu-eh-XMW"/>
-                                            <constraint firstItem="8Rb-Yv-DWG" firstAttribute="top" secondItem="fzM-DX-6i6" secondAttribute="top" constant="8" id="ehz-Bp-WY9"/>
+                                            <constraint firstItem="8Rb-Yv-DWG" firstAttribute="top" relation="lessThanOrEqual" secondItem="fzM-DX-6i6" secondAttribute="top" constant="2" id="ehz-Bp-WY9"/>
                                             <constraint firstAttribute="trailing" secondItem="R3A-eg-EFb" secondAttribute="trailing" id="hoJ-56-Tqi"/>
                                             <constraint firstAttribute="trailing" secondItem="8Rb-Yv-DWG" secondAttribute="trailing" constant="8" id="sBa-Jq-SeO"/>
                                         </constraints>
