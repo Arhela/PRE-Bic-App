@@ -17,6 +17,7 @@
 		D50B5C6D1E496CE200AA0371 /* PrebicInfoMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B5C6C1E496CE200AA0371 /* PrebicInfoMainViewController.swift */; };
 		D51739E11E4975440094EFD9 /* TravelMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51739E01E4975440094EFD9 /* TravelMainViewController.swift */; };
 		D51739E31E497FDF0094EFD9 /* HotelMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51739E21E497FDF0094EFD9 /* HotelMainViewController.swift */; };
+		D51845221E7B1C5400DB54AA /* EventDetailViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51845211E7B1C5400DB54AA /* EventDetailViewViewController.swift */; };
 		D52D4EAA1E37E74D00FC162D /* ScheduleEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D4EA91E37E74D00FC162D /* ScheduleEntryViewController.swift */; };
 		D59595111E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59595101E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift */; };
 		D59E0CDF1E3D540700825698 /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E0CDE1E3D540700825698 /* LinksViewController.swift */; };
@@ -54,6 +55,7 @@
 		D50B5C6C1E496CE200AA0371 /* PrebicInfoMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrebicInfoMainViewController.swift; sourceTree = "<group>"; };
 		D51739E01E4975440094EFD9 /* TravelMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelMainViewController.swift; sourceTree = "<group>"; };
 		D51739E21E497FDF0094EFD9 /* HotelMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelMainViewController.swift; sourceTree = "<group>"; };
+		D51845211E7B1C5400DB54AA /* EventDetailViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewViewController.swift; sourceTree = "<group>"; };
 		D52D4EA91E37E74D00FC162D /* ScheduleEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleEntryViewController.swift; sourceTree = "<group>"; };
 		D59595101E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrebicSiteWebViewController.swift; sourceTree = "<group>"; };
 		D59E0CDE1E3D540700825698 /* LinksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinksViewController.swift; path = ../LinksViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				D5E883831E6A4CD400816549 /* SchEventTableViewController.swift */,
 				D5E628061E68BA810082D6A1 /* SchEvent.swift */,
 				D5E883811E6A3FC600816549 /* SchEventTableViewCell.swift */,
+				D51845211E7B1C5400DB54AA /* EventDetailViewViewController.swift */,
 				D50B5C6A1E496B7600AA0371 /* PrebicInfoStoryboard.storyboard */,
 				7A2D54961E2F1F8200AB659B /* Assets.xcassets */,
 				7A2D54981E2F1F8200AB659B /* LaunchScreen.storyboard */,
@@ -249,6 +252,7 @@
 				D5DD88661E4985C400AC220E /* VenueMainViewController.swift in Sources */,
 				D50B5C6D1E496CE200AA0371 /* PrebicInfoMainViewController.swift in Sources */,
 				D51739E11E4975440094EFD9 /* TravelMainViewController.swift in Sources */,
+				D51845221E7B1C5400DB54AA /* EventDetailViewViewController.swift in Sources */,
 				D5DD88681E49896800AC220E /* GalvestonMainViewController.swift in Sources */,
 				D51739E31E497FDF0094EFD9 /* HotelMainViewController.swift in Sources */,
 				D52D4EAA1E37E74D00FC162D /* ScheduleEntryViewController.swift in Sources */,
