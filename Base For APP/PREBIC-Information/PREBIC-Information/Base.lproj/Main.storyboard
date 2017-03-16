@@ -758,7 +758,7 @@
         <!--AdaptiveDetailView-->
         <scene sceneID="2MB-Ka-iJY">
             <objects>
-                <viewController id="zaz-6X-Vhr" userLabel="AdaptiveDetailView" sceneMemberID="viewController">
+                <viewController id="zaz-6X-Vhr" userLabel="AdaptiveDetailView" customClass="EventDetailViewViewController" customModule="PREBIC_Information" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pLR-Yg-FzG"/>
                         <viewControllerLayoutGuide type="bottom" id="cjt-gH-sBs"/>
@@ -871,7 +871,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="340" height="75.5"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="location lable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Rb-Yv-DWG">
-                                                <rect key="frame" x="138" y="2" width="273" height="73.5"/>
+                                                <rect key="frame" x="138" y="2" width="274" height="73.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="8Rb-Yv-DWG" secondAttribute="height" multiplier="97:26" id="dAh-xe-Sbe"/>
                                                 </constraints>
@@ -943,6 +943,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Event Details" id="j8I-0C-hOB"/>
+                    <connections>
+                        <outlet property="DetailTextView" destination="ekl-Vf-qHn" id="WlK-t9-8cJ"/>
+                        <outlet property="LocationLabel" destination="8Rb-Yv-DWG" id="WCS-XS-SMv"/>
+                        <outlet property="SpeakerLabel" destination="zVu-Il-ay6" id="Dhc-Cu-Njm"/>
+                        <outlet property="TimeLabel" destination="KQy-fY-K2F" id="4Jk-in-XfW"/>
+                        <outlet property="TitleLabel" destination="nWH-fX-IDo" id="lfJ-81-u1R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sKf-In-hOH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
