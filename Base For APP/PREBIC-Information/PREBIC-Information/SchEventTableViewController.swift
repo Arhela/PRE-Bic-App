@@ -131,14 +131,16 @@ class SchEventTableViewController: UITableViewController {
             // capture the event at the index path
             let selectedEvent = events[indexPath.row]
             
-            // fill in the optional event var 
+            // fill in the optional event var
             eventDetailViewController.event = selectedEvent
             
             
             
             
         default:
-            fatalError("Unexpected Segue Identifier; \(segue.identifier)")
+            //fatalError("Unexpected Segue Identifier; \(segue.identifier)")
+            // move to any clicked segue 
+            dismiss(animated: true, completion: nil)
         }
         
         // Get the new view controller using segue.destinationViewController.

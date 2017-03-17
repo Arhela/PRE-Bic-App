@@ -743,7 +743,7 @@
                             <outlet property="delegate" destination="HZZ-1T-peh" id="kh9-8L-oLp"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Test Sched" id="KVq-IX-MEh">
+                    <navigationItem key="navigationItem" title="Program Agenda" id="KVq-IX-MEh">
                         <barButtonItem key="leftBarButtonItem" title="Home" id="ADB-iO-dpZ">
                             <connections>
                                 <segue destination="bCF-93-kAa" kind="presentation" id="rBx-5o-hI3"/>
@@ -846,7 +846,7 @@
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speaker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVu-Il-ay6">
                                                 <rect key="frame" x="8" y="43" width="324" height="61"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -908,7 +908,7 @@
                                                     <constraint firstAttribute="width" secondItem="ekl-Vf-qHn" secondAttribute="height" multiplier="276:205" id="ttL-P5-U1X"/>
                                                 </constraints>
                                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
