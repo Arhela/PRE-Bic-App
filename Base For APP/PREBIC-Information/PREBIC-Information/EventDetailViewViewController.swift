@@ -15,7 +15,7 @@ class EventDetailViewViewController: UIViewController {
     
     @IBOutlet weak var TimeLabel: UILabel!
     
-    @IBOutlet weak var TitleLabel: UIImageView!
+    @IBOutlet weak var TitleLabel: UILabel!
     
     @IBOutlet weak var SpeakerLabel: UILabel!
     
@@ -23,11 +23,28 @@ class EventDetailViewViewController: UIViewController {
     
     @IBOutlet weak var DetailTextView: UITextView!
     
+    //--------------------------------------------------
+    // var 
+    // An optional var to pass info from the tableview.  THis is an "optional" so swift can safely unwrap and see if it holds a value.
+    
+    var event: SchEvent?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        if let event = event
+        {
+            TimeLabel.text = event.eventTime
+            TitleLabel.text = event.eventName
+            SpeakerLabel.text = event.eventSpeaker
+            LocationLabel.text = event.eventLocation
+            DetailTextView.text = event.eventDiscription
+            
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {
