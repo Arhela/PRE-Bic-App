@@ -15,7 +15,7 @@ class EventDetailViewViewController: UIViewController {
     
     @IBOutlet weak var TimeLabel: UILabel!
     
-    @IBOutlet weak var TitleLabel: UIImageView!
+    @IBOutlet weak var TitleLabel: UILabel!
     
     @IBOutlet weak var SpeakerLabel: UILabel!
     
@@ -34,6 +34,17 @@ class EventDetailViewViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        if let event = event
+        {
+            TimeLabel.text = event.eventTime
+            TitleLabel.text = event.eventName
+            SpeakerLabel.text = event.eventSpeaker
+            LocationLabel.text = event.eventLocation
+            DetailTextView.text = event.eventDiscription
+            
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {
