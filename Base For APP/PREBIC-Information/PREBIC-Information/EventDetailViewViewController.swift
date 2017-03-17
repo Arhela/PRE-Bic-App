@@ -23,6 +23,12 @@ class EventDetailViewViewController: UIViewController {
     
     @IBOutlet weak var DetailTextView: UITextView!
     
+    //--------------------------------------------------
+    // var 
+    // An optional var to pass info from the tableview.  THis is an "optional" so swift can safely unwrap and see if it holds a value.
+    
+    var event: SchEvent?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

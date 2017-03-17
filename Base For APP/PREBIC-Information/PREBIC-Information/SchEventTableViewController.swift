@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import os.log
 
 class SchEventTableViewController: UITableViewController {
 
@@ -103,20 +104,46 @@ class SchEventTableViewController: UITableViewController {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        
-//        super.prepare(for: segue, sender: sender)
-//        
-//        switch segue.identifier ?? "" {
-//        case "ShowEventDetail":
-//            <#code#>
-//        default:
-//            <#code#>
-//        }
-//        
-//        // Get the new view controller using segue.destinationViewController.
-//        // Pass the selected object to the new view controller.
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        super.prepare(for: segue, sender: sender)
+        
+        switch segue.identifier ?? "" {
+        case "ShowEventDetail":
+            // Get the segue destination
+            guard let eventDetailViewController = segue.destination as? EventDetailViewViewController
+            else
+            {
+                fatalError("Unexpected sender: \(sender)")
+            }
+            
+            // Get the cell that sent the push message
+            guard let selectedEventCell = sender as? SchEventTableViewCell else
+            {
+                fatalError("Unexpected sender: \(sender)")
+                
+            }
+            // Get the index path to the array of events
+            guard let indexPath = tableView.indexPath(for: selectedEventCell) else{
+                fatalError("The selected cell is not being displayed by the table")
+            }
+            
+            // capture the event at the index path
+            let selectedEvent = events[indexPath.row]
+            
+            // fill in the optional event var 
+            eventDetailViewController.event = selectedEvent
+            
+            
+            
+            
+        default:
+            fatalError("Unexpected Segue Identifier; \(segue.identifier)")
+        }
+        
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
     
     
     // Private methods
