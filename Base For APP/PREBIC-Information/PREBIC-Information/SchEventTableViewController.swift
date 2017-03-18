@@ -153,14 +153,16 @@ class SchEventTableViewController: UITableViewController {
     {
         // load two tests 
         
-        let test1 = SchEvent(name: "First test", discription: "This is to test the first event", location: "Shade's MBP", time: "Sat Mar 01  8:00PM", speaker: "Michael Shade")
+        let event1 = SchEvent(name: "Continental Breakfast", discription: "Breakfast", location: "Open Gates", time: "Sat Mar 01  7:30AM - 8:30AM", speaker: "N/a")
         
-        let test2 = SchEvent(name: "Second test", discription: "This is to test the Second event", location: "Shade's MBP", time: "Sat Mar 01  8:30PM", speaker: "Michael Shade")
+        let event2 = SchEvent(name: "Welcome Address", discription: "Address from Dr. Menon PHD", location: "Open Gates", time: "Sat Mar 01  8:30AM - 8:35AM", speaker: "Ramkumar Menon, PhD")
         
-        let test3 = SchEvent(name: "Third test", discription: "This is to test the Third event", location: "Shade's MBP", time: "Sat Mar 01  9:00PM", speaker: "Michael Shade")
+        let event3 = SchEvent(name: "Speaker from UTMB", discription: "Speaker from UTMB", location: "Open Gates", time: "Sat Mar 01  8:35AM - 8:45AM", speaker: "TBD")
+        
+        let event4 = SchEvent(name: "Presidential address", discription: "Presidential Address", location: "Open Gates", time: "Sat Mar 01  8:45AM - 9:00AM", speaker: "TBD")
         
         // Add events to the array
-        events += [test1, test2, test3]
+        events += [event1, event2, event3, event4]
     }
 
 }
