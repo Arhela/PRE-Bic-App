@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bCF-93-kAa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bCF-93-kAa">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -836,7 +836,7 @@
                                 <rect key="frame" x="0.0" y="113" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sB7-C5-Vbq" id="lqI-KS-ou2">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHI-62-5jA">
@@ -901,7 +901,7 @@
                         <viewControllerLayoutGuide type="bottom" id="cjt-gH-sBs"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="OOM-UJ-RZy">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="805"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Header" translatesAutoresizingMaskIntoConstraints="NO" id="cEc-He-eKo">
@@ -911,18 +911,18 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="lTR-lb-yD7">
-                                <rect key="frame" x="19" y="144" width="340" height="673"/>
+                                <rect key="frame" x="19" y="144" width="340" height="535"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BPJ-mp-4Sm" userLabel="TimeView">
-                                        <rect key="frame" x="0.0" y="0.0" width="340" height="76"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="60.5"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Time" translatesAutoresizingMaskIntoConstraints="NO" id="3o1-EM-Hk3">
-                                                <rect key="frame" x="0.0" y="0.0" width="431" height="76"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="342.5" height="60.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="3o1-EM-Hk3" secondAttribute="height" multiplier="17:3" id="0rH-xx-rLb"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Test" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQy-fY-K2F">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Test" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQy-fY-K2F">
                                                 <rect key="frame" x="107" y="8" width="225" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="KQy-fY-K2F" secondAttribute="height" multiplier="225:44" id="FT4-4e-LfO"/>
@@ -945,15 +945,15 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="flL-tu-4wr" userLabel="Title view">
-                                        <rect key="frame" x="0.0" y="76" width="340" height="75"/>
+                                        <rect key="frame" x="0.0" y="60.5" width="340" height="59.5"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Title" translatesAutoresizingMaskIntoConstraints="NO" id="nWH-fX-IDo">
-                                                <rect key="frame" x="0.0" y="0.0" width="425" height="75"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="338" height="59.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="nWH-fX-IDo" secondAttribute="height" multiplier="17:3" id="eHC-Xe-BLI"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="The title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wo-o1-Rvt">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wo-o1-Rvt">
                                                 <rect key="frame" x="110" y="8" width="222" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="6wo-o1-Rvt" secondAttribute="height" multiplier="111:22" id="Jrl-zG-GDg"/>
@@ -966,7 +966,7 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="nWH-fX-IDo" secondAttribute="bottom" id="172-L7-zWZ"/>
-                                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="6wo-o1-Rvt" secondAttribute="trailing" constant="8" id="Atu-95-7nh"/>
+                                            <constraint firstAttribute="trailing" secondItem="6wo-o1-Rvt" secondAttribute="trailing" constant="8" id="Atu-95-7nh"/>
                                             <constraint firstItem="6wo-o1-Rvt" firstAttribute="top" relation="lessThanOrEqual" secondItem="flL-tu-4wr" secondAttribute="top" constant="8" id="Ta5-c6-4do"/>
                                             <constraint firstItem="nWH-fX-IDo" firstAttribute="leading" secondItem="flL-tu-4wr" secondAttribute="leading" id="bLN-p1-owt"/>
                                             <constraint firstItem="6wo-o1-Rvt" firstAttribute="leading" relation="lessThanOrEqual" secondItem="flL-tu-4wr" secondAttribute="leading" constant="110" id="gTL-eg-6qu"/>
@@ -976,13 +976,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vpd-hP-MKx" userLabel="SpeakerView">
-                                        <rect key="frame" x="0.0" y="151" width="340" height="112"/>
+                                        <rect key="frame" x="0.0" y="120" width="340" height="89"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Speaker" translatesAutoresizingMaskIntoConstraints="NO" id="osQ-Hh-ODQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="340" height="112"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="340" height="89"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speaker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVu-Il-ay6">
-                                                <rect key="frame" x="8" y="43" width="324" height="61"/>
+                                                <rect key="frame" x="8" y="43" width="324" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1002,13 +1002,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fzM-DX-6i6" userLabel="Location view">
-                                        <rect key="frame" x="0.0" y="263" width="340" height="76"/>
+                                        <rect key="frame" x="0.0" y="209" width="340" height="60.5"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Location" translatesAutoresizingMaskIntoConstraints="NO" id="R3A-eg-EFb">
-                                                <rect key="frame" x="0.0" y="0.0" width="340" height="76"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="340" height="60.5"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="location lable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Rb-Yv-DWG">
-                                                <rect key="frame" x="138" y="2" width="276" height="74"/>
+                                                <rect key="frame" x="138" y="2" width="218" height="58.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="8Rb-Yv-DWG" secondAttribute="height" multiplier="97:26" id="dAh-xe-Sbe"/>
                                                 </constraints>
@@ -1030,15 +1030,15 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bw4-IS-Vmr" userLabel="Details View">
-                                        <rect key="frame" x="0.0" y="339" width="340" height="334"/>
+                                        <rect key="frame" x="0.0" y="269.5" width="340" height="265.5"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Detail" translatesAutoresizingMaskIntoConstraints="NO" id="Rke-lK-0tC">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Detail" translatesAutoresizingMaskIntoConstraints="NO" id="Rke-lK-0tC">
                                                 <rect key="frame" x="0.0" y="0.0" width="340" height="266"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Rke-lK-0tC" secondAttribute="height" multiplier="170:133" id="PaZ-OG-qLI"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekl-Vf-qHn">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekl-Vf-qHn">
                                                 <rect key="frame" x="32" y="44" width="276" height="205"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -1517,7 +1517,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q4E-sh-aSQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6820" y="1050.224887556222"/>
+            <point key="canvasLocation" x="6046" y="1353"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kwH-Bz-IuL">
@@ -1575,6 +1575,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="i0u-YD-sjo"/>
-        <segue reference="gf0-Ne-4UI"/>
+        <segue reference="kZv-4C-X1A"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -153,18 +153,34 @@ class SchEventTableViewController: UITableViewController {
     {
         // load two tests 
         
-        let event1 = SchEvent(name: "Continental Breakfast", discription: "Breakfast", location: "Open Gates", time: "Sat May 08  7:30AM - 8:30AM", speaker: "N/a")
+        let event1 = SchEvent(name: "Continental Breakfast", discription: "Breakfast", location: "Open Gates", time: "Sat May 08 7:30AM - 8:30AM", speaker: "N/a")
         
-        let event2 = SchEvent(name: "Welcome Address", discription: "Address from Dr. Menon PHD", location: "Open Gates", time: " Sat May 08  8:30AM - 8:35AM", speaker: "Ramkumar Menon, PhD")
+        let event2 = SchEvent(name: "Welcome Address", discription: "Address from Dr. Menon PHD", location: "Open Gates", time: " Sat May 08 8:30AM - 8:35AM", speaker: "Ramkumar Menon, PhD")
         
-        let event3 = SchEvent(name: "Speaker from UTMB", discription: "Speaker from UTMB", location: "Open Gates", time: "Sat May 08  8:35AM - 8:45AM", speaker: "TBD")
+        let event3 = SchEvent(name: "Speaker from UTMB", discription: "Speaker from UTMB", location: "Open Gates", time: "Sat May 08 8:35AM - 8:45AM", speaker: "TBD")
         
-        let event4 = SchEvent(name: "Presidential address", discription: "Presidential Address", location: "Open Gates", time: "Sat May 08  8:45AM - 9:00AM", speaker: "TBD")
+        let event4 = SchEvent(name: "Presidential address", discription: "Presidential Address", location: "Open Gates", time: "Sat May 08 8:45AM - 9:00AM", speaker: "TBD")
         
-         let event5 = SchEvent(name: "Future of PREBIC", discription: "Future of PREBIC", location: "Open Gates", time: "Sat May 08  9:00AM - 9:10AM", speaker: "Nanbert Zhong, MD, PhD")
+         let event5 = SchEvent(name: "Future of PREBIC", discription: "Future of PREBIC", location: "Open Gates", time: "Sat May 08 9:00AM - 9:15AM", speaker: "Nanbert Zhong, MD, PhD")
+        
+        let event6 = SchEvent(name: "PREBIC Accomplishments", discription: "PREBIC Accomplishments", location: "Open Gates", time: "Sat May 08 9:15AM - 9:30AM", speaker: "Calvin J Hobel, MD")
+        
+        let event7 = SchEvent(name: "PREBIC Organization", discription: "PREBIC organization (registration, by-law)", location: "Open Gates", time: "Sat May 08 9:30AM - 9:45AM", speaker: "Elizabeth Bonney, MD")
+        
+        let event8 = SchEvent(name: "PREBIC Scientific Agenda", discription: "PREBIC scientific agenda", location: "Open Gates", time: "Sat May 08 9:45AM - 10:00AM", speaker: "Cynthia Gyamfi-Bannerman, MD, MS")
+        
+        let event9 = SchEvent(name: "The year in preterm birth", discription: "The year in preterm birth—Clinical", location: "Open Gates", time: "Sat May 08 10:00AM - 10:25AM", speaker: "Alfred Brann, MD")
+        
+        let event10 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Sat May 08 10:25AM - 10:30AM", speaker: "TBD")
+        
+        let event11 = SchEvent(name: "Coffee Break", discription: "Coffee Break", location: "Open Gates", time: "Sat May 08 10:30AM - 10:45AM", speaker: "N/a")
+        
+        let event12 = SchEvent(name: "The Year in Preterm Birth", discription: "The year in preterm birth —Basic Science", location: "Open Gates", time: "Sat May 08 10:45AM - 11:10AM", speaker: "Leslie Myatt, PhD")
+        
+        let event13 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Sat May 08 11:10AM - 11:15AM", speaker: "TBD")
         
         // Add events to the array
-        events += [event1, event2, event3, event4, event5]
+        events += [event1, event2, event3, event4, event5, event6, event7, event8, event9, event10, event11, event12, event13]
     }
 
 }
