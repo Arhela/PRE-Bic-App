@@ -155,7 +155,7 @@ class SchEventTableViewController: UITableViewController {
         
         let event1 = SchEvent(name: "Continental Breakfast", discription: "Breakfast", location: "Open Gates", time: "Sat May 08 7:30AM - 8:30AM", speaker: "N/a")
         
-        let event2 = SchEvent(name: "Welcome Address", discription: "Address from Dr. Menon PHD", location: "Open Gates", time: " Sat May 08 8:30AM - 8:35AM", speaker: "Ramkumar Menon, PhD")
+        let event2 = SchEvent(name: "Welcome Address", discription: "Address from Dr. Menon PHD", location: "Open Gates", time: "Sat May 08 8:30AM - 8:35AM", speaker: "Ramkumar Menon, PhD")
         
         let event3 = SchEvent(name: "Speaker from UTMB", discription: "Speaker from UTMB", location: "Open Gates", time: "Sat May 08 8:35AM - 8:45AM", speaker: "TBD")
         
@@ -179,8 +179,23 @@ class SchEventTableViewController: UITableViewController {
         
         let event13 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Sat May 08 11:10AM - 11:15AM", speaker: "TBD")
         
+        let event14 = SchEvent(name: "PREBIC Working Groups", discription: "PREBIC Working groups assignments and rationale", location: "Open Gates", time: "Sat May 08 11:15AM - 11:40AM", speaker: "Scott M Williams, PhD")
+        
+        let event15 = SchEvent(name: "PREBIC Working Groups", discription: "Assignments, effective functioning and expectations from working groups", location: "Open Gates", time: "Sat May 08 11:40AM - 12:00PM", speaker: "Sam Mesiano, PhD")
+        
+         let event16 = SchEvent(name: "DISCUSSION", discription: "DISCUSSION", location: "Open Gates", time: "Sat May 08 12:00AM - 12:15PM", speaker: "N/a")
+        
+        let event17 = SchEvent(name: "Lunch", discription: "Lunch", location: "Open Gates", time: "Sat May 08 12:15PM - 01:30PM", speaker: "N/a")
+        
+        let event18 = SchEvent(name: "WORKING GROUPS MEET", discription: "WORKING GROUPS MEET", location: "Open Gates", time: "Sat May 08 01:30PM - 03:30PM", speaker: "N/a")
+        
+        let event19 = SchEvent(name: "COFFEE", discription: "COFFEE", location: "Open Gates", time: "Sat May 08 03:30PM - 04:00PM", speaker: "N/a")
+        
+        let event20 = SchEvent(name: "WORKING GROUP MEET", discription: "WORKING GROUP MEET", location: "Open Gates", time: "Sat May 08 04:00PM - 05:30PM", speaker: "N/a")
+        
+        
         // Add events to the array
-        events += [event1, event2, event3, event4, event5, event6, event7, event8, event9, event10, event11, event12, event13]
+        events += [event1, event2, event3, event4, event5, event6, event7, event8, event9, event10, event11, event12, event13, event14, event15, event16, event17, event18, event19, event20]
     }
 
 }
