@@ -225,18 +225,35 @@ class SchEventTableViewController: UITableViewController {
         
         let event32 = SchEvent(name: "WORKING GROUPS MEET", discription: "WORKING GROUPS MEET", location: "Open Gates", time: "Sun May 09 11:00AM - 12:30PM", speaker: "N/a")
         
-        let event33 = SchEvent(name: "Lunch", discription: "Lunch", location: "N/a", time: "Sun May 09 12:00AM - 1:30PM", speaker: "N/a")
+        let event33 = SchEvent(name: "Lunch", discription: "Lunch", location: "N/a", time: "Sun May 09 12:00PM - 1:30PM", speaker: "N/a")
         
-        let event34 = SchEvent(name: "WORKING GROUPS MEET", discription: "WORKING GROUPS MEET", location: "Open Gates", time: "Sun May 09 1:30AM - 3:30PM", speaker: "N/a")
+        let event34 = SchEvent(name: "WORKING GROUPS MEET", discription: "WORKING GROUPS MEET", location: "Open Gates", time: "Sun May 09 1:30PM - 3:30PM", speaker: "N/a")
         
-        let event35 = SchEvent(name: "Coffee Break", discription: "Coffee Break", location: "Open Gates", time: "Sun May 09 3:30AM - 3:45PM", speaker: "N/a")
+        let event35 = SchEvent(name: "Coffee Break", discription: "Coffee Break", location: "Open Gates", time: "Sun May 09 3:30PM - 3:45PM", speaker: "N/a")
         
-        let event36 = SchEvent(name: "Group 1 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Sun May 09 3:45AM - 4:00PM", speaker: "N/a")
+        let event36 = SchEvent(name: "Group 1 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Sun May 09 3:45PM - 4:00PM", speaker: "N/a")
+        
+        let event37 = SchEvent(name: "Group 2 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Sun May 09 4:00PM - 4:15PM", speaker: "N/a")
+        
+         let event38 = SchEvent(name: "Group 3 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Sun May 09 4:15PM - 4:30PM", speaker: "N/a")
+        
+        let event39 = SchEvent(name: "Group 4 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Sun May 09 4:30PM - 4:45PM", speaker: "N/a")
+        
+        let event40 = SchEvent(name: "Group 5 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Sun May 09 4:45PM - 5:00PM", speaker: "N/a")
+        
+        let event41 = SchEvent(name: "Group 6 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Sun May 09 5:00PM - 5:15PM", speaker: "N/a")
+        
+        let event42 = SchEvent(name: "Review and Summary", discription: "Review and Summary (to be continued on day # 3)", location: "Open Gates", time: "Sun May 09 5:15PM - 5:30PM", speaker: "N/a")
+        
+        let event43 = SchEvent(name: "PREBIC DINNER", discription: "Dinner at Shearns Moody Gardens Website: http://www.moodygardenshotel.com/shearns", location: "Shearns Moody Gardens", time: "Sun May 09 7:00PM - 10:00PM", speaker: "N/a")
+        
+        //-----------------------------------------------------------------------------------------------------------
+        // Monday Events
         
         
         
         // Add events to the array
-        events += [satHeader, event1, event2, event3, event4, event5, event6, event7, event8, event9, event10, event11, event12, event13, event14, event15, event16, event17, event18, event19, event20, sunHeader, event21, event22, event23, event24, event25, event26, event27, event28, event29, event30, event31, event32, event33, event34, event35, event36]
+        events += [satHeader, event1, event2, event3, event4, event5, event6, event7, event8, event9, event10, event11, event12, event13, event14, event15, event16, event17, event18, event19, event20, sunHeader, event21, event22, event23, event24, event25, event26, event27, event28, event29, event30, event31, event32, event33, event34, event35, event36, event37, event38, event39, event40, event41, event42, event43]
     }
 
 }
