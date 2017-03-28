@@ -158,9 +158,9 @@ class SchEventTableViewController: UITableViewController {
         
          let satHeader = SchEvent(name: "Monday May 07", discription: "Monday Events", location: "Open Gates", time: "Mon May 08 7:15AM - 5:30PM", speaker: "N/a")
         
-        let satShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "Sat May 08 7:15AM - 7:15AM", speaker: "N/a")
+        let satShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "Mon May 08 7:15AM - 7:15AM", speaker: "N/a")
         
-       let satShutle2 = SchEvent(name: "Shuttle 2 leaves", discription: "Shuttle 2 leaves", location: "Galvez", time: "Sat May 08 7:45AM - 7:45AM", speaker: "N/a")
+       let satShutle2 = SchEvent(name: "Shuttle 2 leaves", discription: "Shuttle 2 leaves", location: "Galvez", time: "Mon May 08 7:45AM - 7:45AM", speaker: "N/a")
         
        
        
