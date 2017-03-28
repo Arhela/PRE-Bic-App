@@ -159,7 +159,7 @@ class SchEventTableViewController: UITableViewController {
         
         let event1 = SchEvent(name: "Continental Breakfast", discription: "Breakfast", location: "Open Gates", time: "Sat May 07 7:30AM - 8:30AM", speaker: "N/a")
         
-        let event2 = SchEvent(name: "Welcome Address", discription: "Address from Dr. Menon PHD", location: "Open Gates", time: "Sat May 07 8:30AM - 8:35AM", speaker: "Ramkumar Menon, PhD")
+        let event2 = SchEvent(name: "Welcome Address", discription: "Address from Dr. Menon PhD", location: "Open Gates", time: "Sat May 07 8:30AM - 8:35AM", speaker: "Ramkumar Menon, PhD")
         
         let event3 = SchEvent(name: "Speaker from UTMB", discription: "Speaker from UTMB", location: "Open Gates", time: "Sat May 07 8:35AM - 8:45AM", speaker: "TBD")
         
