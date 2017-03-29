@@ -287,9 +287,15 @@ class SchEventTableViewController: UITableViewController {
         
         let event52 = SchEvent(name: "Summary from working groups", discription: "Summary from working groups and action plans)", location: "Galvez Hotel Conference Room", time: "Wed May 10 10:00AM - 10:15AM", speaker: "Sam Mesiano")
         
+        let event53 = SchEvent(name: "Introduction of new Board of Directors", discription: "Introduction of new Board of Directors and Office bearers", location: "Galvez Hotel Conference Room", time: "Wed May 10 10:15AM - 10:30AM", speaker: "Calvin J Hobel, MD")
+        
+         let event54 = SchEvent(name: "Future PREBIC meetings", discription: "Future PREBIC meetings", location: "Galvez Hotel Conference Room", time: "Wed May 10 10:30AM - 10:45AM", speaker: "Nanbert Zhong, MD")
+        
+        let event55 = SchEvent(name: "Q&A and Concluding Remarks", discription: "Q&A and Concluding Remarks", location: "Galvez Hotel Conference Room", time: "Wed May 10 10:45AM - 11:00AM", speaker: "Hanns Helmer, MD")
+        
         
         // Add events to the array
-        events += [satHeader, satShutle1, satShutle2, event1, event2, event3, event4, event5, event6, event7, event8, event9, event10, event11, event12, event13, event14, event15, event16, event17, event18, event19, event20, sunHeader, sunShutle1,sunShutle2, event21, event22, event23, event24, event25, event26, event27, event28, event29, event30, event31, event32, event33, event34, event35, event36, event37, event38, event39, event40, event41, event42, event43, WedHeader,event44, event45, event46,event47, event48, event49, event50, event51, event52]
+        events += [satHeader, satShutle1, satShutle2, event1, event2, event3, event4, event5, event6, event7, event8, event9, event10, event11, event12, event13, event14, event15, event16, event17, event18, event19, event20, sunHeader, sunShutle1,sunShutle2, event21, event22, event23, event24, event25, event26, event27, event28, event29, event30, event31, event32, event33, event34, event35, event36, event37, event38, event39, event40, event41, event42, event43, WedHeader,event44, event45, event46,event47, event48, event49, event50, event51, event52, event53, event54, event55]
     }
 
 }
