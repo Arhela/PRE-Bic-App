@@ -153,7 +153,7 @@ class SchEventTableViewController: UITableViewController {
     {
         // load Events
         
-        // Saturday events
+        // Monday events
         
         
          let satHeader = SchEvent(name: "Monday May 07", discription: "Monday Events", location: "Open Gates", time: "Mon May 08 7:15AM - 5:30PM", speaker: "N/a")
@@ -206,7 +206,7 @@ class SchEventTableViewController: UITableViewController {
         let event20 = SchEvent(name: "WORKING GROUP MEET", discription: "WORKING GROUP MEET", location: "Open Gates", time: "Mon May 07 04:00PM - 05:30PM", speaker: "N/a")
         
        //-----------------------------------------------------------------------------------------------------------
-        // Sunday Events
+        // Tuesday vents
         let sunHeader = SchEvent(name: "Tuesday May 08", discription: "Sunday Events", location: "Open Gates", time: "Tue May 09 7:30AM - 10:00PM", speaker: "N/a")
         
         
@@ -261,12 +261,35 @@ class SchEventTableViewController: UITableViewController {
         let event43 = SchEvent(name: "PREBIC DINNER", discription: "Dinner at Shearns Moody Gardens Website: http://www.moodygardenshotel.com/shearns", location: "Shearns Moody Gardens", time: "Tue May 08 7:00PM - 10:00PM", speaker: "N/a")
         
         //-----------------------------------------------------------------------------------------------------------
-        // Monday Events
+        // Wdnesday Events
+        let WedHeader = SchEvent(name: "Wednesday May 10", discription: "Wednesday Events", location: "Open Gates", time: "Wed May 10 7:30AM - 11:00AM", speaker: "N/a")
         
+        
+//        let wedShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "Wed May 10 7:15AM - 7:15AM", speaker: "N/a")
+//        
+//        let wedShutle2 = SchEvent(name: "Shuttle 2 leaves", discription: "Shuttle 2 leaves", location: "Galvez", time: "Wed May 10 7:45AM - 7:45AM", speaker: "N/a")
+        
+        let event44 = SchEvent(name: "Continental breakfast", discription: "Continental breakfast", location: "Hotel Galvez meeting room", time: "Wed May 10 7:00AM - 8:00AM", speaker: "N/a")
+        
+         let event45 = SchEvent(name: "Ethics in Preterm Birth Research", discription: "Ethics in Preterm Birth Research", location: "Galvez Hotel Conference Room", time: "Wed May 10 8:00AM - 8:15AM", speaker: "Bo Jacobson, MD, PhD")
+        
+        let event46 = SchEvent(name: "Young investigator presentation", discription: "Young investigator presentation", location: "Galvez Hotel Conference Room", time: "Wed May 10 8:15AM - 8:30AM", speaker: "Bin Cao, PhD")
+        
+         let event47 = SchEvent(name: "Young investigator presentation", discription: "Young investigator presentation", location: "Galvez Hotel Conference Room", time: "Wed May 10 8:30AM - 8:45AM", speaker: "Kwame Adu-Bonsaffoh, MD")
+        
+        let event48 = SchEvent(name: "Young investigator presentation", discription: "Young investigator presentation", location: "Galvez Hotel Conference Room", time: "Wed May 10 8:45AM - 9:00AM", speaker: "Avish Arora, MD")
+        
+        let event49 = SchEvent(name: "Young investigator presentation", discription: "Young investigator presentation", location: "Galvez Hotel Conference Room", time: "Wed May 10 9:00AM - 9:15AM", speaker: "Johanna Huusko, PhD")
+        
+         let event50 = SchEvent(name: "Young investigator presentation", discription: "Young investigator presentation", location: "Galvez Hotel Conference Room", time: "Wed May 10 9:15AM - 9:30AM", speaker: "Samantha Sheller, BS")
+        
+        let event51 = SchEvent(name: "Working groups review", discription: "Working groups review and discussion (continued from Day # 2)", location: "Galvez Hotel Conference Room", time: "Wed May 10 9:30AM - 10:00AM", speaker: "N/a")
+        
+        let event52 = SchEvent(name: "Summary from working groups", discription: "Summary from working groups and action plans)", location: "Galvez Hotel Conference Room", time: "Wed May 10 10:00AM - 10:15AM", speaker: "Sam Mesiano")
         
         
         // Add events to the array
-        events += [satHeader, satShutle1, satShutle2, event1, event2, event3, event4, event5, event6, event7, event8, event9, event10, event11, event12, event13, event14, event15, event16, event17, event18, event19, event20, sunHeader, sunShutle1,sunShutle2, event21, event22, event23, event24, event25, event26, event27, event28, event29, event30, event31, event32, event33, event34, event35, event36, event37, event38, event39, event40, event41, event42, event43]
+        events += [satHeader, satShutle1, satShutle2, event1, event2, event3, event4, event5, event6, event7, event8, event9, event10, event11, event12, event13, event14, event15, event16, event17, event18, event19, event20, sunHeader, sunShutle1,sunShutle2, event21, event22, event23, event24, event25, event26, event27, event28, event29, event30, event31, event32, event33, event34, event35, event36, event37, event38, event39, event40, event41, event42, event43, WedHeader,event44, event45, event46,event47, event48, event49, event50, event51, event52]
     }
 
 }
