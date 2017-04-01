@@ -1099,7 +1099,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sKf-In-hOH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6848.8000000000002" y="588.75562218890559"/>
+            <point key="canvasLocation" x="7546" y="90"/>
         </scene>
         <!--Venue-->
         <scene sceneID="iXd-CW-P9i">
@@ -1584,7 +1584,7 @@
         <image name="bUTTONfANCYEdged" width="339" height="107"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="rBx-5o-hI3"/>
+        <segue reference="vZq-ZL-XdH"/>
         <segue reference="gf0-Ne-4UI"/>
     </inferredMetricsTieBreakers>
 </document>
