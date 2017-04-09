@@ -108,6 +108,9 @@
                                                     <constraint firstAttribute="height" constant="69" id="WLR-Gf-9FK"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="Working_bg_groups"/>
+                                                <connections>
+                                                    <action selector="WorkingGroupLink:" destination="QHg-WH-k9I" eventType="touchUpInside" id="DuC-3l-Biy"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
