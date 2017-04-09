@@ -21,7 +21,16 @@ class MainMenuController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    // MARK ACTIONS 
 
+    @IBAction func WorkingGroupLink(_ sender: Any)
+    {
+        if let workingGroupUrl = URL (string: "https://unfazedcreation.wixsite.com/prebicdata/copy-of-board-members")
+        {
+            UIApplication.shared.open(workingGroupUrl, options: [:])
+        }
+    }
 
 }
 
