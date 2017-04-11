@@ -1607,7 +1607,7 @@
         <image name="bUTTONfANCYEdged" width="339" height="107"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="1U9-sI-zFz"/>
         <segue reference="gf0-Ne-4UI"/>
-        <segue reference="gd8-K1-NAD"/>
     </inferredMetricsTieBreakers>
 </document>
