@@ -473,7 +473,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DarkBackground" translatesAutoresizingMaskIntoConstraints="NO" id="9ry-Pt-Cdp" userLabel="background">
-                                <rect key="frame" x="0.0" y="64" width="375" height="583"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Njt-go-qEJ">
                                 <rect key="frame" x="-20" y="52" width="415" height="641"/>
@@ -675,13 +675,12 @@
                             <constraint firstItem="9ry-Pt-Cdp" firstAttribute="top" secondItem="KpE-wJ-oVZ" secondAttribute="bottom" id="8uQ-d8-qf6"/>
                             <constraint firstItem="Njt-go-qEJ" firstAttribute="leading" secondItem="t5u-MS-fT2" secondAttribute="leading" constant="-20" id="GCv-8n-sK4"/>
                             <constraint firstItem="Njt-go-qEJ" firstAttribute="top" secondItem="t5u-MS-fT2" secondAttribute="top" constant="52" id="LRO-k0-e7A"/>
-                            <constraint firstItem="9ry-Pt-Cdp" firstAttribute="bottom" secondItem="YV2-fE-v96" secondAttribute="top" constant="-20" id="LVL-Au-LiK"/>
+                            <constraint firstItem="9ry-Pt-Cdp" firstAttribute="bottom" secondItem="YV2-fE-v96" secondAttribute="top" id="LVL-Au-LiK"/>
                             <constraint firstItem="Njt-go-qEJ" firstAttribute="centerX" secondItem="9ry-Pt-Cdp" secondAttribute="centerX" id="N63-9O-F48"/>
                             <constraint firstItem="9ry-Pt-Cdp" firstAttribute="leading" secondItem="t5u-MS-fT2" secondAttribute="leading" id="NU3-Ge-qb7"/>
                             <constraint firstItem="9ry-Pt-Cdp" firstAttribute="leading" secondItem="t5u-MS-fT2" secondAttribute="leading" id="NoR-JD-4GE"/>
                             <constraint firstItem="9ry-Pt-Cdp" firstAttribute="top" secondItem="KpE-wJ-oVZ" secondAttribute="bottom" id="OUu-cv-ldI"/>
                             <constraint firstItem="YV2-fE-v96" firstAttribute="top" secondItem="Njt-go-qEJ" secondAttribute="bottom" constant="-26" id="P3s-a9-Xjd"/>
-                            <constraint firstItem="YV2-fE-v96" firstAttribute="top" secondItem="9ry-Pt-Cdp" secondAttribute="bottom" constant="20" id="YfM-Z5-AHI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Travel" id="FQ8-Nk-lxJ">
@@ -709,14 +708,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u7v-Ix-Yl1" userLabel="Spacer">
-                                <rect key="frame" x="0.0" y="391" width="375" height="268"/>
+                                <rect key="frame" x="0.0" y="235" width="375" height="424"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DarkBackground" translatesAutoresizingMaskIntoConstraints="NO" id="LhL-nl-NV0">
-                                        <rect key="frame" x="0.0" y="-324" width="375" height="592"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DarkBackground" translatesAutoresizingMaskIntoConstraints="NO" id="LhL-nl-NV0">
+                                        <rect key="frame" x="0.0" y="-476" width="375" height="900"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="LhL-nl-NV0" secondAttribute="bottom" id="31r-JI-UlX"/>
+                                    <constraint firstAttribute="trailing" secondItem="LhL-nl-NV0" secondAttribute="trailing" id="5Wz-eU-R6S"/>
+                                    <constraint firstItem="LhL-nl-NV0" firstAttribute="top" secondItem="u7v-Ix-Yl1" secondAttribute="top" constant="-476" id="U7V-Ws-k9D"/>
+                                    <constraint firstItem="LhL-nl-NV0" firstAttribute="leading" secondItem="u7v-Ix-Yl1" secondAttribute="leading" id="j0p-C9-tui"/>
+                                </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Gld-hA-5t6" userLabel="Stack View header">
                                 <rect key="frame" x="0.0" y="64" width="375" height="85"/>
@@ -739,13 +743,13 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="s7M-Z3-TOb" userLabel="Stack View buttons">
-                                <rect key="frame" x="0.0" y="157" width="375" height="226"/>
+                                <rect key="frame" x="0.0" y="157" width="375" height="70"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pLj-pz-t1j" userLabel="Galvez link">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JaU-LO-hbO">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" backgroundImage="HotelButton-Website"/>
                                                 <connections>
                                                     <action selector="GoToGalvezLink:" destination="MS2-pb-aIx" eventType="touchUpInside" id="sZJ-sf-hQg"/>
@@ -760,55 +764,13 @@
                                             <constraint firstItem="JaU-LO-hbO" firstAttribute="leading" secondItem="pLj-pz-t1j" secondAttribute="leading" id="So5-f7-tm3"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o38-qD-o0a" userLabel="Food ">
-                                        <rect key="frame" x="0.0" y="78" width="375" height="70"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ew-FR-dgq">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
-                                                <state key="normal" backgroundImage="HotelButton-Food"/>
-                                                <connections>
-                                                    <action selector="GoToFoodLink:" destination="MS2-pb-aIx" eventType="touchUpInside" id="48e-TF-Jqf"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="9ew-FR-dgq" secondAttribute="trailing" id="4Gm-us-jYP"/>
-                                            <constraint firstAttribute="bottom" secondItem="9ew-FR-dgq" secondAttribute="bottom" id="VuL-gQ-sX2"/>
-                                            <constraint firstItem="9ew-FR-dgq" firstAttribute="top" secondItem="o38-qD-o0a" secondAttribute="top" id="Vw2-au-ZUm"/>
-                                            <constraint firstItem="9ew-FR-dgq" firstAttribute="leading" secondItem="o38-qD-o0a" secondAttribute="leading" id="a6f-a1-CD1"/>
-                                        </constraints>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sia-Ex-7rx" userLabel="Shuttle information">
-                                        <rect key="frame" x="0.0" y="150" width="375" height="76"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7rt-yp-9U4">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
-                                                <state key="normal" backgroundImage="HotelButton-Shuttle"/>
-                                                <connections>
-                                                    <action selector="GoToShuttleinfoLink:" destination="MS2-pb-aIx" eventType="touchUpInside" id="Ve3-JR-jgt"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="7rt-yp-9U4" firstAttribute="leading" secondItem="Sia-Ex-7rx" secondAttribute="leading" id="0uN-ed-rkM"/>
-                                            <constraint firstItem="7rt-yp-9U4" firstAttribute="top" secondItem="Sia-Ex-7rx" secondAttribute="top" id="3Bp-Qd-WUV"/>
-                                            <constraint firstAttribute="trailing" secondItem="7rt-yp-9U4" secondAttribute="trailing" id="Ip9-gU-qu4"/>
-                                            <constraint firstAttribute="bottom" secondItem="7rt-yp-9U4" secondAttribute="bottom" id="coO-de-jOp"/>
-                                        </constraints>
-                                    </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="o38-qD-o0a" firstAttribute="centerY" secondItem="s7M-Z3-TOb" secondAttribute="centerY" id="FdH-Lf-bHH"/>
-                                    <constraint firstItem="o38-qD-o0a" firstAttribute="top" secondItem="s7M-Z3-TOb" secondAttribute="top" constant="78" id="Iin-Cc-WPJ"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Gld-hA-5t6" firstAttribute="top" secondItem="LOX-bL-10n" secondAttribute="bottom" id="9vo-l3-2x1"/>
-                            <constraint firstItem="u7v-Ix-Yl1" firstAttribute="top" secondItem="fO7-ep-xGE" secondAttribute="top" constant="391" id="Ah1-fc-hrJ"/>
+                            <constraint firstItem="u7v-Ix-Yl1" firstAttribute="top" relation="lessThanOrEqual" secondItem="fO7-ep-xGE" secondAttribute="top" constant="391" id="Ah1-fc-hrJ"/>
                             <constraint firstItem="Gld-hA-5t6" firstAttribute="leading" secondItem="s7M-Z3-TOb" secondAttribute="leading" id="Bm8-K8-zbZ"/>
                             <constraint firstItem="s7M-Z3-TOb" firstAttribute="top" secondItem="Gld-hA-5t6" secondAttribute="bottom" constant="8" symbolic="YES" id="CRm-An-vtD"/>
                             <constraint firstItem="s7M-Z3-TOb" firstAttribute="leading" secondItem="u7v-Ix-Yl1" secondAttribute="leading" id="Ck0-2S-tVq"/>
@@ -1134,7 +1096,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CRH-2k-WvB" userLabel="spacer">
-                                <rect key="frame" x="0.0" y="391" width="375" height="268"/>
+                                <rect key="frame" x="0.0" y="287" width="375" height="372"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DarkBackground" translatesAutoresizingMaskIntoConstraints="NO" id="haI-Ob-fdR">
@@ -1161,13 +1123,13 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="dCG-xd-uff" userLabel="Stack View buttons">
-                                <rect key="frame" x="0.0" y="157" width="375" height="226"/>
+                                <rect key="frame" x="0.0" y="157" width="375" height="122"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Rc-Au-sxd" userLabel="Venue Directions">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWr-wb-faW">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" backgroundImage="VenueButton-Directions"/>
                                                 <connections>
                                                     <action selector="GoToVenueDirections:" destination="yYI-mM-1Wb" eventType="touchUpInside" id="bW2-JQ-jbh"/>
@@ -1178,34 +1140,15 @@
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="yWr-wb-faW" secondAttribute="trailing" id="3DG-jS-Hed"/>
                                             <constraint firstItem="yWr-wb-faW" firstAttribute="top" secondItem="6Rc-Au-sxd" secondAttribute="top" id="6RH-fG-csP"/>
-                                            <constraint firstAttribute="bottom" secondItem="yWr-wb-faW" secondAttribute="bottom" id="Fcb-YC-Svc"/>
+                                            <constraint firstAttribute="bottom" secondItem="yWr-wb-faW" secondAttribute="bottom" constant="-10" id="Fcb-YC-Svc"/>
                                             <constraint firstItem="yWr-wb-faW" firstAttribute="leading" secondItem="6Rc-Au-sxd" secondAttribute="leading" id="Hcp-nD-KLn"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Qq-ek-nNw" userLabel="Venue Layout ">
-                                        <rect key="frame" x="0.0" y="78" width="375" height="70"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aze-Fp-3Jx">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
-                                                <state key="normal" backgroundImage="VenueButton-Floorplan"/>
-                                                <connections>
-                                                    <action selector="PresentVenuLayout:" destination="yYI-mM-1Wb" eventType="touchUpInside" id="hRs-B9-tiL"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="aze-Fp-3Jx" secondAttribute="bottom" id="0wI-X6-yio"/>
-                                            <constraint firstAttribute="trailing" secondItem="aze-Fp-3Jx" secondAttribute="trailing" id="D2A-fu-cQc"/>
-                                            <constraint firstItem="aze-Fp-3Jx" firstAttribute="top" secondItem="4Qq-ek-nNw" secondAttribute="top" id="P9X-Lb-442"/>
-                                            <constraint firstItem="aze-Fp-3Jx" firstAttribute="leading" secondItem="4Qq-ek-nNw" secondAttribute="leading" id="uHP-r3-ZUK"/>
-                                        </constraints>
-                                    </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Acs-gv-1Si" userLabel="Venue Information">
-                                        <rect key="frame" x="0.0" y="150" width="375" height="76"/>
+                                        <rect key="frame" x="0.0" y="62" width="375" height="60"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ue-7G-mFW">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" backgroundImage="VenueButton-History"/>
                                                 <connections>
                                                     <action selector="VenuInfo:" destination="yYI-mM-1Wb" eventType="touchUpInside" id="ybS-9e-9hP"/>
@@ -1217,13 +1160,13 @@
                                             <constraint firstItem="8ue-7G-mFW" firstAttribute="top" secondItem="Acs-gv-1Si" secondAttribute="top" id="8SV-5y-taz"/>
                                             <constraint firstAttribute="trailing" secondItem="8ue-7G-mFW" secondAttribute="trailing" id="CX3-3q-olg"/>
                                             <constraint firstItem="8ue-7G-mFW" firstAttribute="leading" secondItem="Acs-gv-1Si" secondAttribute="leading" id="CxN-Ut-IzX"/>
-                                            <constraint firstAttribute="bottom" secondItem="8ue-7G-mFW" secondAttribute="bottom" id="jL7-Yc-fX2"/>
+                                            <constraint firstAttribute="bottom" secondItem="8ue-7G-mFW" secondAttribute="bottom" constant="-10" id="jL7-Yc-fX2"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="4Qq-ek-nNw" firstAttribute="top" secondItem="dCG-xd-uff" secondAttribute="top" constant="78" id="S1s-p3-EY0"/>
-                                    <constraint firstItem="4Qq-ek-nNw" firstAttribute="centerY" secondItem="dCG-xd-uff" secondAttribute="centerY" id="jEw-hB-urZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="6Rc-Au-sxd" secondAttribute="bottom" constant="62" id="N9H-fK-yAD"/>
+                                    <constraint firstItem="Acs-gv-1Si" firstAttribute="top" secondItem="dCG-xd-uff" secondAttribute="top" constant="62" id="emu-WS-xk6"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -1241,7 +1184,7 @@
                             <constraint firstItem="u0r-8o-Fjg" firstAttribute="top" secondItem="YVM-dA-zaB" secondAttribute="bottom" id="cmA-1U-ftq"/>
                             <constraint firstItem="AR9-QW-v24" firstAttribute="top" secondItem="haI-Ob-fdR" secondAttribute="bottom" id="fTX-24-FdR"/>
                             <constraint firstItem="CRH-2k-WvB" firstAttribute="top" secondItem="dCG-xd-uff" secondAttribute="bottom" constant="8" symbolic="YES" id="hOi-Xp-dY0"/>
-                            <constraint firstItem="CRH-2k-WvB" firstAttribute="top" secondItem="fPH-lW-JX2" secondAttribute="top" constant="391" id="lBe-so-itg"/>
+                            <constraint firstItem="CRH-2k-WvB" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fPH-lW-JX2" secondAttribute="top" constant="280" id="lBe-so-itg"/>
                             <constraint firstItem="dCG-xd-uff" firstAttribute="top" secondItem="u0r-8o-Fjg" secondAttribute="bottom" constant="8" symbolic="YES" id="nor-Nt-CUm"/>
                             <constraint firstItem="dCG-xd-uff" firstAttribute="top" secondItem="fPH-lW-JX2" secondAttribute="top" constant="157" id="pdP-Vz-JjP"/>
                             <constraint firstAttribute="trailing" secondItem="u0r-8o-Fjg" secondAttribute="trailing" id="qQH-c8-maF"/>
@@ -1576,8 +1519,6 @@
         <image name="GalvestonButton-Website" width="340" height="60"/>
         <image name="GuestSpeakerBg" width="354" height="122"/>
         <image name="Header" width="375" height="84"/>
-        <image name="HotelButton-Food" width="340" height="60"/>
-        <image name="HotelButton-Shuttle" width="340" height="60"/>
         <image name="HotelButton-Website" width="340" height="60"/>
         <image name="LinksButton-Galvez" width="340" height="60"/>
         <image name="LinksButton-PREBIC" width="340" height="60"/>
@@ -1601,13 +1542,12 @@
         <image name="TravelButton-Uber" width="340" height="60"/>
         <image name="TravelButton-hobby" width="340" height="60"/>
         <image name="VenueButton-Directions" width="340" height="60"/>
-        <image name="VenueButton-Floorplan" width="340" height="60"/>
         <image name="VenueButton-History" width="340" height="60"/>
         <image name="Working_bg_groups" width="339" height="107"/>
         <image name="bUTTONfANCYEdged" width="339" height="107"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="LeC-cn-nXv"/>
         <segue reference="gf0-Ne-4UI"/>
-        <segue reference="gd8-K1-NAD"/>
     </inferredMetricsTieBreakers>
 </document>

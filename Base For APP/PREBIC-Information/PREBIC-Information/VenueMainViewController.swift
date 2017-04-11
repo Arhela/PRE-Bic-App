@@ -50,7 +50,10 @@ class VenueMainViewController: UIViewController {
 
     @IBAction func VenuInfo(_ sender: Any)
     {
-        // UTMB website?
+        if let venuUrl = URL (string: "https://www.utmb.edu/suf/fac/open_gates.asp")
+        {
+            UIApplication.shared.open(venuUrl, options: [:])
+        }
         
     }
 }
