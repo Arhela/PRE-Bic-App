@@ -1134,7 +1134,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CRH-2k-WvB" userLabel="spacer">
-                                <rect key="frame" x="0.0" y="391" width="375" height="268"/>
+                                <rect key="frame" x="0.0" y="287" width="375" height="372"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DarkBackground" translatesAutoresizingMaskIntoConstraints="NO" id="haI-Ob-fdR">
@@ -1161,13 +1161,13 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="dCG-xd-uff" userLabel="Stack View buttons">
-                                <rect key="frame" x="0.0" y="157" width="375" height="226"/>
+                                <rect key="frame" x="0.0" y="157" width="375" height="122"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Rc-Au-sxd" userLabel="Venue Directions">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWr-wb-faW">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" backgroundImage="VenueButton-Directions"/>
                                                 <connections>
                                                     <action selector="GoToVenueDirections:" destination="yYI-mM-1Wb" eventType="touchUpInside" id="bW2-JQ-jbh"/>
@@ -1178,34 +1178,15 @@
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="yWr-wb-faW" secondAttribute="trailing" id="3DG-jS-Hed"/>
                                             <constraint firstItem="yWr-wb-faW" firstAttribute="top" secondItem="6Rc-Au-sxd" secondAttribute="top" id="6RH-fG-csP"/>
-                                            <constraint firstAttribute="bottom" secondItem="yWr-wb-faW" secondAttribute="bottom" id="Fcb-YC-Svc"/>
+                                            <constraint firstAttribute="bottom" secondItem="yWr-wb-faW" secondAttribute="bottom" constant="-10" id="Fcb-YC-Svc"/>
                                             <constraint firstItem="yWr-wb-faW" firstAttribute="leading" secondItem="6Rc-Au-sxd" secondAttribute="leading" id="Hcp-nD-KLn"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Qq-ek-nNw" userLabel="Venue Layout ">
-                                        <rect key="frame" x="0.0" y="78" width="375" height="70"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aze-Fp-3Jx">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
-                                                <state key="normal" backgroundImage="VenueButton-Floorplan"/>
-                                                <connections>
-                                                    <action selector="PresentVenuLayout:" destination="yYI-mM-1Wb" eventType="touchUpInside" id="hRs-B9-tiL"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="aze-Fp-3Jx" secondAttribute="bottom" id="0wI-X6-yio"/>
-                                            <constraint firstAttribute="trailing" secondItem="aze-Fp-3Jx" secondAttribute="trailing" id="D2A-fu-cQc"/>
-                                            <constraint firstItem="aze-Fp-3Jx" firstAttribute="top" secondItem="4Qq-ek-nNw" secondAttribute="top" id="P9X-Lb-442"/>
-                                            <constraint firstItem="aze-Fp-3Jx" firstAttribute="leading" secondItem="4Qq-ek-nNw" secondAttribute="leading" id="uHP-r3-ZUK"/>
-                                        </constraints>
-                                    </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Acs-gv-1Si" userLabel="Venue Information">
-                                        <rect key="frame" x="0.0" y="150" width="375" height="76"/>
+                                        <rect key="frame" x="0.0" y="62" width="375" height="60"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ue-7G-mFW">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                                 <state key="normal" backgroundImage="VenueButton-History"/>
                                                 <connections>
                                                     <action selector="VenuInfo:" destination="yYI-mM-1Wb" eventType="touchUpInside" id="ybS-9e-9hP"/>
@@ -1217,13 +1198,13 @@
                                             <constraint firstItem="8ue-7G-mFW" firstAttribute="top" secondItem="Acs-gv-1Si" secondAttribute="top" id="8SV-5y-taz"/>
                                             <constraint firstAttribute="trailing" secondItem="8ue-7G-mFW" secondAttribute="trailing" id="CX3-3q-olg"/>
                                             <constraint firstItem="8ue-7G-mFW" firstAttribute="leading" secondItem="Acs-gv-1Si" secondAttribute="leading" id="CxN-Ut-IzX"/>
-                                            <constraint firstAttribute="bottom" secondItem="8ue-7G-mFW" secondAttribute="bottom" id="jL7-Yc-fX2"/>
+                                            <constraint firstAttribute="bottom" secondItem="8ue-7G-mFW" secondAttribute="bottom" constant="-10" id="jL7-Yc-fX2"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="4Qq-ek-nNw" firstAttribute="top" secondItem="dCG-xd-uff" secondAttribute="top" constant="78" id="S1s-p3-EY0"/>
-                                    <constraint firstItem="4Qq-ek-nNw" firstAttribute="centerY" secondItem="dCG-xd-uff" secondAttribute="centerY" id="jEw-hB-urZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="6Rc-Au-sxd" secondAttribute="bottom" constant="62" id="N9H-fK-yAD"/>
+                                    <constraint firstItem="Acs-gv-1Si" firstAttribute="top" secondItem="dCG-xd-uff" secondAttribute="top" constant="62" id="emu-WS-xk6"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -1241,7 +1222,7 @@
                             <constraint firstItem="u0r-8o-Fjg" firstAttribute="top" secondItem="YVM-dA-zaB" secondAttribute="bottom" id="cmA-1U-ftq"/>
                             <constraint firstItem="AR9-QW-v24" firstAttribute="top" secondItem="haI-Ob-fdR" secondAttribute="bottom" id="fTX-24-FdR"/>
                             <constraint firstItem="CRH-2k-WvB" firstAttribute="top" secondItem="dCG-xd-uff" secondAttribute="bottom" constant="8" symbolic="YES" id="hOi-Xp-dY0"/>
-                            <constraint firstItem="CRH-2k-WvB" firstAttribute="top" secondItem="fPH-lW-JX2" secondAttribute="top" constant="391" id="lBe-so-itg"/>
+                            <constraint firstItem="CRH-2k-WvB" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fPH-lW-JX2" secondAttribute="top" constant="280" id="lBe-so-itg"/>
                             <constraint firstItem="dCG-xd-uff" firstAttribute="top" secondItem="u0r-8o-Fjg" secondAttribute="bottom" constant="8" symbolic="YES" id="nor-Nt-CUm"/>
                             <constraint firstItem="dCG-xd-uff" firstAttribute="top" secondItem="fPH-lW-JX2" secondAttribute="top" constant="157" id="pdP-Vz-JjP"/>
                             <constraint firstAttribute="trailing" secondItem="u0r-8o-Fjg" secondAttribute="trailing" id="qQH-c8-maF"/>
@@ -1601,7 +1582,6 @@
         <image name="TravelButton-Uber" width="340" height="60"/>
         <image name="TravelButton-hobby" width="340" height="60"/>
         <image name="VenueButton-Directions" width="340" height="60"/>
-        <image name="VenueButton-Floorplan" width="340" height="60"/>
         <image name="VenueButton-History" width="340" height="60"/>
         <image name="Working_bg_groups" width="339" height="107"/>
         <image name="bUTTONfANCYEdged" width="339" height="107"/>
