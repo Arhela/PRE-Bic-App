@@ -155,12 +155,20 @@ class SchEventTableViewController: UITableViewController {
         
        // Bold String vars
         
+        // atribute
+       // let attr = [NSFontAttributeName: UIFont.boldSystemFont(ofSize: 15)]
+        
+        let mondayStringText = "Monday May 07"
+        
+        //var mondayBoldString = NSMutableAttributedString(string: mondayStringText, attributes: attr)
+        
+        
         
         
         // Monday events
         
         
-         let satHeader = SchEvent(name: "Monday May 07", discription: "Monday Events", location: "Open Gates", time: "Mon May 08 7:15AM - 5:30PM", speaker: "N/a")
+         let satHeader = SchEvent(name: mondayStringText, discription: "Monday Events", location: "Open Gates", time: "Mon May 08 7:15AM - 5:30PM", speaker: "N/a")
         
         let satShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "Mon May 08 7:15AM - 7:15AM", speaker: "N/a")
         
