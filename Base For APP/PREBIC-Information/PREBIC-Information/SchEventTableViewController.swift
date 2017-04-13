@@ -153,6 +153,10 @@ class SchEventTableViewController: UITableViewController {
     {
         // load Events
         
+       // Bold String vars
+        
+        
+        
         // Monday events
         
         
@@ -165,100 +169,100 @@ class SchEventTableViewController: UITableViewController {
        
        
         
-        let event1 = SchEvent(name: "Continental Breakfast", discription: "Breakfast", location: "Open Gates", time: "Mon May 07 7:30AM - 8:30AM", speaker: "N/a")
+        let event1 = SchEvent(name: "Continental Breakfast", discription: "Breakfast", location: "Open Gates", time: "Mon May 08 7:30AM - 8:30AM", speaker: "N/a")
         
-        let event2 = SchEvent(name: "Welcome Address", discription: "Address from Dr. Menon PhD", location: "Open Gates", time: "Mon May 07 8:30AM - 8:35AM", speaker: "Ramkumar Menon, PhD")
+        let event2 = SchEvent(name: "Welcome Address", discription: "Address from Dr. Menon PhD", location: "Open Gates", time: "Mon May 08 8:30AM - 8:35AM", speaker: "Ramkumar Menon, PhD")
         
-        let event3 = SchEvent(name: "Speaker from UTMB", discription: "Speaker from UTMB", location: "Open Gates", time: "Mon May 07 8:35AM - 8:45AM", speaker: "TBD")
+        let event3 = SchEvent(name: "Speaker from UTMB", discription: "Speaker from UTMB", location: "Open Gates", time: "Mon May 08 8:35AM - 8:45AM", speaker: "TBD")
         
-        let event4 = SchEvent(name: "Presidential address", discription: "Presidential Address", location: "Open Gates", time: "Mon May 07 8:45AM - 9:00AM", speaker: "TBD")
+        let event4 = SchEvent(name: "Presidential address", discription: "Presidential Address", location: "Open Gates", time: "Mon May 08 8:45AM - 9:00AM", speaker: "TBD")
         
-         let event5 = SchEvent(name: "Future of PREBIC", discription: "Future of PREBIC", location: "Open Gates", time: "Mon May 07 9:00AM - 9:15AM", speaker: "Nanbert Zhong, MD, PhD")
+         let event5 = SchEvent(name: "Future of PREBIC", discription: "Future of PREBIC", location: "Open Gates", time: "Mon May 08 9:00AM - 9:15AM", speaker: "Nanbert Zhong, MD, PhD")
         
-        let event6 = SchEvent(name: "PREBIC Accomplishments", discription: "PREBIC Accomplishments", location: "Open Gates", time: "Sat May 08 9:15AM - 9:30AM", speaker: "Calvin J Hobel, MD")
+        let event6 = SchEvent(name: "PREBIC Accomplishments", discription: "PREBIC Accomplishments", location: "Open Gates", time: "Mon May 08 9:15AM - 9:30AM", speaker: "Calvin J Hobel, MD")
         
-        let event7 = SchEvent(name: "PREBIC Organization", discription: "PREBIC organization (registration, by-law)", location: "Open Gates", time: "Mon May 07 9:30AM - 9:45AM", speaker: "Elizabeth Bonney, MD")
+        let event7 = SchEvent(name: "PREBIC Organization", discription: "PREBIC organization (registration, by-law)", location: "Open Gates", time: "Mon May 08 9:30AM - 9:45AM", speaker: "Elizabeth Bonney, MD")
         
-        let event8 = SchEvent(name: "PREBIC Scientific Agenda", discription: "PREBIC scientific agenda", location: "Open Gates", time: "Mon May 07 9:45AM - 10:00AM", speaker: "Cynthia Gyamfi-Bannerman, MD, MS")
+        let event8 = SchEvent(name: "PREBIC Scientific Agenda", discription: "PREBIC scientific agenda", location: "Open Gates", time: "Mon May 08 9:45AM - 10:00AM", speaker: "Cynthia Gyamfi-Bannerman, MD, MS")
         
-        let event9 = SchEvent(name: "The year in preterm birth", discription: "The year in preterm birth—Clinical", location: "Open Gates", time: "Mon May 07 10:00AM - 10:25AM", speaker: "Alfred Brann, MD")
+        let event9 = SchEvent(name: "The year in preterm birth", discription: "The year in preterm birth—Clinical", location: "Open Gates", time: "Mon May 08 10:00AM - 10:25AM", speaker: "Alfred Brann, MD")
         
-        let event10 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Mon May 07 10:25AM - 10:30AM", speaker: "TBD")
+        let event10 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Mon May 08 10:25AM - 10:30AM", speaker: "TBD")
         
-        let event11 = SchEvent(name: "Coffee Break", discription: "Coffee Break", location: "Open Gates", time: "Mon May 07 10:30AM - 10:45AM", speaker: "N/a")
+        let event11 = SchEvent(name: "Coffee Break", discription: "Coffee Break", location: "Open Gates", time: "Mon May 08 10:30AM - 10:45AM", speaker: "N/a")
         
-        let event12 = SchEvent(name: "The Year in Preterm Birth", discription: "The year in preterm birth —Basic Science", location: "Open Gates", time: "Mon May 07 10:45AM - 11:10AM", speaker: "Leslie Myatt, PhD")
+        let event12 = SchEvent(name: "The Year in Preterm Birth", discription: "The year in preterm birth —Basic Science", location: "Open Gates", time: "Mon May 08 10:45AM - 11:10AM", speaker: "Leslie Myatt, PhD")
         
-        let event13 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Mon May 07 11:10AM - 11:15AM", speaker: "TBD")
+        let event13 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Mon May 08 11:10AM - 11:15AM", speaker: "TBD")
         
-        let event14 = SchEvent(name: "PREBIC Working Groups", discription: "PREBIC Working groups assignments and rationale", location: "Open Gates", time: "Mon May 07 11:15AM - 11:40AM", speaker: "Scott M Williams, PhD")
+        let event14 = SchEvent(name: "PREBIC Working Groups", discription: "PREBIC Working groups assignments and rationale", location: "Open Gates", time: "Mon May 08 11:15AM - 11:40AM", speaker: "Scott M Williams, PhD")
         
-        let event15 = SchEvent(name: "PREBIC Working Groups", discription: "Assignments, effective functioning and expectations from working groups", location: "Open Gates", time: "Mon May 07 11:40AM - 12:00PM", speaker: "Sam Mesiano, PhD")
+        let event15 = SchEvent(name: "PREBIC Working Groups", discription: "Assignments, effective functioning and expectations from working groups", location: "Open Gates", time: "Mon May 08 11:40AM - 12:00PM", speaker: "Sam Mesiano, PhD")
         
-         let event16 = SchEvent(name: "DISCUSSION", discription: "DISCUSSION", location: "Open Gates", time: "Mon May 07 12:00PM - 12:15PM", speaker: "N/a")
+         let event16 = SchEvent(name: "DISCUSSION", discription: "DISCUSSION", location: "Open Gates", time: "Mon May 08 12:00PM - 12:15PM", speaker: "N/a")
         
         let event17 = SchEvent(name: "Lunch", discription: "Lunch", location: "Open Gates", time: "Mon May 07 12:15PM - 01:30PM", speaker: "N/a")
         
-        let event18 = SchEvent(name: "WORKING GROUPS MEET", discription: "WORKING GROUPS MEET", location: "Open Gates", time: "Mon May 07 01:30PM - 03:30PM", speaker: "N/a")
+        let event18 = SchEvent(name: "WORKING GROUPS MEET", discription: "WORKING GROUPS MEET", location: "Open Gates", time: "Mon May 08 01:30PM - 03:30PM", speaker: "N/a")
         
-        let event19 = SchEvent(name: "COFFEE", discription: "COFFEE", location: "Open Gates", time: "Mon May 07 03:30PM - 04:00PM", speaker: "N/a")
+        let event19 = SchEvent(name: "COFFEE", discription: "COFFEE", location: "Open Gates", time: "Mon May 08 03:30PM - 04:00PM", speaker: "N/a")
         
-        let event20 = SchEvent(name: "WORKING GROUP MEET", discription: "WORKING GROUP MEET", location: "Open Gates", time: "Mon May 07 04:00PM - 05:30PM", speaker: "N/a")
+        let event20 = SchEvent(name: "WORKING GROUP MEET", discription: "WORKING GROUP MEET", location: "Open Gates", time: "Mon May 08 04:00PM - 05:30PM", speaker: "N/a")
         
        //-----------------------------------------------------------------------------------------------------------
         // Tuesday vents
         let sunHeader = SchEvent(name: "Tuesday May 08", discription: "Sunday Events", location: "Open Gates", time: "Tue May 09 7:30AM - 10:00PM", speaker: "N/a")
         
         
-        let sunShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "tue May 08 7:15AM - 7:15AM", speaker: "N/a")
+        let sunShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "Tue May 09 7:15AM - 7:15AM", speaker: "N/a")
         
-        let sunShutle2 = SchEvent(name: "Shuttle 2 leaves", discription: "Shuttle 2 leaves", location: "Galvez", time: "Tue May 08 7:45AM - 7:45AM", speaker: "N/a")
+        let sunShutle2 = SchEvent(name: "Shuttle 2 leaves", discription: "Shuttle 2 leaves", location: "Galvez", time: "Tue May 09 7:45AM - 7:45AM", speaker: "N/a")
         
-        let event21 = SchEvent(name: "Derek Wildman, PhD", discription: "Derek Wildman, PhD", location: "Open Gates", time: "Tue May 08 8:30AM - 8:50AM", speaker: "Derek Wildman")
+        let event21 = SchEvent(name: "Derek Wildman, PhD", discription: "Derek Wildman, PhD", location: "Open Gates", time: "Tue May 09 8:30AM - 8:50AM", speaker: "Derek Wildman")
         
-        let event22 = SchEvent(name: "George Saade, MD", discription: "George Saade, MD", location: "Open Gates", time: "Tue May 08 8:50AM - 9:10AM", speaker: "George Saade, MD")
+        let event22 = SchEvent(name: "George Saade, MD", discription: "George Saade, MD", location: "Open Gates", time: "Tue May 09 8:50AM - 9:10AM", speaker: "George Saade, MD")
         
-        let event23 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Sun May 08 9:10AM - 9:15AM", speaker: "TBD")
+        let event23 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Tue May 09 9:10AM - 9:15AM", speaker: "TBD")
         
-        let event24 = SchEvent(name: "Preterm birth research in India", discription: "Preterm birth research in India", location: "Open Gates", time: "Tue May 08 9:15AM - 9:25AM", speaker: "Pallavi Kshetrapal, PhD")
+        let event24 = SchEvent(name: "Preterm birth research in India", discription: "Preterm birth research in India", location: "Open Gates", time: "Tue May 09 9:15AM - 9:25AM", speaker: "Pallavi Kshetrapal, PhD")
         
-         let event25 = SchEvent(name: "Preterm birth research in Africa", discription: "Preterm birth research in Africa", location: "Open Gates", time: "Tue May 08 9:25AM - 9:35AM", speaker: "Samuel Obed, MD")
+         let event25 = SchEvent(name: "Preterm birth research in Africa", discription: "Preterm birth research in Africa", location: "Open Gates", time: "Tue May 09 9:25AM - 9:35AM", speaker: "Samuel Obed, MD")
         
-        let event26 = SchEvent(name: "Preterm birth research in East Asia", discription: "Preterm birth research in East Asia", location: "Open Gates", time: "Tue May 08 9:35AM - 9:45AM", speaker: "Kim Young Ju, MD, PhD")
+        let event26 = SchEvent(name: "Preterm birth research in East Asia", discription: "Preterm birth research in East Asia", location: "Open Gates", time: "Tue May 09 9:35AM - 9:45AM", speaker: "Kim Young Ju, MD, PhD")
         
-        let event27 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Tue May 08 9:45AM - 10:00AM", speaker: "N/a")
+        let event27 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Tue May 09 9:45AM - 10:00AM", speaker: "N/a")
         
-        let event28 = SchEvent(name: "Coffee Break", discription: "Coffee Break", location: "Open Gates", time: "Tue May 08 10:00AM - 10:30AM", speaker: "N/a")
+        let event28 = SchEvent(name: "Coffee Break", discription: "Coffee Break", location: "Open Gates", time: "Tue May 09 10:00AM - 10:30AM", speaker: "N/a")
         
-        let event29 = SchEvent(name: "Development of young investigator", discription: "Development of young investigator", location: "Open Gates", time: "Tue May 08 10:30AM - 10:40AM", speaker: "Indira Mysorekar")
+        let event29 = SchEvent(name: "Development of young investigator", discription: "Development of young investigator", location: "Open Gates", time: "Tue May 09 10:30AM - 10:40AM", speaker: "Indira Mysorekar")
         
-        let event30 = SchEvent(name: "Journal of Preterm Birth", discription: "Journal of Preterm Birth", location: "Open Gates", time: "Tue May 08 10:40AM - 10:50AM", speaker: "Scott M Williams, PhD")
+        let event30 = SchEvent(name: "Journal of Preterm Birth", discription: "Journal of Preterm Birth", location: "Open Gates", time: "Tue May 09 10:40AM - 10:50AM", speaker: "Scott M Williams, PhD")
         
-         let event31 = SchEvent(name: "PREBIC Book", discription: "PREBIC Book", location: "Open Gates", time: "Tue May 08 10:50AM - 11:00AM", speaker: "Ronnie Lamont, MD")
+         let event31 = SchEvent(name: "PREBIC Book", discription: "PREBIC Book", location: "Open Gates", time: "Tue May 09 10:50AM - 11:00AM", speaker: "Ronnie Lamont, MD")
         
-        let event32 = SchEvent(name: "WORKING GROUPS MEET", discription: "WORKING GROUPS MEET", location: "Open Gates", time: "Tue May 08 11:00AM - 12:30PM", speaker: "N/a")
+        let event32 = SchEvent(name: "WORKING GROUPS MEET", discription: "WORKING GROUPS MEET", location: "Open Gates", time: "Tue May 09 11:00AM - 12:30PM", speaker: "N/a")
         
-        let event33 = SchEvent(name: "Lunch", discription: "Lunch", location: "N/a", time: "Tue May 08 12:30PM - 1:30PM", speaker: "N/a")
+        let event33 = SchEvent(name: "Lunch", discription: "Lunch", location: "N/a", time: "Tue May 09 12:30PM - 1:30PM", speaker: "N/a")
         
-        let event34 = SchEvent(name: "WORKING GROUPS MEET", discription: "WORKING GROUPS MEET", location: "Open Gates", time: "Tue May 08 1:30PM - 3:30PM", speaker: "N/a")
+        let event34 = SchEvent(name: "WORKING GROUPS MEET", discription: "WORKING GROUPS MEET", location: "Open Gates", time: "Tue May 09 1:30PM - 3:30PM", speaker: "N/a")
         
-        let event35 = SchEvent(name: "Coffee Break", discription: "Coffee Break", location: "Open Gates", time: "Tue May 08 3:30PM - 3:45PM", speaker: "N/a")
+        let event35 = SchEvent(name: "Coffee Break", discription: "Coffee Break", location: "Open Gates", time: "Tue May 09 3:30PM - 3:45PM", speaker: "N/a")
         
-        let event36 = SchEvent(name: "Group 1 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Sun May 08 3:45PM - 4:00PM", speaker: "N/a")
+        let event36 = SchEvent(name: "Group 1 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Tue May 09 3:45PM - 4:00PM", speaker: "N/a")
         
-        let event37 = SchEvent(name: "Group 2 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Tue May 08 4:00PM - 4:15PM", speaker: "N/a")
+        let event37 = SchEvent(name: "Group 2 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Tue May 09 4:00PM - 4:15PM", speaker: "N/a")
         
-         let event38 = SchEvent(name: "Group 3 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Tue May 08 4:15PM - 4:30PM", speaker: "N/a")
+         let event38 = SchEvent(name: "Group 3 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Tue May 09 4:15PM - 4:30PM", speaker: "N/a")
         
-        let event39 = SchEvent(name: "Group 4 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Tue May 08 4:30PM - 4:45PM", speaker: "N/a")
+        let event39 = SchEvent(name: "Group 4 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Tue May 09 4:30PM - 4:45PM", speaker: "N/a")
         
-        let event40 = SchEvent(name: "Group 5 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Tue May 08 4:45PM - 5:00PM", speaker: "N/a")
+        let event40 = SchEvent(name: "Group 5 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Tue May 09 4:45PM - 5:00PM", speaker: "N/a")
         
-        let event41 = SchEvent(name: "Group 6 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Tue May 08 5:00PM - 5:15PM", speaker: "N/a")
+        let event41 = SchEvent(name: "Group 6 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Tue May 09 5:00PM - 5:15PM", speaker: "N/a")
         
-        let event42 = SchEvent(name: "Review and Summary", discription: "Review and Summary (to be continued on day # 3)", location: "Open Gates", time: "Tue May 08 5:15PM - 5:30PM", speaker: "N/a")
+        let event42 = SchEvent(name: "Review and Summary", discription: "Review and Summary (to be continued on day # 3)", location: "Open Gates", time: "Tue May 09 5:15PM - 5:30PM", speaker: "N/a")
         
-        let event43 = SchEvent(name: "PREBIC DINNER", discription: "Dinner at Shearns Moody Gardens Website: http://www.moodygardenshotel.com/shearns", location: "Shearns Moody Gardens", time: "Tue May 08 7:00PM - 10:00PM", speaker: "N/a")
+        let event43 = SchEvent(name: "PREBIC DINNER", discription: "Dinner at Shearns Moody Gardens Website: http://www.moodygardenshotel.com/shearns", location: "Shearns Moody Gardens", time: "Tue May 09 7:00PM - 10:00PM", speaker: "N/a")
         
         //-----------------------------------------------------------------------------------------------------------
         // Wdnesday Events
