@@ -57,9 +57,42 @@ class SchEventTableViewController: UITableViewController {
         // feches the correct SchEvent for the cell
         let event = events[indexPath.row]
 
-        cell.eventLabel.text = event.eventName
-        cell.locLabel.text = event.eventLocation
-        cell.timeLabel.text = event.eventTime
+       // String var to capture name
+        let nameCheck = event.eventName
+        
+        // atributes to bold things
+        let attr = [NSFontAttributeName: UIFont.boldSystemFont(ofSize: 19)]
+        
+        switch nameCheck {
+        case "Monday May 07":
+           let mNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
+           let mLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
+           let mTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
+            cell.eventLabel.attributedText = mNameString
+            cell.locLabel.attributedText = mLocString
+            cell.timeLabel.attributedText = mTimeString
+        case "Tuesday May 08":
+            let tNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
+            let tLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
+            let tTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
+            cell.eventLabel.attributedText = tNameString
+            cell.locLabel.attributedText = tLocString
+            cell.timeLabel.attributedText = tTimeString
+        case "Wednesday May 10":
+            let wNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
+            let wLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
+            let wTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
+            cell.eventLabel.attributedText = wNameString
+            cell.locLabel.attributedText = wLocString
+            cell.timeLabel.attributedText = wTimeString
+        default:
+            cell.eventLabel.text = event.eventName
+            cell.locLabel.text = event.eventLocation
+            cell.timeLabel.text = event.eventTime
+        }
+        
+        
+        
 
         return cell
     }
@@ -114,13 +147,13 @@ class SchEventTableViewController: UITableViewController {
             guard let eventDetailViewController = segue.destination as? EventDetailViewViewController
             else
             {
-                fatalError("Unexpected sender: \(sender)")
+                fatalError("Unexpected sender: \(String(describing: sender))")
             }
             
             // Get the cell that sent the push message
             guard let selectedEventCell = sender as? SchEventTableViewCell else
             {
-                fatalError("Unexpected sender: \(sender)")
+                fatalError("Unexpected sender: \(String(describing: sender))")
                 
             }
             // Get the index path to the array of events
@@ -153,14 +186,7 @@ class SchEventTableViewController: UITableViewController {
     {
         // load Events
         
-       // Bold String vars
-        
-        // atribute
-       // let attr = [NSFontAttributeName: UIFont.boldSystemFont(ofSize: 15)]
-        
-        let mondayStringText = "Monday May 07"
-        
-        //var mondayBoldString = NSMutableAttributedString(string: mondayStringText, attributes: attr)
+       
         
         
         
@@ -168,7 +194,7 @@ class SchEventTableViewController: UITableViewController {
         // Monday events
         
         
-         let satHeader = SchEvent(name: mondayStringText, discription: "Monday Events", location: "Open Gates", time: "Mon May 08 7:15AM - 5:30PM", speaker: "N/a")
+         let satHeader = SchEvent(name: "Monday May 07", discription: "Monday Events", location: "Open Gates", time: "Mon May 08 7:15AM - 5:30PM", speaker: "N/a")
         
         let satShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "Mon May 08 7:15AM - 7:15AM", speaker: "N/a")
         
@@ -219,7 +245,7 @@ class SchEventTableViewController: UITableViewController {
         
        //-----------------------------------------------------------------------------------------------------------
         // Tuesday vents
-        let sunHeader = SchEvent(name: "Tuesday May 08", discription: "Sunday Events", location: "Open Gates", time: "Tue May 09 7:30AM - 10:00PM", speaker: "N/a")
+        let sunHeader = SchEvent(name: "Tuesday May 08", discription: "Tuesday", location: "Open Gates", time: "Tue May 09 7:30AM - 10:00PM", speaker: "N/a")
         
         
         let sunShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "Tue May 09 7:15AM - 7:15AM", speaker: "N/a")
