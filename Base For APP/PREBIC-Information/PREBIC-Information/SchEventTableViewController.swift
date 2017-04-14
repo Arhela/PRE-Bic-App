@@ -74,14 +74,14 @@ class SchEventTableViewController: UITableViewController {
         case "Tuesday May 08":
             let tNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
             let tLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
-            let tTimeString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
+            let tTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
             cell.eventLabel.attributedText = tNameString
             cell.locLabel.attributedText = tLocString
             cell.timeLabel.attributedText = tTimeString
         case "Wednesday May 10":
             let wNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
             let wLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
-            let wTimeString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
+            let wTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
             cell.eventLabel.attributedText = wNameString
             cell.locLabel.attributedText = wLocString
             cell.timeLabel.attributedText = wTimeString
@@ -245,7 +245,7 @@ class SchEventTableViewController: UITableViewController {
         
        //-----------------------------------------------------------------------------------------------------------
         // Tuesday vents
-        let sunHeader = SchEvent(name: "Tuesday May 08", discription: "Sunday Events", location: "Open Gates", time: "Tue May 09 7:30AM - 10:00PM", speaker: "N/a")
+        let sunHeader = SchEvent(name: "Tuesday May 08", discription: "Tuesday", location: "Open Gates", time: "Tue May 09 7:30AM - 10:00PM", speaker: "N/a")
         
         
         let sunShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "Tue May 09 7:15AM - 7:15AM", speaker: "N/a")
