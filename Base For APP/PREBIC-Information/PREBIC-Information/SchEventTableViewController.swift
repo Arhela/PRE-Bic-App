@@ -194,7 +194,7 @@ class SchEventTableViewController: UITableViewController {
         // Monday events
         
         
-         let satHeader = SchEvent(name: "Monday May 07", discription: "Monday Events", location: "Open Gates", time: "Mon May 08 7:15AM - 5:30PM", speaker: "N/a")
+         let satHeader = SchEvent(name: "Monday May 07", discription: "Monday Events", location: "Open Gates", time: "Mon May 08 7:15AM - 6:15PM", speaker: "N/a")
         
         let satShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "Mon May 08 7:15AM - 7:15AM", speaker: "N/a")
         
@@ -207,13 +207,16 @@ class SchEventTableViewController: UITableViewController {
         
         let event2 = SchEvent(name: "Welcome Address", discription: "Address from Dr. Menon PhD", location: "Open Gates", time: "Mon May 08 8:30AM - 8:35AM", speaker: "Ramkumar Menon, PhD")
         
-        let event3 = SchEvent(name: "Speaker from UTMB", discription: "Speaker from UTMB", location: "Open Gates", time: "Mon May 08 8:35AM - 8:45AM", speaker: "TBD")
+       // let event3 = SchEvent(name: "Speaker from UTMB", discription: "Speaker from UTMB", location: "Open Gates", time: //"Mon May 08 8:35AM - 8:45AM", speaker: "TBD")
         
-        let event4 = SchEvent(name: "Presidential address", discription: "Presidential Address", location: "Open Gates", time: "Mon May 08 8:45AM - 9:00AM", speaker: "TBD")
+        let event4 = SchEvent(name: "Presidential Address", discription: "Presidential Address", location: "Open Gates", time: "Mon May 08 8:35AM - 9:00AM", speaker: "Hanns Helmer, MD")
         
-         let event5 = SchEvent(name: "Future of PREBIC", discription: "Future of PREBIC", location: "Open Gates", time: "Mon May 08 9:00AM - 9:15AM", speaker: "Nanbert Zhong, MD, PhD")
+         let UpdatedEvent1 = SchEvent(name: "PREBIC Accomplishments", discription: "PREBIC accomplishments", location: "Open Gates", time: "Mon May 08 9:0AM - 9:15AM", speaker: "Calvin J Hobel, MD")
         
-        let event6 = SchEvent(name: "PREBIC Accomplishments", discription: "PREBIC Accomplishments", location: "Open Gates", time: "Mon May 08 9:15AM - 9:30AM", speaker: "Calvin J Hobel, MD")
+        
+         let event5 = SchEvent(name: "Future of PREBIC", discription: "Future of PREBIC", location: "Open Gates", time: "Mon May 08 9:15AM - 9:30AM", speaker: "Nanbert Zhong, MD, PhD")
+        
+       // let event6 = SchEvent(name: "PREBIC Accomplishments", discription: "PREBIC Accomplishments", location: "Open //Gates", time: "Mon May 08 9:15AM - 9:30AM", speaker: "Calvin J Hobel, MD")
         
         let event7 = SchEvent(name: "PREBIC Organization", discription: "PREBIC organization (registration, by-law)", location: "Open Gates", time: "Mon May 08 9:30AM - 9:45AM", speaker: "Elizabeth Bonney, MD")
         
@@ -241,30 +244,41 @@ class SchEventTableViewController: UITableViewController {
         
         let event19 = SchEvent(name: "COFFEE", discription: "COFFEE", location: "Open Gates", time: "Mon May 08 03:30PM - 04:00PM", speaker: "N/a")
         
-        let event20 = SchEvent(name: "WORKING GROUP MEET", discription: "WORKING GROUP MEET", location: "Open Gates", time: "Mon May 08 04:00PM - 05:30PM", speaker: "N/a")
+        let event20 = SchEvent(name: "WORKING GROUP MEET", discription: "WORKING GROUP MEET", location: "Open Gates", time: "Mon May 08 04:00PM - 05:15PM", speaker: "N/a")
+        
+        let updatedEvent2 = SchEvent(name: "Wine & Cheese Reception", discription: "Wine & Cheese Reception", location: "Open Gates", time: "Mon May 08 05:15PM - 06:00PM", speaker: "N/a")
+        
+         let updatedEvent3 = SchEvent(name: "Shuttles to Hotel Galvez", discription: "Shuttles to Hotel Galvez", location: "Open Gates", time: "Mon May 08 06:00PM - 06:15PM", speaker: "N/a")
         
        //-----------------------------------------------------------------------------------------------------------
         // Tuesday vents
-        let sunHeader = SchEvent(name: "Tuesday May 08", discription: "Tuesday", location: "Open Gates", time: "Tue May 09 7:30AM - 10:00PM", speaker: "N/a")
+        let sunHeader = SchEvent(name: "Tuesday May 09", discription: "Tuesday", location: "Open Gates", time: "Tue May 09 7:30AM - 10:00PM", speaker: "N/a")
         
         
         let sunShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "Tue May 09 7:15AM - 7:15AM", speaker: "N/a")
         
         let sunShutle2 = SchEvent(name: "Shuttle 2 leaves", discription: "Shuttle 2 leaves", location: "Galvez", time: "Tue May 09 7:45AM - 7:45AM", speaker: "N/a")
         
-        let event21 = SchEvent(name: "Derek Wildman, PhD", discription: "Derek Wildman, PhD", location: "Open Gates", time: "Tue May 09 8:30AM - 8:50AM", speaker: "Derek Wildman")
+        //-------------------------------------------------------------------------------------------------------------
         
-        let event22 = SchEvent(name: "George Saade, MD", discription: "George Saade, MD", location: "Open Gates", time: "Tue May 09 8:50AM - 9:10AM", speaker: "George Saade, MD")
+        let event21 = SchEvent(name: "Preterm Birth Prevention", discription: "Preterm birth prevention: A clinical perspective and prematurity", location: "Open Gates", time: "Tue May 09 8:30AM - 8:55AM", speaker: "George Saade, MD")
         
-        let event23 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Tue May 09 9:10AM - 9:15AM", speaker: "TBD")
+        let event22 = SchEvent(name: "Evolutionary Implications...", discription: "Evolutionary implications of gestational variation", location: "Open Gates", time: "Tue May 09 8:55AM - 9:15AM", speaker: "Derek Wildman")
         
-        let event24 = SchEvent(name: "Preterm birth research in India", discription: "Preterm birth research in India", location: "Open Gates", time: "Tue May 09 9:15AM - 9:25AM", speaker: "Pallavi Kshetrapal, PhD")
         
-         let event25 = SchEvent(name: "Preterm birth research in Africa", discription: "Preterm birth research in Africa", location: "Open Gates", time: "Tue May 09 9:25AM - 9:35AM", speaker: "Samuel Obed, MD")
+        //-------------------------------------------------------------------------------------------------------------
         
-        let event26 = SchEvent(name: "Preterm birth research in East Asia", discription: "Preterm birth research in East Asia", location: "Open Gates", time: "Tue May 09 9:35AM - 9:45AM", speaker: "Kim Young Ju, MD, PhD")
         
-        let event27 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Tue May 09 9:45AM - 10:00AM", speaker: "N/a")
+        
+        //let event23 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Tue May 09 9:10AM - 9:15AM", speaker: "TBD")
+        
+        let event24 = SchEvent(name: "Preterm Birth Research in India", discription: "Preterm birth research in India", location: "Open Gates", time: "Tue May 09 9:15AM - 9:25AM", speaker: "Pallavi Kshetrapal, PhD")
+        
+         let event25 = SchEvent(name: "Preterm Birth Research in Africa", discription: "Preterm birth research in Africa", location: "Open Gates", time: "Tue May 09 9:25AM - 9:35AM", speaker: "Samuel Obed, MD")
+        
+        let event26 = SchEvent(name: "Preterm Birth Research in Korea", discription: "Preterm Birth Research in Korea", location: "Open Gates", time: "Tue May 09 9:35AM - 9:45AM", speaker: "Kim Young Ju, MD, PhD")
+        
+        let event27 = SchEvent(name: "Preterm Birth Research in China", discription: "Preterm Birth Research in China", location: "Open Gates", time: "Tue May 09 9:45AM - 9:55AM", speaker: "Ciaxia Liu, MD & Dr. Duanjin Chen, MD")
         
         let event28 = SchEvent(name: "Coffee Break", discription: "Coffee Break", location: "Open Gates", time: "Tue May 09 10:00AM - 10:30AM", speaker: "N/a")
         
@@ -333,7 +347,7 @@ class SchEventTableViewController: UITableViewController {
         
         
         // Add events to the array
-        events += [satHeader, satShutle1, satShutle2, event1, event2, event3, event4, event5, event6, event7, event8, event9, event10, event11, event12, event13, event14, event15, event16, event17, event18, event19, event20, sunHeader, sunShutle1,sunShutle2, event21, event22, event23, event24, event25, event26, event27, event28, event29, event30, event31, event32, event33, event34, event35, event36, event37, event38, event39, event40, event41, event42, event43, WedHeader,event44, event45, event46,event47, event48, event49, event50, event51, event52, event53, event54, event55]
+        events += [satHeader, satShutle1, satShutle2, event1, event2, event4, UpdatedEvent1, event5, event7, event8, event9, event10, event11, event12, event13, event14, event15, event16, event17, event18, event19, event20, updatedEvent2, updatedEvent3, sunHeader, sunShutle1,sunShutle2, event21, event22, event24, event25, event26, event27, event28, event29, event30, event31, event32, event33, event34, event35, event36, event37, event38, event39, event40, event41, event42, event43, WedHeader,event44, event45, event46,event47, event48, event49, event50, event51, event52, event53, event54, event55]
     }
 
 }
