@@ -85,6 +85,34 @@ class SchEventTableViewController: UITableViewController {
             cell.eventLabel.attributedText = wNameString
             cell.locLabel.attributedText = wLocString
             cell.timeLabel.attributedText = wTimeString
+        case "Lunch":
+            let lNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
+            let lLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
+            let lTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
+            cell.eventLabel.attributedText = lNameString
+            cell.locLabel.attributedText = lLocString
+            cell.timeLabel.attributedText = lTimeString
+        case "Coffee Break":
+            let cNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
+            let cLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
+            let cTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
+            cell.eventLabel.attributedText = cNameString
+            cell.locLabel.attributedText = cLocString
+            cell.timeLabel.attributedText = cTimeString
+        case "Wine & Cheese Reception":
+            let wcNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
+            let wcLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
+            let wcTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
+            cell.eventLabel.attributedText = wcNameString
+            cell.locLabel.attributedText = wcLocString
+            cell.timeLabel.attributedText = wcTimeString
+        case "PREBIC DINNER":
+            let dNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
+            let dLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
+            let dTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
+            cell.eventLabel.attributedText = dNameString
+            cell.locLabel.attributedText = dLocString
+            cell.timeLabel.attributedText = dTimeString
         default:
             cell.eventLabel.text = event.eventName
             cell.locLabel.text = event.eventLocation
@@ -222,7 +250,7 @@ class SchEventTableViewController: UITableViewController {
         
         let event8 = SchEvent(name: "PREBIC Scientific Agenda", discription: "PREBIC scientific agenda", location: "Open Gates", time: "Mon May 08 9:45AM - 10:00AM", speaker: "Cynthia Gyamfi-Bannerman, MD, MS")
         
-        let event9 = SchEvent(name: "The year in preterm birth", discription: "The year in preterm birth—Clinical", location: "Open Gates", time: "Mon May 08 10:00AM - 10:25AM", speaker: "Alfred Brann, MD")
+        let event9 = SchEvent(name: "The Year in Preterm Birth", discription: "The year in preterm birth—Clinical", location: "Open Gates", time: "Mon May 08 10:00AM - 10:25AM", speaker: "Alfred Brann, MD")
         
         let event10 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Mon May 08 10:25AM - 10:30AM", speaker: "TBD")
         
@@ -242,7 +270,7 @@ class SchEventTableViewController: UITableViewController {
         
         let event18 = SchEvent(name: "WORKING GROUPS MEET", discription: "WORKING GROUPS MEET", location: "Open Gates", time: "Mon May 08 01:30PM - 03:30PM", speaker: "N/a")
         
-        let event19 = SchEvent(name: "COFFEE", discription: "COFFEE", location: "Open Gates", time: "Mon May 08 03:30PM - 04:00PM", speaker: "N/a")
+        let event19 = SchEvent(name: "Coffee Break", discription: "COFFEE", location: "Open Gates", time: "Mon May 08 03:30PM - 04:00PM", speaker: "N/a")
         
         let event20 = SchEvent(name: "WORKING GROUP MEET", discription: "WORKING GROUP MEET", location: "Open Gates", time: "Mon May 08 04:00PM - 05:15PM", speaker: "N/a")
         
