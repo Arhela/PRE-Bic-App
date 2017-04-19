@@ -71,7 +71,7 @@ class SchEventTableViewController: UITableViewController {
             cell.eventLabel.attributedText = mNameString
             cell.locLabel.attributedText = mLocString
             cell.timeLabel.attributedText = mTimeString
-        case "Tuesday May 08":
+        case "Tuesday May 09":
             let tNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
             let tLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
             let tTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
@@ -85,6 +85,34 @@ class SchEventTableViewController: UITableViewController {
             cell.eventLabel.attributedText = wNameString
             cell.locLabel.attributedText = wLocString
             cell.timeLabel.attributedText = wTimeString
+        case "Lunch":
+            let lNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
+            let lLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
+            let lTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
+            cell.eventLabel.attributedText = lNameString
+            cell.locLabel.attributedText = lLocString
+            cell.timeLabel.attributedText = lTimeString
+        case "Coffee Break":
+            let cNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
+            let cLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
+            let cTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
+            cell.eventLabel.attributedText = cNameString
+            cell.locLabel.attributedText = cLocString
+            cell.timeLabel.attributedText = cTimeString
+        case "Wine & Cheese Reception":
+            let wcNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
+            let wcLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
+            let wcTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
+            cell.eventLabel.attributedText = wcNameString
+            cell.locLabel.attributedText = wcLocString
+            cell.timeLabel.attributedText = wcTimeString
+        case "PREBIC DINNER":
+            let dNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
+            let dLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
+            let dTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
+            cell.eventLabel.attributedText = dNameString
+            cell.locLabel.attributedText = dLocString
+            cell.timeLabel.attributedText = dTimeString
         default:
             cell.eventLabel.text = event.eventName
             cell.locLabel.text = event.eventLocation
@@ -222,7 +250,7 @@ class SchEventTableViewController: UITableViewController {
         
         let event8 = SchEvent(name: "PREBIC Scientific Agenda", discription: "PREBIC scientific agenda", location: "Open Gates", time: "Mon May 08 9:45AM - 10:00AM", speaker: "Cynthia Gyamfi-Bannerman, MD, MS")
         
-        let event9 = SchEvent(name: "The year in preterm birth", discription: "The year in preterm birth—Clinical", location: "Open Gates", time: "Mon May 08 10:00AM - 10:25AM", speaker: "Alfred Brann, MD")
+        let event9 = SchEvent(name: "The Year in Preterm Birth", discription: "The year in preterm birth—Clinical", location: "Open Gates", time: "Mon May 08 10:00AM - 10:25AM", speaker: "Alfred Brann, MD")
         
         let event10 = SchEvent(name: "Q & A", discription: "Q & A", location: "Open Gates", time: "Mon May 08 10:25AM - 10:30AM", speaker: "TBD")
         
@@ -242,7 +270,7 @@ class SchEventTableViewController: UITableViewController {
         
         let event18 = SchEvent(name: "WORKING GROUPS MEET", discription: "WORKING GROUPS MEET", location: "Open Gates", time: "Mon May 08 01:30PM - 03:30PM", speaker: "N/a")
         
-        let event19 = SchEvent(name: "COFFEE", discription: "COFFEE", location: "Open Gates", time: "Mon May 08 03:30PM - 04:00PM", speaker: "N/a")
+        let event19 = SchEvent(name: "Coffee Break", discription: "COFFEE", location: "Open Gates", time: "Mon May 08 03:30PM - 04:00PM", speaker: "N/a")
         
         let event20 = SchEvent(name: "WORKING GROUP MEET", discription: "WORKING GROUP MEET", location: "Open Gates", time: "Mon May 08 04:00PM - 05:15PM", speaker: "N/a")
         
@@ -282,7 +310,7 @@ class SchEventTableViewController: UITableViewController {
         
         let event28 = SchEvent(name: "Coffee Break", discription: "Coffee Break", location: "Open Gates", time: "Tue May 09 10:00AM - 10:30AM", speaker: "N/a")
         
-        let event29 = SchEvent(name: "Development of young investigator", discription: "Development of young investigator", location: "Open Gates", time: "Tue May 09 10:30AM - 10:40AM", speaker: "Indira Mysorekar")
+        let event29 = SchEvent(name: "Development of Young Investigator", discription: "Development of young investigator", location: "Open Gates", time: "Tue May 09 10:30AM - 10:40AM", speaker: "Bo Jacobsson/Indira Mysorekar")
         
         let event30 = SchEvent(name: "Journal of Preterm Birth", discription: "Journal of Preterm Birth", location: "Open Gates", time: "Tue May 09 10:40AM - 10:50AM", speaker: "Scott M Williams, PhD")
         
@@ -308,7 +336,9 @@ class SchEventTableViewController: UITableViewController {
         
         let event41 = SchEvent(name: "Group 6 Summary", discription: "Summary of working group activities (15 minutes each including discussion)", location: "Open Gates", time: "Tue May 09 5:00PM - 5:15PM", speaker: "N/a")
         
-        let event42 = SchEvent(name: "Review and Summary", discription: "Review and Summary (to be continued on day # 3)", location: "Open Gates", time: "Tue May 09 5:15PM - 5:30PM", speaker: "N/a")
+        let event42 = SchEvent(name: "Review and Summary", discription: "Review and Summary (to be continued on day # 3)", location: "Open Gates", time: "Tue May 09 5:15PM - 5:45PM", speaker: "N/a")
+        
+        let updatedEvent4 = SchEvent(name: "Shuttles to Hotel Galvez", discription: "Shuttles to Hotel Galvez)", location: "Open Gates", time: "Tue May 09 5:45PM - 6:00PM", speaker: "N/a")
         
         let event43 = SchEvent(name: "PREBIC DINNER", discription: "Dinner at Shearns Moody Gardens Website: http://www.moodygardenshotel.com/shearns", location: "Shearns Moody Gardens", time: "Tue May 09 7:00PM - 10:00PM", speaker: "N/a")
         
@@ -325,29 +355,29 @@ class SchEventTableViewController: UITableViewController {
         
          let event45 = SchEvent(name: "Ethics in Preterm Birth Research", discription: "Ethics in Preterm Birth Research", location: "Galvez Hotel Conference Room", time: "Wed May 10 8:00AM - 8:15AM", speaker: "Bo Jacobson, MD, PhD")
         
-        let event46 = SchEvent(name: "Young investigator presentation", discription: "Young investigator presentation", location: "Galvez Hotel Conference Room", time: "Wed May 10 8:15AM - 8:30AM", speaker: "Bin Cao, PhD")
+        let event46 = SchEvent(name: "Young Investigator Presentation", discription: "Placental infections and preterm birth", location: "Galvez Hotel Conference Room", time: "Wed May 10 8:15AM - 8:30AM", speaker: "Bin Cao, PhD")
         
-         let event47 = SchEvent(name: "Young investigator presentation", discription: "Young investigator presentation", location: "Galvez Hotel Conference Room", time: "Wed May 10 8:30AM - 8:45AM", speaker: "Kwame Adu-Bonsaffoh, MD")
+        let event47 = SchEvent(name: "Young Investigator Presentation", discription: "Preterm births and their outcomes in a tertiary hospital in Ghana", location: "Galvez Hotel Conference Room", time: "Wed May 10 8:30AM - 8:45AM", speaker: "Kwame Adu-Bonsaffoh, MD")
         
-        let event48 = SchEvent(name: "Young investigator presentation", discription: "Young investigator presentation", location: "Galvez Hotel Conference Room", time: "Wed May 10 8:45AM - 9:00AM", speaker: "Avish Arora, MD")
+        let event48 = SchEvent(name: "Young Investigator Presentation", discription: "Advances in Malaria therapeutics and its implications in pregnancy", location: "Galvez Hotel Conference Room", time: "Wed May 10 8:45AM - 9:00AM", speaker: "Avish Arora, MD")
         
-        let event49 = SchEvent(name: "Young investigator presentation", discription: "Young investigator presentation", location: "Galvez Hotel Conference Room", time: "Wed May 10 9:00AM - 9:15AM", speaker: "Johanna Huusko, PhD")
+        let event49 = SchEvent(name: "Young Investigator Presentation", discription: "Genetic predisposition to spontaneous preterm birth: A study of potential susceptibility genes using whole exome sequencing", location: "Galvez Hotel Conference Room", time: "Wed May 10 9:00AM - 9:15AM", speaker: "Johanna Huusko, PhD")
         
-         let event50 = SchEvent(name: "Young investigator presentation", discription: "Young investigator presentation", location: "Galvez Hotel Conference Room", time: "Wed May 10 9:15AM - 9:30AM", speaker: "Samantha Sheller, BS")
+         let event50 = SchEvent(name: "Young Investigator Presentation", discription: "Fetal cell exosomes: Signalers of parturition?", location: "Galvez Hotel Conference Room", time: "Wed May 10 9:15AM - 9:30AM", speaker: "Samantha Sheller, BS")
         
-        let event51 = SchEvent(name: "Working groups review", discription: "Working groups review and discussion (continued from Day # 2)", location: "Galvez Hotel Conference Room", time: "Wed May 10 9:30AM - 10:00AM", speaker: "N/a")
+        let event51 = SchEvent(name: "Working Groups Review", discription: "Working groups review and discussion (continued from Day # 2)", location: "Galvez Hotel Conference Room", time: "Wed May 10 9:30AM - 10:00AM", speaker: "N/a")
         
-        let event52 = SchEvent(name: "Summary from working groups", discription: "Summary from working groups and action plans)", location: "Galvez Hotel Conference Room", time: "Wed May 10 10:00AM - 10:15AM", speaker: "Sam Mesiano")
+        let event52 = SchEvent(name: "Summary from Working Groups", discription: "Summary from working groups and action plans)", location: "Galvez Hotel Conference Room", time: "Wed May 10 10:00AM - 10:15AM", speaker: "Sam Mesiano")
         
         let event53 = SchEvent(name: "Introduction of new Board of Directors", discription: "Introduction of new Board of Directors and Office bearers", location: "Galvez Hotel Conference Room", time: "Wed May 10 10:15AM - 10:30AM", speaker: "Calvin J Hobel, MD")
         
-         let event54 = SchEvent(name: "Future PREBIC meetings", discription: "Future PREBIC meetings", location: "Galvez Hotel Conference Room", time: "Wed May 10 10:30AM - 10:45AM", speaker: "Nanbert Zhong, MD")
+         let event54 = SchEvent(name: "Future PREBIC meetings", discription: "Future PREBIC meetings", location: "Galvez Hotel Conference Room", time: "Wed May 10 10:30AM - 10:45AM", speaker: "Nanbert Zhong, MD, Cynthia Bannerman, MD, MS")
         
         let event55 = SchEvent(name: "Q&A and Concluding Remarks", discription: "Q&A and Concluding Remarks", location: "Galvez Hotel Conference Room", time: "Wed May 10 10:45AM - 11:00AM", speaker: "Hanns Helmer, MD")
         
         
         // Add events to the array
-        events += [satHeader, satShutle1, satShutle2, event1, event2, event4, UpdatedEvent1, event5, event7, event8, event9, event10, event11, event12, event13, event14, event15, event16, event17, event18, event19, event20, updatedEvent2, updatedEvent3, sunHeader, sunShutle1,sunShutle2, event21, event22, event24, event25, event26, event27, event28, event29, event30, event31, event32, event33, event34, event35, event36, event37, event38, event39, event40, event41, event42, event43, WedHeader,event44, event45, event46,event47, event48, event49, event50, event51, event52, event53, event54, event55]
+        events += [satHeader, satShutle1, satShutle2, event1, event2, event4, UpdatedEvent1, event5, event7, event8, event9, event10, event11, event12, event13, event14, event15, event16, event17, event18, event19, event20, updatedEvent2, updatedEvent3, sunHeader, sunShutle1,sunShutle2, event21, event22, event24, event25, event26, event27, event28, event29, event30, event31, event32, event33, event34, event35, event36, event37, event38, event39, event40, event41, event42, updatedEvent4, event43, WedHeader,event44, event45, event46,event47, event48, event49, event50, event51, event52, event53, event54, event55]
     }
 
 }
