@@ -344,7 +344,7 @@ class SchEventTableViewController: UITableViewController {
         
         //-----------------------------------------------------------------------------------------------------------
         // Wdnesday Events
-        let WedHeader = SchEvent(name: "Wednesday May 10", discription: "Wednesday Events", location: "Open Gates", time: "7:30AM - 11:00AM", speaker: "N/a")
+        let WedHeader = SchEvent(name: "Wednesday May 10", discription: "Wednesday Events", location: "Open Gates", time: "7:00AM - 11:00AM", speaker: "N/a")
         
         
 //        let wedShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "Wed May 10 7:15AM - 7:15AM", speaker: "N/a")
