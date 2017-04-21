@@ -64,7 +64,7 @@ class SchEventTableViewController: UITableViewController {
         let attr = [NSFontAttributeName: UIFont.boldSystemFont(ofSize: 19)]
         
         switch nameCheck {
-        case "Monday May 07":
+        case "Monday May 08":
            let mNameString = NSMutableAttributedString(string: event.eventName, attributes: attr)
            let mLocString = NSMutableAttributedString(string: event.eventLocation, attributes: attr)
            let mTimeString = NSMutableAttributedString(string: event.eventTime, attributes: attr)
@@ -222,7 +222,7 @@ class SchEventTableViewController: UITableViewController {
         // Monday events
         
         
-         let satHeader = SchEvent(name: "Monday May 07", discription: "Monday Events", location: "Open Gates", time: "7:15AM - 6:15PM", speaker: "N/a")
+         let satHeader = SchEvent(name: "Monday May 08", discription: "Monday Events", location: "Open Gates", time: "7:15AM - 6:15PM", speaker: "N/a")
         
         let satShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "7:15AM - 7:15AM", speaker: "N/a")
         
