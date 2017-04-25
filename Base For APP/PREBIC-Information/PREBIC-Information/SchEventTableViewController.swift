@@ -363,9 +363,9 @@ class SchEventTableViewController: UITableViewController {
         
         let event49 = SchEvent(name: "Young Investigator Presentation", discription: "Genetic predisposition to spontaneous preterm birth: A study of potential susceptibility genes using whole exome sequencing", location: "Galvez Hotel Conference Room", time: "9:00AM - 9:15AM", speaker: "Johanna Huusko, PhD")
         
-         let event50 = SchEvent(name: "Young Investigator Presentation", discription: "Fetal cell exosomes: Signalers of parturition?", location: "Galvez Hotel Conference Room", time: "9:15AM - 9:30AM", speaker: "Samantha Sheller, BS")
+         let event50 = SchEvent(name: "Young Investigator Presentation", discription: "Fetal cell exosomes: Signalers of parturition?", location: "Galvez Hotel Conference Room", time: "9:15AM - 9:30AM", speaker: "Samantha Sheller-Miller, BS")
         
-        let event51 = SchEvent(name: "Working Groups Review", discription: "Working groups review and discussion (continued from Day # 2)", location: "Galvez Hotel Conference Room", time: "9:30AM - 10:00AM", speaker: "N/a")
+        let event51 = SchEvent(name: "Working Groups ≈Review", discription: "Working groups review and discussion (continued from Day # 2)", location: "Galvez Hotel Conference Room", time: "9:30AM - 10:00AM", speaker: "N/a")
         
         let event52 = SchEvent(name: "Summary from Working Groups", discription: "Summary from working groups and action plans)", location: "Galvez Hotel Conference Room", time: "10:00AM - 10:15AM", speaker: "Sam Mesiano")
         
