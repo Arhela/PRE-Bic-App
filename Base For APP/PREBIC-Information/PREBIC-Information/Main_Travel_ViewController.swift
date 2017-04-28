@@ -70,7 +70,7 @@ class Main_Travel_ViewController: UIViewController {
     
     @IBAction func newUberLink(_ sender: Any)
     {
-        if let uberUrl = URL (string: "https://get.uber.com/"){
+        if let uberUrl = URL (string: "https://www.uber.com/"){
             UIApplication.shared.open(uberUrl, options: [:])
         }
         

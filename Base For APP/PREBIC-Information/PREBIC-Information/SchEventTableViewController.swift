@@ -222,9 +222,9 @@ class SchEventTableViewController: UITableViewController {
         // Monday events
         
         
-         let satHeader = SchEvent(name: "Monday May 08", discription: "Monday Events", location: "Open Gates", time: "7:15AM - 6:15PM", speaker: "N/a")
+         let satHeader = SchEvent(name: "Monday May 08", discription: "Monday Events", location: "Open Gates", time: "7:30AM - 6:15PM", speaker: "N/a")
         
-        let satShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "7:15AM - 7:15AM", speaker: "N/a")
+        let satShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "7:30AM - 7:30AM", speaker: "N/a")
         
        let satShutle2 = SchEvent(name: "Shuttle 2 leaves", discription: "Shuttle 2 leaves", location: "Galvez", time: "7:45AM - 7:45AM", speaker: "N/a")
         
@@ -280,10 +280,10 @@ class SchEventTableViewController: UITableViewController {
         
        //-----------------------------------------------------------------------------------------------------------
         // Tuesday vents
-        let sunHeader = SchEvent(name: "Tuesday May 09", discription: "Tuesday", location: "Open Gates", time: "7:15AM - 10:00PM", speaker: "N/a")
+        let sunHeader = SchEvent(name: "Tuesday May 09", discription: "Tuesday", location: "Open Gates", time: "7:30AM - 10:00PM", speaker: "N/a")
         
         
-        let sunShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "7:15AM - 7:15AM", speaker: "N/a")
+        let sunShutle1 = SchEvent(name: "Shuttle 1 leaves", discription: "Shuttle 1 leaves", location: "Galvez", time: "7:30AM - 7:30AM", speaker: "N/a")
         
         let sunShutle2 = SchEvent(name: "Shuttle 2 leaves", discription: "Shuttle 2 leaves", location: "Galvez", time: "7:45AM - 7:45AM", speaker: "N/a")
         
