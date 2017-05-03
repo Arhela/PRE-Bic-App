@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A2D54901E2F1F8200AB659B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D548F1E2F1F8200AB659B /* AppDelegate.swift */; };
+		7A2D54921E2F1F8200AB659B /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D54911E2F1F8200AB659B /* MainMenuController.swift */; };
+		7A2D54951E2F1F8200AB659B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D54931E2F1F8200AB659B /* Main.storyboard */; };
+		7A2D54971E2F1F8200AB659B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D54961E2F1F8200AB659B /* Assets.xcassets */; };
+		7A2D549A1E2F1F8200AB659B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D54981E2F1F8200AB659B /* LaunchScreen.storyboard */; };
+		7A2D54A51E2F1F8200AB659B /* PREBIC_InformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D54A41E2F1F8200AB659B /* PREBIC_InformationTests.swift */; };
+		D50B5C6B1E496B7600AA0371 /* PrebicInfoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50B5C6A1E496B7600AA0371 /* PrebicInfoStoryboard.storyboard */; };
+		D50B5C6D1E496CE200AA0371 /* PrebicInfoMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B5C6C1E496CE200AA0371 /* PrebicInfoMainViewController.swift */; };
+		D51739E11E4975440094EFD9 /* TravelMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51739E01E4975440094EFD9 /* TravelMainViewController.swift */; };
+		D51739E31E497FDF0094EFD9 /* HotelMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51739E21E497FDF0094EFD9 /* HotelMainViewController.swift */; };
+		D51845221E7B1C5400DB54AA /* EventDetailViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51845211E7B1C5400DB54AA /* EventDetailViewViewController.swift */; };
+		D52D4EAA1E37E74D00FC162D /* ScheduleEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D4EA91E37E74D00FC162D /* ScheduleEntryViewController.swift */; };
+		D548A5F81E99CE1E00FCF4F0 /* PrebicInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D548A5F71E99CE1E00FCF4F0 /* PrebicInfoViewController.swift */; };
+		D59595111E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59595101E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift */; };
+		D59E0CDF1E3D540700825698 /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E0CDE1E3D540700825698 /* LinksViewController.swift */; };
+		D5CBE0B51E38544000ECD007 /* Program_DMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBE0B41E38544000ECD007 /* Program_DMainViewController.swift */; };
+		D5CBE0B91E3858B900ECD007 /* Main_Travel_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBE0B81E3858B900ECD007 /* Main_Travel_ViewController.swift */; };
+		D5DD88661E4985C400AC220E /* VenueMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD88651E4985C400AC220E /* VenueMainViewController.swift */; };
+		D5DD88681E49896800AC220E /* GalvestonMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD88671E49896800AC220E /* GalvestonMainViewController.swift */; };
+		D5E628071E68BA810082D6A1 /* SchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E628061E68BA810082D6A1 /* SchEvent.swift */; };
+		D5E883821E6A3FC600816549 /* SchEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E883811E6A3FC600816549 /* SchEventTableViewCell.swift */; };
+		D5E883841E6A4CD400816549 /* SchEventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E883831E6A4CD400816549 /* SchEventTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A2D54A11E2F1F8200AB659B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A2D54841E2F1F8200AB659B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A2D548B1E2F1F8200AB659B;
+			remoteInfo = "PREBIC-Information";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A2D548C1E2F1F8200AB659B /* PREBIC-Information.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PREBIC-Information.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2D548F1E2F1F8200AB659B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A2D54911E2F1F8200AB659B /* MainMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
+		7A2D54941E2F1F8200AB659B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A2D54961E2F1F8200AB659B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A2D54991E2F1F8200AB659B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A2D549B1E2F1F8200AB659B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2D54A01E2F1F8200AB659B /* PREBIC-InformationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PREBIC-InformationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2D54A41E2F1F8200AB659B /* PREBIC_InformationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PREBIC_InformationTests.swift; sourceTree = "<group>"; };
+		7A2D54A61E2F1F8200AB659B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50B5C6A1E496B7600AA0371 /* PrebicInfoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PrebicInfoStoryboard.storyboard; path = ../PrebicInfoStoryboard.storyboard; sourceTree = "<group>"; };
+		D50B5C6C1E496CE200AA0371 /* PrebicInfoMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrebicInfoMainViewController.swift; sourceTree = "<group>"; };
+		D51739E01E4975440094EFD9 /* TravelMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelMainViewController.swift; sourceTree = "<group>"; };
+		D51739E21E497FDF0094EFD9 /* HotelMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelMainViewController.swift; sourceTree = "<group>"; };
+		D51845211E7B1C5400DB54AA /* EventDetailViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewViewController.swift; sourceTree = "<group>"; };
+		D52D4EA91E37E74D00FC162D /* ScheduleEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleEntryViewController.swift; sourceTree = "<group>"; };
+		D548A5F71E99CE1E00FCF4F0 /* PrebicInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrebicInfoViewController.swift; sourceTree = "<group>"; };
+		D59595101E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrebicSiteWebViewController.swift; sourceTree = "<group>"; };
+		D59E0CDE1E3D540700825698 /* LinksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinksViewController.swift; path = ../LinksViewController.swift; sourceTree = "<group>"; };
+		D5CBE0B41E38544000ECD007 /* Program_DMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Program_DMainViewController.swift; sourceTree = "<group>"; };
+		D5CBE0B81E3858B900ECD007 /* Main_Travel_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main_Travel_ViewController.swift; sourceTree = "<group>"; };
+		D5DD88651E4985C400AC220E /* VenueMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueMainViewController.swift; sourceTree = "<group>"; };
+		D5DD88671E49896800AC220E /* GalvestonMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalvestonMainViewController.swift; sourceTree = "<group>"; };
+		D5E628061E68BA810082D6A1 /* SchEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchEvent.swift; sourceTree = "<group>"; };
+		D5E883811E6A3FC600816549 /* SchEventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchEventTableViewCell.swift; sourceTree = "<group>"; };
+		D5E883831E6A4CD400816549 /* SchEventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchEventTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A2D54891E2F1F8200AB659B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2D549D1E2F1F8200AB659B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A2D54831E2F1F8200AB659B = {
+			isa = PBXGroup;
+			children = (
+				7A2D548E1E2F1F8200AB659B /* PREBIC-Information */,
+				7A2D54A31E2F1F8200AB659B /* PREBIC-InformationTests */,
+				7A2D548D1E2F1F8200AB659B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A2D548D1E2F1F8200AB659B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A2D548C1E2F1F8200AB659B /* PREBIC-Information.app */,
+				7A2D54A01E2F1F8200AB659B /* PREBIC-InformationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A2D548E1E2F1F8200AB659B /* PREBIC-Information */ = {
+			isa = PBXGroup;
+			children = (
+				7A2D548F1E2F1F8200AB659B /* AppDelegate.swift */,
+				7A2D54911E2F1F8200AB659B /* MainMenuController.swift */,
+				D52D4EA91E37E74D00FC162D /* ScheduleEntryViewController.swift */,
+				D5CBE0B41E38544000ECD007 /* Program_DMainViewController.swift */,
+				D5CBE0B81E3858B900ECD007 /* Main_Travel_ViewController.swift */,
+				D50B5C6C1E496CE200AA0371 /* PrebicInfoMainViewController.swift */,
+				D51739E01E4975440094EFD9 /* TravelMainViewController.swift */,
+				D59E0CDE1E3D540700825698 /* LinksViewController.swift */,
+				D59595101E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift */,
+				D51739E21E497FDF0094EFD9 /* HotelMainViewController.swift */,
+				D5DD88651E4985C400AC220E /* VenueMainViewController.swift */,
+				D5DD88671E49896800AC220E /* GalvestonMainViewController.swift */,
+				D548A5F71E99CE1E00FCF4F0 /* PrebicInfoViewController.swift */,
+				7A2D54931E2F1F8200AB659B /* Main.storyboard */,
+				D5E883831E6A4CD400816549 /* SchEventTableViewController.swift */,
+				D5E628061E68BA810082D6A1 /* SchEvent.swift */,
+				D5E883811E6A3FC600816549 /* SchEventTableViewCell.swift */,
+				D51845211E7B1C5400DB54AA /* EventDetailViewViewController.swift */,
+				D50B5C6A1E496B7600AA0371 /* PrebicInfoStoryboard.storyboard */,
+				7A2D54961E2F1F8200AB659B /* Assets.xcassets */,
+				7A2D54981E2F1F8200AB659B /* LaunchScreen.storyboard */,
+				7A2D549B1E2F1F8200AB659B /* Info.plist */,
+			);
+			path = "PREBIC-Information";
+			sourceTree = "<group>";
+		};
+		7A2D54A31E2F1F8200AB659B /* PREBIC-InformationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A2D54A41E2F1F8200AB659B /* PREBIC_InformationTests.swift */,
+				7A2D54A61E2F1F8200AB659B /* Info.plist */,
+			);
+			path = "PREBIC-InformationTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A2D548B1E2F1F8200AB659B /* PREBIC-Information */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2D54A91E2F1F8200AB659B /* Build configuration list for PBXNativeTarget "PREBIC-Information" */;
+			buildPhases = (
+				7A2D54881E2F1F8200AB659B /* Sources */,
+				7A2D54891E2F1F8200AB659B /* Frameworks */,
+				7A2D548A1E2F1F8200AB659B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PREBIC-Information";
+			productName = "PREBIC-Information";
+			productReference = 7A2D548C1E2F1F8200AB659B /* PREBIC-Information.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A2D549F1E2F1F8200AB659B /* PREBIC-InformationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2D54AC1E2F1F8200AB659B /* Build configuration list for PBXNativeTarget "PREBIC-InformationTests" */;
+			buildPhases = (
+				7A2D549C1E2F1F8200AB659B /* Sources */,
+				7A2D549D1E2F1F8200AB659B /* Frameworks */,
+				7A2D549E1E2F1F8200AB659B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A2D54A21E2F1F8200AB659B /* PBXTargetDependency */,
+			);
+			name = "PREBIC-InformationTests";
+			productName = "PREBIC-InformationTests";
+			productReference = 7A2D54A01E2F1F8200AB659B /* PREBIC-InformationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A2D54841E2F1F8200AB659B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Unfazed Creations";
+				TargetAttributes = {
+					7A2D548B1E2F1F8200AB659B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B5T82PL592;
+						ProvisioningStyle = Automatic;
+					};
+					7A2D549F1E2F1F8200AB659B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KMMB77Q4Q3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A2D548B1E2F1F8200AB659B;
+					};
+				};
+			};
+			buildConfigurationList = 7A2D54871E2F1F8200AB659B /* Build configuration list for PBXProject "PREBIC-Information" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A2D54831E2F1F8200AB659B;
+			productRefGroup = 7A2D548D1E2F1F8200AB659B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A2D548B1E2F1F8200AB659B /* PREBIC-Information */,
+				7A2D549F1E2F1F8200AB659B /* PREBIC-InformationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A2D548A1E2F1F8200AB659B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2D549A1E2F1F8200AB659B /* LaunchScreen.storyboard in Resources */,
+				7A2D54971E2F1F8200AB659B /* Assets.xcassets in Resources */,
+				D50B5C6B1E496B7600AA0371 /* PrebicInfoStoryboard.storyboard in Resources */,
+				7A2D54951E2F1F8200AB659B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2D549E1E2F1F8200AB659B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A2D54881E2F1F8200AB659B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2D54921E2F1F8200AB659B /* MainMenuController.swift in Sources */,
+				D5CBE0B91E3858B900ECD007 /* Main_Travel_ViewController.swift in Sources */,
+				D5DD88661E4985C400AC220E /* VenueMainViewController.swift in Sources */,
+				D50B5C6D1E496CE200AA0371 /* PrebicInfoMainViewController.swift in Sources */,
+				D51739E11E4975440094EFD9 /* TravelMainViewController.swift in Sources */,
+				D51845221E7B1C5400DB54AA /* EventDetailViewViewController.swift in Sources */,
+				D5DD88681E49896800AC220E /* GalvestonMainViewController.swift in Sources */,
+				D51739E31E497FDF0094EFD9 /* HotelMainViewController.swift in Sources */,
+				D52D4EAA1E37E74D00FC162D /* ScheduleEntryViewController.swift in Sources */,
+				D59E0CDF1E3D540700825698 /* LinksViewController.swift in Sources */,
+				7A2D54901E2F1F8200AB659B /* AppDelegate.swift in Sources */,
+				D5E628071E68BA810082D6A1 /* SchEvent.swift in Sources */,
+				D5E883821E6A3FC600816549 /* SchEventTableViewCell.swift in Sources */,
+				D548A5F81E99CE1E00FCF4F0 /* PrebicInfoViewController.swift in Sources */,
+				D59595111E3BDA4B00E57BA7 /* PrebicSiteWebViewController.swift in Sources */,
+				D5E883841E6A4CD400816549 /* SchEventTableViewController.swift in Sources */,
+				D5CBE0B51E38544000ECD007 /* Program_DMainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2D549C1E2F1F8200AB659B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2D54A51E2F1F8200AB659B /* PREBIC_InformationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A2D54A21E2F1F8200AB659B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A2D548B1E2F1F8200AB659B /* PREBIC-Information */;
+			targetProxy = 7A2D54A11E2F1F8200AB659B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A2D54931E2F1F8200AB659B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A2D54941E2F1F8200AB659B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A2D54981E2F1F8200AB659B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A2D54991E2F1F8200AB659B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A2D54A71E2F1F8200AB659B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A2D54A81E2F1F8200AB659B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A2D54AA1E2F1F8200AB659B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B5T82PL592;
+				INFOPLIST_FILE = "PREBIC-Information/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unfazed.PREBIC-Information";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7A2D54AB1E2F1F8200AB659B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B5T82PL592;
+				INFOPLIST_FILE = "PREBIC-Information/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unfazed.PREBIC-Information";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7A2D54AD1E2F1F8200AB659B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KMMB77Q4Q3;
+				INFOPLIST_FILE = "PREBIC-InformationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UnfazedCreations.PREBIC-InformationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PREBIC-Information.app/PREBIC-Information";
+			};
+			name = Debug;
+		};
+		7A2D54AE1E2F1F8200AB659B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KMMB77Q4Q3;
+				INFOPLIST_FILE = "PREBIC-InformationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UnfazedCreations.PREBIC-InformationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PREBIC-Information.app/PREBIC-Information";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A2D54871E2F1F8200AB659B /* Build configuration list for PBXProject "PREBIC-Information" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2D54A71E2F1F8200AB659B /* Debug */,
+				7A2D54A81E2F1F8200AB659B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2D54A91E2F1F8200AB659B /* Build configuration list for PBXNativeTarget "PREBIC-Information" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2D54AA1E2F1F8200AB659B /* Debug */,
+				7A2D54AB1E2F1F8200AB659B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2D54AC1E2F1F8200AB659B /* Build configuration list for PBXNativeTarget "PREBIC-InformationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2D54AD1E2F1F8200AB659B /* Debug */,
+				7A2D54AE1E2F1F8200AB659B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A2D54841E2F1F8200AB659B /* Project object */;
+}
